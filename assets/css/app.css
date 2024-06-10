@@ -258,6 +258,13 @@ ul {
   margin: 0;
 }
 
+.blog-content__nextPostBox,
+.bottom-next-content__tBox {
+  border-left: 0.3em solid #08ae60;
+  padding-left: 0.7em;
+  margin-top: 1.3em;
+}
+
 /********************  Identical instructions end **********************/
 
 /********************  Header formating start **********************/
@@ -340,12 +347,6 @@ ul {
   padding: 0.7em 1em;
 }
 
-.blog-content__nextPostBox {
-  border-left: 0.3em solid #08ae60;
-  padding-left: 0.7em;
-  margin-top: 1.3em;
-}
-
 /********************  Blog formating end **********************/
 
 /********************  Game analysis formating start **********************/
@@ -368,11 +369,25 @@ ul {
   margin: 1em 0;
 }
 
+.game-analysis-content__iTextBox--bg {
+  background: linear-gradient(115deg, #ffda44 30.85%, #e9c133 91.18%);
+}
+
 /********************  Game analysis formating end **********************/
 
-/********************  Services formating start **********************/
+/********************  Bottom formating start **********************/
 
-/********************  Services formating end **********************/
+.bottom-content {
+  background-image: url(/img/bottom.webp);
+  background-size: cover;
+  padding: 10em 7em;
+}
+
+.bottom-next-content {
+  padding: 5em 7em;
+}
+
+/********************  Bottom formating end **********************/
 
 /********************  Footer formating start **********************/
 
