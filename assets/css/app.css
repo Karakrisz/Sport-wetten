@@ -70,6 +70,7 @@ ul {
 
 .grid-2,
 .grid-3,
+.grid-4,
 .grid-7 {
   display: grid;
 }
@@ -80,6 +81,10 @@ ul {
 
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .grid-7 {
@@ -390,6 +395,26 @@ ul {
 /********************  Bottom formating end **********************/
 
 /********************  Footer formating start **********************/
+
+.footer-content {
+  background: var(--Dark, #080808);
+  padding: 4em 7em 4em 5em;
+}
+
+.footer-content__ilBox__img {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.footer-content__ilBox__social-links {
+  margin-top: 2.5em;
+}
+
+.footer-content__ilBox__social-links__img {
+  width: 2em;
+  margin: 0 0.5em;
+}
 
 /********************  Footer formating end **********************/
 
