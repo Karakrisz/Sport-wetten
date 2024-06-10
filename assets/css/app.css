@@ -416,6 +416,24 @@ ul {
   margin: 0 0.5em;
 }
 
+.footer-content__ilBox {
+  width: 25%;
+  margin-right: 7em;
+}
+
+.footer-content__linkBox {
+  width: 20%;
+}
+
+.footer-content__DigitalSeedBrand {
+  right: 0;
+  bottom: 1em;
+}
+
+.footer-content__DigitalSeedBrand__img {
+  width: 10em;
+}
+
 /********************  Footer formating end **********************/
 
 /********************  Subpage formating start **********************/
