@@ -38,7 +38,7 @@ const isMenuOpen = ref(false)
             <li v-for="link in links" :key="link.path" class="menu__list__li">
               <NuxtLink
                 :to="link.path"
-                :class="['menu__item text-color-w text-transform-uppercase']"
+                :class="['menu__item text-color-w text-transform-uppercase f-600']"
               >
                 <template v-if="link.imagePath">
                   <NuxtImg
