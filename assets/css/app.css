@@ -37,12 +37,6 @@ button {
   box-sizing: border-box;
 }
 
-h2,
-h3,
-h5 {
-  margin: 0;
-}
-
 a {
   text-decoration: none;
 }
@@ -214,7 +208,6 @@ ul {
 }
 
 .page__header--right {
-  margin: 0;
   padding: 0;
   position: absolute;
   right: 0;
@@ -239,12 +232,14 @@ ul {
 }
 
 .blog-content__h3,
-.game-analysis-content__tBox__h5 {
+.game-analysis-content__tBox__h5,
+.game-analysis-content__tBox__iTextBox__tBox__h5 {
   color: #08ae60;
 }
 
 .game-analysis-content__iTextBox,
-.game-analysis-content__NextiTextBox {
+.game-analysis-content__NextiTextBox,
+.game-analysis-content__tBox__iTextBox {
   align-items: center;
 }
 
@@ -259,7 +254,13 @@ ul {
   width: 50%;
 }
 
-.game-analysis-content__NextiTextBox__tBox__h4 {
+h2,
+h3,
+h5,
+.menu__list,
+.page__header--right,
+.game-analysis-content__NextiTextBox__tBox__h4,
+.game-analysis-content__tBox__iTextBox__tBox__p {
   margin: 0;
 }
 
@@ -303,7 +304,6 @@ ul {
 
 .menu__list {
   padding: 0;
-  margin: 0;
   justify-content: end;
 }
 
@@ -357,9 +357,12 @@ ul {
 /********************  Game analysis formating start **********************/
 
 .game-analysis-content__iTextBox,
-.game-analysis-content__NextiTextBox,
-.game-analysis-content__tBox {
+.game-analysis-content__NextiTextBox {
   padding: 1em 7em 2em 7em;
+}
+
+.game-analysis-content__tBox {
+  padding: 1em 7em 1.8em 7em;
 }
 
 .game-analysis-content__NextiTextBox__tBox {
@@ -376,6 +379,30 @@ ul {
 
 .game-analysis-content__iTextBox--bg {
   background: linear-gradient(115deg, #ffda44 30.85%, #e9c133 91.18%);
+}
+
+.game-analysis-content__tBox__iTextBox {
+  margin: auto;
+  width: 53em;
+  padding: 1em 0 2.3em 0;
+}
+
+.game-analysis-content__tBox__iTextBox__iBox__img {
+  width: 6em;
+}
+
+.game-analysis-content__tBox__iTextBox__iBox {
+  padding: 1.7em;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 0.7em;
+}
+
+.game-analysis-content__tBox__iTextBox__tBox {
+  margin-left: 2em;
+}
+
+.game-analysis-content__tBox__iTextBox__tBox__h5 {
+  margin-bottom: 1em;
 }
 
 /********************  Game analysis formating end **********************/
@@ -432,6 +459,19 @@ ul {
 
 .footer-content__DigitalSeedBrand__img {
   width: 10em;
+}
+
+.footer-content__linkBox__box {
+  flex-direction: column;
+}
+
+.footer-content__linkBox__box__link,
+.footer-content__linkBox__p {
+  margin-bottom: 1em;
+}
+
+.footer-content__linkBox__h5 {
+  margin-bottom: 1.7em;
 }
 
 /********************  Footer formating end **********************/

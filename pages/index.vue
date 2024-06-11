@@ -354,6 +354,181 @@
           Wettquoten, Bonusangebote, Benutzerfreundlichkeit und Kundenservice.
           So findest du ganz einfach den Anbieter, der am besten zu dir passt.
         </p>
+
+        <div class="game-analysis-content__tBox__iTextBox d-flex">
+          <div class="game-analysis-content__tBox__iTextBox__iBox">
+            <NuxtImg
+              src="/img/game-analysis/svg/1.svg"
+              alt="Sport wetten"
+              class="game-analysis-content__tBox__iTextBox__iBox__img"
+              height="100%"
+            />
+          </div>
+          <div class="game-analysis-content__tBox__iTextBox__tBox">
+            <h5
+              class="game-analysis-content__tBox__iTextBox__tBox__h5 f-700 text-transform-uppercase"
+            >
+              Strategien entwickeln
+            </h5>
+
+            <p class="game-analysis-content__tBox__iTextBox__tBox__p">
+              Verlasse dich nicht nur auf dein Bauchgefühl. Entwickle eine
+              durchdachte Wettstrategie, die auf fundierten Analysen und Fakten
+              basiert. Unsere Experten geben dir Einblicke in verschiedene
+              Wettstrategien, die langfristig erfolgreich sein können.
+            </p>
+          </div>
+        </div>
+
+        <div class="game-analysis-content__tBox__iTextBox d-flex">
+          <div class="game-analysis-content__tBox__iTextBox__iBox">
+            <NuxtImg
+              src="/img/game-analysis/svg/2.svg"
+              alt="Sport wetten"
+              class="game-analysis-content__tBox__iTextBox__iBox__img"
+              height="100%"
+            />
+          </div>
+          <div class="game-analysis-content__tBox__iTextBox__tBox">
+            <h5
+              class="game-analysis-content__tBox__iTextBox__tBox__h5 f-700 text-transform-uppercase"
+            >
+              Strategien entwickeln
+            </h5>
+
+            <p class="game-analysis-content__tBox__iTextBox__tBox__p">
+              Verlasse dich nicht nur auf dein Bauchgefühl. Entwickle eine
+              durchdachte Wettstrategie, die auf fundierten Analysen und Fakten
+              basiert. Unsere Experten geben dir Einblicke in verschiedene
+              Wettstrategien, die langfristig erfolgreich sein können.
+            </p>
+          </div>
+        </div>
+
+        <div class="game-analysis-content__tBox__iTextBox d-flex">
+          <div class="game-analysis-content__tBox__iTextBox__iBox">
+            <NuxtImg
+              src="/img/game-analysis/svg/3.svg"
+              alt="Sport wetten"
+              class="game-analysis-content__tBox__iTextBox__iBox__img"
+              height="100%"
+            />
+          </div>
+          <div class="game-analysis-content__tBox__iTextBox__tBox">
+            <h5
+              class="game-analysis-content__tBox__iTextBox__tBox__h5 f-700 text-transform-uppercase"
+            >
+              Strategien entwickeln
+            </h5>
+
+            <p class="game-analysis-content__tBox__iTextBox__tBox__p">
+              Verlasse dich nicht nur auf dein Bauchgefühl. Entwickle eine
+              durchdachte Wettstrategie, die auf fundierten Analysen und Fakten
+              basiert. Unsere Experten geben dir Einblicke in verschiedene
+              Wettstrategien, die langfristig erfolgreich sein können.
+            </p>
+          </div>
+        </div>
+
+        <div class="game-analysis-content__tBox__iTextBox d-flex">
+          <div class="game-analysis-content__tBox__iTextBox__iBox">
+            <NuxtImg
+              src="/img/game-analysis/svg/4.svg"
+              alt="Sport wetten"
+              class="game-analysis-content__tBox__iTextBox__iBox__img"
+              height="100%"
+            />
+          </div>
+          <div class="game-analysis-content__tBox__iTextBox__tBox">
+            <h5
+              class="game-analysis-content__tBox__iTextBox__tBox__h5 f-700 text-transform-uppercase"
+            >
+              Strategien entwickeln
+            </h5>
+
+            <p class="game-analysis-content__tBox__iTextBox__tBox__p">
+              Verlasse dich nicht nur auf dein Bauchgefühl. Entwickle eine
+              durchdachte Wettstrategie, die auf fundierten Analysen und Fakten
+              basiert. Unsere Experten geben dir Einblicke in verschiedene
+              Wettstrategien, die langfristig erfolgreich sein können.
+            </p>
+          </div>
+        </div>
+
+        <div class="game-analysis-content__tBox__iTextBox d-flex">
+          <div class="game-analysis-content__tBox__iTextBox__iBox">
+            <NuxtImg
+              src="/img/game-analysis/svg/5.svg"
+              alt="Sport wetten"
+              class="game-analysis-content__tBox__iTextBox__iBox__img"
+              height="100%"
+            />
+          </div>
+          <div class="game-analysis-content__tBox__iTextBox__tBox">
+            <h5
+              class="game-analysis-content__tBox__iTextBox__tBox__h5 f-700 text-transform-uppercase"
+            >
+              Strategien entwickeln
+            </h5>
+
+            <p class="game-analysis-content__tBox__iTextBox__tBox__p">
+              Verlasse dich nicht nur auf dein Bauchgefühl. Entwickle eine
+              durchdachte Wettstrategie, die auf fundierten Analysen und Fakten
+              basiert. Unsere Experten geben dir Einblicke in verschiedene
+              Wettstrategien, die langfristig erfolgreich sein können.
+            </p>
+          </div>
+        </div>
+
+        <div class="game-analysis-content__tBox__iTextBox d-flex">
+          <div class="game-analysis-content__tBox__iTextBox__iBox">
+            <NuxtImg
+              src="/img/game-analysis/svg/6.svg"
+              alt="Sport wetten"
+              class="game-analysis-content__tBox__iTextBox__iBox__img"
+              height="100%"
+            />
+          </div>
+          <div class="game-analysis-content__tBox__iTextBox__tBox">
+            <h5
+              class="game-analysis-content__tBox__iTextBox__tBox__h5 f-700 text-transform-uppercase"
+            >
+              Strategien entwickeln
+            </h5>
+
+            <p class="game-analysis-content__tBox__iTextBox__tBox__p">
+              Verlasse dich nicht nur auf dein Bauchgefühl. Entwickle eine
+              durchdachte Wettstrategie, die auf fundierten Analysen und Fakten
+              basiert. Unsere Experten geben dir Einblicke in verschiedene
+              Wettstrategien, die langfristig erfolgreich sein können.
+            </p>
+          </div>
+        </div>
+
+        <div class="game-analysis-content__tBox__iTextBox d-flex">
+          <div class="game-analysis-content__tBox__iTextBox__iBox">
+            <NuxtImg
+              src="/img/game-analysis/svg/7.svg"
+              alt="Sport wetten"
+              class="game-analysis-content__tBox__iTextBox__iBox__img"
+              height="100%"
+            />
+          </div>
+          <div class="game-analysis-content__tBox__iTextBox__tBox">
+            <h5
+              class="game-analysis-content__tBox__iTextBox__tBox__h5 f-700 text-transform-uppercase"
+            >
+              Strategien entwickeln
+            </h5>
+
+            <p class="game-analysis-content__tBox__iTextBox__tBox__p">
+              Verlasse dich nicht nur auf dein Bauchgefühl. Entwickle eine
+              durchdachte Wettstrategie, die auf fundierten Analysen und Fakten
+              basiert. Unsere Experten geben dir Einblicke in verschiedene
+              Wettstrategien, die langfristig erfolgreich sein können.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
