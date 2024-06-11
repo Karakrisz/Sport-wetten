@@ -51,6 +51,28 @@
       </h3>
 
       <div class="blog-content__postBox">
+        <div class="blog-content__postBox__box grid-3">
+          <div class="blog-content__postBox__box__iTextBox">
+            <NuxtImg
+              src="/img/online-betting/online-betting.webp"
+              alt="Sport wetten"
+              class="blog-content__postBox__box__iTextBox__img"
+              height="100%"
+            />
+            <div class="blog-content__postBox__box__iTextBox__tBox bg-color-w">
+              <p class="blog-content__postBox__box__iTextBox__tBox__p">
+                Etiam vitae laoreet est, ut iaculis nisl. Vestibulum lacinia
+                eros id magna rutrum condimentum. Vivamus malesuada, ante ut
+                sollicitudin commodo, mauris erat commodo quam, in consectetur
+                mi nisl nec ex.
+              </p>
+              <div class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end">
+                <a class="blog-content__postBox__link" href="#">BET NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="blog-content__postBox__lBox text-center">
           <NuxtLink class="blog-link text-transform-uppercase f-700">
             LOAD MORE BETTING SITES

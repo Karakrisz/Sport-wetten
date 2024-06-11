@@ -223,11 +223,13 @@ ul {
 }
 
 .slider-content__img,
-.game-analysis-content__iTextBox__iBox__img {
+.game-analysis-content__iTextBox__iBox__img,
+.blog-content__postBox__box__iTextBox__img {
   width: 100%;
 }
 
-.slider-content__tBox__h5 {
+.slider-content__tBox__h5,
+.blog-content__postBox__link {
   background: #08ae60;
 }
 
@@ -259,6 +261,7 @@ h3,
 h5,
 .menu__list,
 .page__header--right,
+.blog-content__postBox__box__iTextBox__tBox__p,
 .game-analysis-content__NextiTextBox__tBox__h4,
 .game-analysis-content__tBox__iTextBox__tBox__p {
   margin: 0;
@@ -269,6 +272,11 @@ h5,
   border-left: 0.3em solid #08ae60;
   padding-left: 0.7em;
   margin-top: 1.3em;
+}
+
+.blog-link,
+.blog-content__postBox__link {
+  border-radius: 6px;
 }
 
 /********************  Identical instructions end **********************/
@@ -347,9 +355,24 @@ h5,
 }
 
 .blog-link {
-  border-radius: 6px;
   border: 1px solid var(--Dark, #080808);
+}
+
+.blog-link {
   padding: 0.7em 1em;
+}
+
+.blog-content__postBox__link {
+}
+
+.blog-content__postBox__box__iTextBox__tBox {
+  border-radius: 9px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+  padding: 0.5em 1em;
+}
+
+.blog-content__postBox__box__iTextBox__tBox__linkBox {
+  padding: 2em 0 1.5em 0;
 }
 
 /********************  Blog formating end **********************/
@@ -478,7 +501,7 @@ h5,
 
 /********************  Subpage formating start **********************/
 
-/********************  Subpage formating formating end **********************/
+/********************  Subpage formating end **********************/
 
 /********************  Media formating start **********************/
 
