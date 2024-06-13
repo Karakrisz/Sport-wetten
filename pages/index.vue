@@ -6,6 +6,7 @@
         src="/img/slider3.webp"
         alt="Sport wetten"
         class="slider-content__img"
+        height="100%"
       />
 
       <div class="slider-content__tBox pa">
@@ -549,7 +550,7 @@
             <h5
               class="game-analysis-content__tBox__iTextBox__tBox__h5 f-700 text-transform-uppercase"
             >
-              Strategien entwickeln
+              Wettquoten richtig interpretieren
             </h5>
 
             <p class="game-analysis-content__tBox__iTextBox__tBox__p">
@@ -574,7 +575,7 @@
             <h5
               class="game-analysis-content__tBox__iTextBox__tBox__h5 f-700 text-transform-uppercase"
             >
-              Strategien entwickeln
+              Money-Management
             </h5>
 
             <p class="game-analysis-content__tBox__iTextBox__tBox__p">
@@ -599,7 +600,7 @@
             <h5
               class="game-analysis-content__tBox__iTextBox__tBox__h5 f-700 text-transform-uppercase"
             >
-              Strategien entwickeln
+              Value Bets erkennen
             </h5>
 
             <p class="game-analysis-content__tBox__iTextBox__tBox__p">
@@ -624,7 +625,7 @@
             <h5
               class="game-analysis-content__tBox__iTextBox__tBox__h5 f-700 text-transform-uppercase"
             >
-              Strategien entwickeln
+              Emotionen kontrollieren
             </h5>
 
             <p class="game-analysis-content__tBox__iTextBox__tBox__p">
@@ -649,7 +650,7 @@
             <h5
               class="game-analysis-content__tBox__iTextBox__tBox__h5 f-700 text-transform-uppercase"
             >
-              Strategien entwickeln
+              Statistiken und Analysen nutzen
             </h5>
 
             <p class="game-analysis-content__tBox__iTextBox__tBox__p">
@@ -674,7 +675,7 @@
             <h5
               class="game-analysis-content__tBox__iTextBox__tBox__h5 f-700 text-transform-uppercase"
             >
-              Strategien entwickeln
+              Kontinuierlich lernen und anpassen
             </h5>
 
             <p class="game-analysis-content__tBox__iTextBox__tBox__p">
