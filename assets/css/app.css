@@ -263,7 +263,8 @@ h5,
 .page__header--right,
 .blog-content__postBox__box__iTextBox__tBox__p,
 .game-analysis-content__NextiTextBox__tBox__h4,
-.game-analysis-content__tBox__iTextBox__tBox__p {
+.game-analysis-content__tBox__iTextBox__tBox__p,
+.game-analysis-content__iTextBox__tBox__h4 {
   margin: 0;
 }
 
@@ -328,8 +329,8 @@ h5,
 /********************  Slider formating start **********************/
 
 .slider-content__tBox {
-  bottom: 10em;
-  left: 7em;
+  bottom: 15%;
+  left: 9%;
   width: 33em;
 }
 
@@ -355,7 +356,11 @@ h5,
 }
 
 .blog-content__postBox__lBox {
-  margin: 5em 0;
+  margin: 4em 0 7em 0;
+}
+
+.blog-content__postBox__lBox--margin {
+  margin: 3em 0 4em 0;
 }
 
 .blog-link {
@@ -396,7 +401,7 @@ h5,
 }
 
 .game-analysis-content__tBox {
-  padding: 1em 7em 1.8em 7em;
+  padding: 1em 7em 1.7em 7em;
 }
 
 .game-analysis-content__NextiTextBox__tBox {
@@ -439,6 +444,10 @@ h5,
   margin-bottom: 1em;
 }
 
+.game-analysis-content__tBox__h4 {
+  margin: 2em 0 0 0;
+}
+
 /********************  Game analysis formating end **********************/
 
 /********************  Bottom formating start **********************/
@@ -446,11 +455,11 @@ h5,
 .bottom-content {
   background-image: url(/img/bottom.webp);
   background-size: cover;
-  padding: 10em 7em;
+  padding: 13em 7em;
 }
 
 .bottom-next-content {
-  padding: 5em 7em;
+  padding: 7em;
 }
 
 /********************  Bottom formating end **********************/
@@ -505,7 +514,7 @@ h5,
 }
 
 .footer-content__linkBox__h5 {
-  margin-bottom: 1.7em;
+  margin: 2em 0 1.7em 0;
 }
 
 /********************  Footer formating end **********************/
@@ -517,6 +526,10 @@ h5,
 /********************  Media formating start **********************/
 
 @media (min-width: 2200px) and (max-width: 2570px) {
+  .slider-content__tBox {
+    left: 11em;
+    bottom: 12em;
+  }
 }
 
 @media (min-width: 2000px) and (max-width: 2200px) {
