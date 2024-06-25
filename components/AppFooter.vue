@@ -1,11 +1,11 @@
 <script setup>
 const FooterLinks = [
   { name: 'Home', path: '/' },
-  { name: 'Euro 2024', path: '/partnerek' },
-  { name: 'Sportwetten-Tipps', path: '/szolgaltatasok' },
-  { name: 'Die besten Wettanbieter', path: '/dokumentumok' },
-  { name: 'Fußball News', path: '/ajanlatkeres' },
-  { name: 'Blog', path: '/kapcsolat' },
+  { name: 'Euro 2024', path: '/euro-2024' },
+  { name: 'Sportwetten-Tipps', path: '/sportwetten-tipps' },
+  { name: 'Die besten Wettanbieter', path: '/die-besten-wettanbiete' },
+  { name: 'Fußball News', path: '/fudball-news' },
+  { name: 'Blog', path: '/blog' },
 ]
 </script>
 

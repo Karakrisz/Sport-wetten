@@ -1,11 +1,11 @@
 <script setup>
 const links = [
   { name: 'Home', path: '/' },
-  { name: 'Euro 2024', path: '/partnerek' },
-  { name: 'Sportwetten-Tipps', path: '/szolgaltatasok' },
-  { name: 'Die besten Wettanbieter', path: '/dokumentumok' },
-  { name: 'Fußball News', path: '/ajanlatkeres' },
-  { name: 'Blog', path: '/kapcsolat' },
+  { name: 'Euro 2024', path: '/euro-2024' },
+  { name: 'Sportwetten-Tipps', path: '/sportwetten-tipps' },
+  { name: 'Die besten Wettanbieter', path: '/die-besten-wettanbiete' },
+  { name: 'Fußball News', path: '/fudball-news' },
+  { name: 'Blog', path: '/blog' },
 ]
 
 const isMenuOpen = ref(false)
@@ -15,13 +15,13 @@ const isMenuOpen = ref(false)
   <header class="header pr">
     <div class="header-content d-flex">
       <div class="logo-box header-content__logo-box">
-        <a href="/" class="header-content__logo-box__link">
+        <NuxtLink to="/" class="header-content__logo-box__link">
           <NuxtImg
             src="/img/header/logo.svg"
             alt="Sport wetten"
             class="header-content__logo-box__link__img"
           />
-        </a>
+        </NuxtLink>
       </div>
       <div class="nav-box header-content__nav-box d-flex">
         <button
