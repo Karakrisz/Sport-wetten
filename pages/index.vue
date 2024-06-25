@@ -691,7 +691,7 @@
   </section>
   <section>
     <div class="bottom-content">
-      <h6 class="bottom-content__h6 text-color-w f-600">
+      <h6 class="bottom-content__h6 text-color-w f-600 text-transform-uppercase">
         So erhöhst du deine Gewinnchancen: Teilnahmebedingungen und Tipps
       </h6>
       <p class="bottom-content__p text-color-w">

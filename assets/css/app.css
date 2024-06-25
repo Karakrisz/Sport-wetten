@@ -305,6 +305,7 @@ h5,
 
 .header-content__nav-box {
   width: 80%;
+  justify-content: end;
 }
 
 .header-content__logo-box__link__img {
@@ -422,7 +423,7 @@ h5,
 
 .game-analysis-content__tBox__iTextBox {
   margin: auto;
-  width: 53em;
+  width: 70%;
   padding: 1em 0 2.3em 0;
 }
 
@@ -462,13 +463,17 @@ h5,
   padding: 7em 9%;
 }
 
+.bottom-content__h6 {
+  margin-bottom: 1em;
+}
+
 /********************  Bottom formating end **********************/
 
 /********************  Footer formating start **********************/
 
 .footer-content {
   background: var(--Dark, #080808);
-  padding: 4em 9% 4em 5%;
+  padding: 0 9% 4em 5%;
 }
 
 .footer-content__ilBox__img {
@@ -526,7 +531,8 @@ h5,
 /********************  Media formating start **********************/
 
 @media (min-width: 2200px) and (max-width: 2570px) {
-  p {
+  p,
+  .footer-content__linkBox__box__link {
     font-size: 1.5rem;
   }
   .menu {
@@ -585,7 +591,6 @@ h5,
     padding: 4em 9% 4em 9%;
   }
   .game-analysis-content__tBox__iTextBox {
-    width: 70em;
     padding: 1em 0 3.5em 0;
   }
   .game-analysis-content__tBox__iTextBox__iBox__img {
@@ -594,33 +599,617 @@ h5,
   .game-analysis-content__tBox__iTextBox__iBox {
     padding: 2.7em;
   }
+  .game-analysis-content__tBox__iTextBox__tBox__p {
+    width: 40em;
+  }
+  .bottom-content__h6 {
+    margin-bottom: 0.7em;
+  }
+  .footer-content__linkBox__h5 {
+    font-size: 1.5rem;
+  }
+  .footer-content__DigitalSeedBrand__img {
+    width: 15em;
+  }
 }
 
 @media (min-width: 2000px) and (max-width: 2200px) {
+  p,
+  .footer-content__linkBox__box__link {
+    font-size: 1.5rem;
+  }
+  .menu {
+    margin-left: 3em;
+  }
+  .header-content__logo-box__link__img {
+    width: 90%;
+  }
+  .menu__item {
+    font-size: 1.4rem;
+  }
+  .slider-content__tBox {
+    width: 43em;
+  }
+  .slider-content__tBox__h5 {
+    font-size: 1.5rem;
+  }
+  .slider-content__tBox__h1,
+  .blog-content__h2,
+  .game-analysis-content__iTextBox__tBox__h4,
+  .game-analysis-content__NextiTextBox__tBox__h4,
+  .game-analysis-content__tBox__h4,
+  .bottom-content__h6,
+  .bottom-next-content__h2 {
+    font-size: 3rem;
+  }
+  .blog-content__h3,
+  .game-analysis-content__tBox__h5,
+  .game-analysis-content__tBox__iTextBox__tBox__h5 {
+    font-size: 1.9rem;
+  }
+  .blog-content__postBox__link {
+    padding: 0.9em 1.5em;
+  }
+  .blog-content__postBox__box__iTextBox__tBox__linkBox {
+    padding: 3.5em 0 2.5em 0;
+  }
+  .blog-content__postBox__box {
+    gap: 2em;
+  }
+  .blog-link,
+  .blog-content__postBox__link {
+    font-size: 1.6rem;
+  }
+  .blog-content__postBox__lBox {
+    margin: 5.5em 0 9em 0;
+  }
+  .blog-content__postBox__lBox--margin {
+    margin: 5em 0 5em 0;
+  }
+  .game-analysis-content__iTextBox__tBox__h4 {
+    width: 18em;
+  }
+  .game-analysis-content__iTextBox,
+  .game-analysis-content__NextiTextBox {
+    padding: 4em 9% 4em 9%;
+  }
+  .game-analysis-content__tBox__iTextBox {
+    padding: 1em 0 3.5em 0;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox__img {
+    width: 10em;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox {
+    padding: 2.7em;
+  }
+  .game-analysis-content__tBox__iTextBox__tBox__p {
+    width: 40em;
+  }
+  .bottom-content__h6 {
+    margin-bottom: 0.7em;
+  }
+  .footer-content__linkBox__h5 {
+    font-size: 1.5rem;
+  }
+  .footer-content__DigitalSeedBrand__img {
+    width: 15em;
+  }
 }
-
 @media (min-width: 1800px) and (max-width: 2000px) {
+  p,
+  .footer-content__linkBox__box__link {
+    font-size: 1.3rem;
+  }
+  .menu {
+    margin-left: 3em;
+  }
+  .header-content__logo-box__link__img {
+    width: 90%;
+  }
+  .menu__item {
+    font-size: 1.2rem;
+  }
+  .slider-content__tBox {
+    width: 37em;
+  }
+  .slider-content__tBox__h5 {
+    font-size: 1.3rem;
+  }
+  .slider-content__tBox__h1,
+  .blog-content__h2,
+  .game-analysis-content__iTextBox__tBox__h4,
+  .game-analysis-content__NextiTextBox__tBox__h4,
+  .game-analysis-content__tBox__h4,
+  .bottom-content__h6,
+  .bottom-next-content__h2 {
+    font-size: 2.5rem;
+  }
+  .blog-content__h3,
+  .game-analysis-content__tBox__h5,
+  .game-analysis-content__tBox__iTextBox__tBox__h5 {
+    font-size: 1.8rem;
+  }
+  .blog-content__postBox__link {
+    padding: 0.9em 1.5em;
+  }
+  .blog-content__postBox__box__iTextBox__tBox__linkBox {
+    padding: 3.5em 0 2.5em 0;
+  }
+  .blog-content__postBox__box {
+    gap: 2em;
+  }
+  .blog-link,
+  .blog-content__postBox__link {
+    font-size: 1.4rem;
+  }
+  .blog-content__postBox__lBox {
+    margin: 5.5em 0 9em 0;
+  }
+  .blog-content__postBox__lBox--margin {
+    margin: 5em 0 5em 0;
+  }
+  .game-analysis-content__iTextBox__tBox__h4 {
+    width: 18em;
+  }
+  .game-analysis-content__iTextBox,
+  .game-analysis-content__NextiTextBox {
+    padding: 4em 9% 4em 9%;
+  }
+  .game-analysis-content__tBox__iTextBox {
+    padding: 1em 0 3.5em 0;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox__img {
+    width: 8em;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox {
+    padding: 2.7em;
+  }
+  .game-analysis-content__tBox__iTextBox__tBox__p {
+    width: 40em;
+  }
+  .bottom-content__h6 {
+    margin-bottom: 0.7em;
+  }
+  .footer-content__linkBox__h5 {
+    font-size: 1.4rem;
+  }
+  .footer-content__DigitalSeedBrand__img {
+    width: 13em;
+  }
 }
 
 @media (min-width: 1600px) and (max-width: 1800px) {
+  p,
+  .footer-content__linkBox__box__link {
+    font-size: 1.2rem;
+  }
+  .menu {
+    margin-left: 3em;
+  }
+  .header-content__logo-box__link__img {
+    width: 90%;
+  }
+  .menu__item {
+    font-size: 1.1rem;
+  }
+  .slider-content__tBox {
+    width: 35em;
+  }
+  .slider-content__tBox__h5 {
+    font-size: 1.2rem;
+  }
+  .slider-content__tBox__h1,
+  .blog-content__h2,
+  .game-analysis-content__iTextBox__tBox__h4,
+  .game-analysis-content__NextiTextBox__tBox__h4,
+  .game-analysis-content__tBox__h4,
+  .bottom-content__h6,
+  .bottom-next-content__h2 {
+    font-size: 2.3rem;
+  }
+  .blog-content__h3,
+  .game-analysis-content__tBox__h5,
+  .game-analysis-content__tBox__iTextBox__tBox__h5 {
+    font-size: 1.7rem;
+  }
+  .blog-content__postBox__link {
+    padding: 0.9em 1.5em;
+  }
+  .blog-content__postBox__box__iTextBox__tBox__linkBox {
+    padding: 3.5em 0 2.5em 0;
+  }
+  .blog-content__postBox__box {
+    gap: 2em;
+  }
+  .blog-link,
+  .blog-content__postBox__link {
+    font-size: 1.3rem;
+  }
+  .blog-content__postBox__lBox {
+    margin: 5.5em 0 9em 0;
+  }
+  .blog-content__postBox__lBox--margin {
+    margin: 5em 0 5em 0;
+  }
+  .game-analysis-content__iTextBox__tBox__h4 {
+    width: 18em;
+  }
+  .game-analysis-content__iTextBox,
+  .game-analysis-content__NextiTextBox {
+    padding: 4em 9% 4em 9%;
+  }
+  .game-analysis-content__tBox__iTextBox {
+    padding: 1em 0 3.5em 0;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox__img {
+    width: 7em;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox {
+    padding: 2.7em;
+  }
+  .game-analysis-content__tBox__iTextBox__tBox__p {
+    width: 40em;
+  }
+  .bottom-content__h6 {
+    margin-bottom: 0.5em;
+  }
+  .footer-content__linkBox__h5 {
+    font-size: 1.3rem;
+  }
+  .footer-content__DigitalSeedBrand__img {
+    width: 11em;
+  }
 }
 
 @media (min-width: 1500px) and (max-width: 1600px) {
+  p,
+  .footer-content__linkBox__box__link {
+    font-size: 1.1rem;
+  }
+  .menu {
+    margin-left: 3em;
+  }
+  .header-content__logo-box__link__img {
+    width: 90%;
+  }
+  .menu__item {
+    font-size: 1rem;
+  }
+  .slider-content__tBox {
+    width: 30em;
+  }
+  .slider-content__tBox__h5 {
+    font-size: 1.1rem;
+  }
+  .slider-content__tBox__h1,
+  .blog-content__h2,
+  .game-analysis-content__iTextBox__tBox__h4,
+  .game-analysis-content__NextiTextBox__tBox__h4,
+  .game-analysis-content__tBox__h4,
+  .bottom-content__h6,
+  .bottom-next-content__h2 {
+    font-size: 2.2rem;
+  }
+  .blog-content__h3,
+  .game-analysis-content__tBox__h5,
+  .game-analysis-content__tBox__iTextBox__tBox__h5 {
+    font-size: 1.5rem;
+  }
+  .blog-content__postBox__link {
+    padding: 0.9em 1.5em;
+  }
+  .blog-content__postBox__box__iTextBox__tBox__linkBox {
+    padding: 3.5em 0 2.5em 0;
+  }
+  .blog-content__postBox__box {
+    gap: 2em;
+  }
+  .blog-link,
+  .blog-content__postBox__link {
+    font-size: 1.1rem;
+  }
+  .blog-content__postBox__lBox {
+    margin: 5.5em 0 9em 0;
+  }
+  .blog-content__postBox__lBox--margin {
+    margin: 5em 0 5em 0;
+  }
+  .game-analysis-content__iTextBox__tBox__h4 {
+    width: 18em;
+  }
+  .game-analysis-content__iTextBox,
+  .game-analysis-content__NextiTextBox {
+    padding: 4em 9% 4em 9%;
+  }
+  .game-analysis-content__tBox__iTextBox {
+    padding: 1em 0 3.5em 0;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox__img {
+    width: 5em;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox {
+    padding: 2.7em;
+  }
+  .game-analysis-content__tBox__iTextBox__tBox__p {
+    width: 40em;
+  }
+  .bottom-content__h6 {
+    margin-bottom: 0.5em;
+  }
+  .footer-content__linkBox__h5 {
+    font-size: 1.2rem;
+  }
+  .footer-content__DigitalSeedBrand__img {
+    width: 10em;
+  }
 }
 
 @media (min-width: 1400px) and (max-width: 1500px) {
+  p,
+  .footer-content__linkBox__box__link {
+    font-size: 1rem;
+  }
+  .menu {
+    margin-left: 3em;
+  }
+  .header-content__logo-box__link__img {
+    width: 90%;
+  }
+  .menu__item {
+    font-size: 0.9rem;
+  }
+  .menu__item {
+    padding-left: 2.3em;
+  }
+  .slider-content__tBox {
+    width: 30em;
+  }
+  .slider-content__tBox__h5 {
+    font-size: 1rem;
+  }
+  .slider-content__tBox__h1,
+  .blog-content__h2,
+  .game-analysis-content__iTextBox__tBox__h4,
+  .game-analysis-content__NextiTextBox__tBox__h4,
+  .game-analysis-content__tBox__h4,
+  .bottom-content__h6,
+  .bottom-next-content__h2 {
+    font-size: 2rem;
+  }
+  .blog-content__h3,
+  .game-analysis-content__tBox__h5,
+  .game-analysis-content__tBox__iTextBox__tBox__h5 {
+    font-size: 1.6rem;
+  }
+  .blog-content__postBox__link {
+    padding: 0.9em 1.5em;
+  }
+  .blog-content__postBox__box__iTextBox__tBox__linkBox {
+    padding: 3.5em 0 2.5em 0;
+  }
+  .blog-content__postBox__box {
+    gap: 2em;
+  }
+  .blog-link,
+  .blog-content__postBox__link {
+    font-size: 1.2rem;
+  }
+  .blog-content__postBox__lBox {
+    margin: 5.5em 0 9em 0;
+  }
+  .blog-content__postBox__lBox--margin {
+    margin: 5em 0 5em 0;
+  }
+  .game-analysis-content__iTextBox__tBox__h4 {
+    width: 18em;
+  }
+  .game-analysis-content__iTextBox,
+  .game-analysis-content__NextiTextBox {
+    padding: 4em 9% 4em 9%;
+  }
+  .game-analysis-content__tBox__iTextBox {
+    padding: 1em 0 3.5em 0;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox__img {
+    width: 6em;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox {
+    padding: 2.7em;
+  }
+  .game-analysis-content__tBox__iTextBox__tBox__p {
+    width: 40em;
+  }
+  .bottom-content__h6 {
+    margin-bottom: 0.5em;
+  }
+  .footer-content__linkBox__h5 {
+    font-size: 1.2rem;
+  }
+  .footer-content__DigitalSeedBrand__img {
+    width: 10em;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
+  p,
+  .footer-content__linkBox__box__link {
+    font-size: 0.9rem;
+  }
+  .menu {
+    margin-left: 3em;
+  }
+  .header-content {
+    padding: 1em 4em;
+  }
+  .header-content__logo-box__link__img {
+    width: 90%;
+  }
+  .menu__item {
+    font-size: 0.8rem;
+  }
+  .menu__item {
+    padding-left: 2.3em;
+  }
+  .slider-content__tBox {
+    width: 25em;
+  }
+  .slider-content__tBox__h5 {
+    font-size: 0.9rem;
+  }
+  .slider-content__tBox__h1,
+  .blog-content__h2,
+  .game-analysis-content__iTextBox__tBox__h4,
+  .game-analysis-content__NextiTextBox__tBox__h4,
+  .game-analysis-content__tBox__h4,
+  .bottom-content__h6,
+  .bottom-next-content__h2 {
+    font-size: 1.8rem;
+  }
+  .blog-content__h3,
+  .game-analysis-content__tBox__h5,
+  .game-analysis-content__tBox__iTextBox__tBox__h5 {
+    font-size: 1.5rem;
+  }
+  .blog-content__postBox__link {
+    padding: 0.9em 1.5em;
+  }
+  .blog-content__postBox__box__iTextBox__tBox__linkBox {
+    padding: 3.5em 0 2.5em 0;
+  }
+  .blog-content__postBox__box {
+    gap: 2em;
+  }
+  .blog-link,
+  .blog-content__postBox__link {
+    font-size: 1rem;
+  }
+  .blog-content__postBox__lBox {
+    margin: 5.5em 0 9em 0;
+  }
+  .blog-content__postBox__lBox--margin {
+    margin: 5em 0 5em 0;
+  }
+  .game-analysis-content__iTextBox__tBox__h4 {
+    width: 18em;
+  }
+  .game-analysis-content__iTextBox,
+  .game-analysis-content__NextiTextBox {
+    padding: 4em 9% 4em 9%;
+  }
+  .game-analysis-content__tBox__iTextBox {
+    padding: 1em 0 3.5em 0;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox__img {
+    width: 5em;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox {
+    padding: 2.7em;
+  }
+  .game-analysis-content__tBox__iTextBox__tBox__p {
+    width: 38em;
+  }
+  .bottom-content__h6 {
+    margin-bottom: 0.5em;
+  }
+  .footer-content__linkBox__h5 {
+    font-size: 1.1rem;
+  }
+  .footer-content__DigitalSeedBrand__img {
+    width: 9em;
+  }
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
+  p,
+  .footer-content__linkBox__box__link {
+    font-size: 0.9rem;
+  }
+  .menu {
+    margin-left: 3em;
+  }
+  .header-content {
+    padding: 1em 3em;
+  }
+  .header-content__logo-box__link__img {
+    width: 90%;
+  }
+  .menu__item {
+    font-size: 0.65rem;
+  }
+  .menu__item {
+    padding-left: 2.3em;
+  }
+  .slider-content__tBox {
+    width: 25em;
+  }
+  .slider-content__tBox__h5 {
+    font-size: 0.8rem;
+  }
+  .slider-content__tBox__h1,
+  .blog-content__h2,
+  .game-analysis-content__iTextBox__tBox__h4,
+  .game-analysis-content__NextiTextBox__tBox__h4,
+  .game-analysis-content__tBox__h4,
+  .bottom-content__h6,
+  .bottom-next-content__h2 {
+    font-size: 1.7rem;
+  }
+  .blog-content__h3,
+  .game-analysis-content__tBox__h5,
+  .game-analysis-content__tBox__iTextBox__tBox__h5 {
+    font-size: 1.4rem;
+  }
+  .blog-content__postBox__link {
+    padding: 0.9em 1.5em;
+  }
+  .blog-content__postBox__box__iTextBox__tBox__linkBox {
+    padding: 3.5em 0 2.5em 0;
+  }
+  .blog-content__postBox__box {
+    gap: 2em;
+  }
+  .blog-link,
+  .blog-content__postBox__link {
+    font-size: 0.9rem;
+  }
+  .blog-content__postBox__lBox {
+    margin: 5.5em 0 9em 0;
+  }
+  .blog-content__postBox__lBox--margin {
+    margin: 5em 0 5em 0;
+  }
+  .game-analysis-content__iTextBox__tBox__h4 {
+    width: 18em;
+  }
+  .game-analysis-content__iTextBox,
+  .game-analysis-content__NextiTextBox {
+    padding: 4em 9% 4em 9%;
+  }
+  .game-analysis-content__tBox__iTextBox {
+    padding: 1em 0 3.5em 0;
+    width: 80%;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox__img {
+    width: 4em;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox {
+    padding: 2.7em;
+  }
+  .bottom-content {
+    padding: 9em 9%;
+  }
+  .bottom-content__h6 {
+    margin-bottom: 0.5em;
+  }
+  .footer-content__linkBox__h5 {
+    font-size: 1rem;
+  }
+  .footer-content__DigitalSeedBrand__img {
+    width: 8em;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .menu__item {
-    font-weight: 600;
-  }
   .menu__item {
     font-size: 1rem;
   }
@@ -732,11 +1321,15 @@ h5,
 }
 
 @media screen and (max-width: 767px) {
+  p,
+  .footer-content__linkBox__box__link {
+    font-size: 0.9rem;
+  }
   .menu__item {
     font-weight: 600;
   }
   .menu__item {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .header-content {
     padding: 2em;
@@ -749,13 +1342,14 @@ h5,
   }
   .header-content__nav-box {
     padding-left: 0.7em;
+    justify-content: unset;
   }
   .menu__list__li:first-child {
     border-left: 0;
   }
   .hamburger,
   .menu {
-    background-color: #001647;
+    background-color: #08ae60;
   }
   .menu {
     position: fixed;
@@ -784,7 +1378,6 @@ h5,
   }
   .hamburger {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     width: 4.3em;
     height: 3.7em;
@@ -810,11 +1403,15 @@ h5,
   .menu__list {
     align-items: flex-start;
   }
-  .menu__list {
+  .hamburger,
+  .menu__list,
+  .game-analysis-content__iTextBox,
+  .game-analysis-content__NextiTextBox,
+  .game-analysis-content__tBox__iTextBox.d-flex {
     flex-direction: column;
   }
   .header-content__logo-box__link__img {
-    width: 17em;
+    width: 15.9em;
   }
   .grid-3,
   .grid-7 {
@@ -840,8 +1437,63 @@ h5,
   .menu__list__li__img {
     width: 70%;
   }
-  .menu__item {
+  .header {
+    z-index: 11;
+  }
+  .slider-content__tBox {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #0c0c0c;
+    margin-top: -5%;
+  }
+  .slider-content__tBox__h5 {
+    width: 100%;
+  }
+  .slider-content__img,
+  .slider-content__tBox {
+    position: relative;
+  }
+  .slider-content__tBox {
+    z-index: 10;
+    padding: 0 2em 1em 2em;
+  }
+  .blog-content {
+    padding: 2em 9%;
+  }
+  .slider-content__tBox__h5 {
+    font-size: 0.9rem;
+  }
+  .slider-content__tBox__h1,
+  .blog-content__h2,
+  .game-analysis-content__iTextBox__tBox__h4,
+  .game-analysis-content__NextiTextBox__tBox__h4,
+  .game-analysis-content__tBox__h4,
+  .bottom-content__h6,
+  .bottom-next-content__h2 {
+    font-size: 1.3rem;
+  }
+  .blog-content__h3,
+  .game-analysis-content__tBox__h5,
+  .game-analysis-content__tBox__iTextBox__tBox__h5 {
+    font-size: 1.1rem;
+  }
+  .blog-link,
+  .blog-content__postBox__link {
     font-size: 1rem;
+  }
+  .game-analysis-content__iTextBox__tBox,
+  .game-analysis-content__iTextBox__iBox,
+  .game-analysis-content__NextiTextBox__tBox,
+  .game-analysis-content__NextiTextBox__iBox,
+  .game-analysis-content__tBox__iTextBox {
+    width: 100%;
+  }
+  .game-analysis-content__tBox__iTextBox__iBox {
+    margin-bottom: 4em;
+  }
+  .bottom-content {
+    padding: 5em 9%;
   }
 }
 
