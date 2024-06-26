@@ -11,6 +11,10 @@ const specialPaths = [
   '/fudball-news',
   '/blog',
   '/rabona',
+  '/bankonbet',
+  '/libranet',
+  "/spinanga",
+  '/nomini'
 ]
 
 const isSpecialPage = computed(() => specialPaths.includes(route.path))

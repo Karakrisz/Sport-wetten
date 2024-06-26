@@ -224,7 +224,8 @@ ul {
 
 .slider-content__img,
 .game-analysis-content__iTextBox__iBox__img,
-.blog-content__postBox__box__iTextBox__img {
+.blog-content__postBox__box__iTextBox__img,
+.subpage-content__fBox__iBox__img {
   width: 100%;
 }
 
@@ -282,6 +283,7 @@ h5,
 
 .blog-content__postBox__box__iTextBox__tBox__fBox {
   align-items: center;
+  height: 3.5em;
 }
 /********************  Identical instructions end **********************/
 
@@ -403,6 +405,10 @@ h5,
   width: 1.3em;
   height: 2em;
   margin-right: 0.7em;
+}
+
+.blog-content__postBox__box__iTextBox__img {
+  border-radius: 9px 9px 0px 0px;
 }
 /********************  Blog formating end **********************/
 
@@ -537,8 +543,28 @@ h5,
 /********************  Footer formating end **********************/
 
 /********************  Subpage formating start **********************/
+
 .supage-content {
-  padding: 12em 10em;
+  padding: 12% 7% 7% 7%;
+  margin-bottom: 7%;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.supage-content__fBox__iBox {
+  width: 30%;
+}
+
+.supage-content__fBox__tBox {
+  width: 70%;
+  padding: 0 3% 0 3%;
+}
+
+.supage-content__lBox {
+  margin-top: 3%;
+}
+
+.blog-content__postBox__link--format {
+  padding: 1.3% 6% !important;
 }
 /********************  Subpage formating end **********************/
 
@@ -597,6 +623,9 @@ h5,
   }
   .blog-content__postBox__lBox--margin {
     margin: 5em 0 5em 0;
+  }
+  .blog-content__postBox__box__iTextBox__tBox__fBox {
+    height: 5em;
   }
   .game-analysis-content__iTextBox__tBox__h4 {
     width: 18em;
@@ -682,6 +711,9 @@ h5,
   .blog-content__postBox__lBox--margin {
     margin: 5em 0 5em 0;
   }
+  .blog-content__postBox__box__iTextBox__tBox__fBox {
+    height: 5em;
+  }
   .game-analysis-content__iTextBox__tBox__h4 {
     width: 18em;
   }
@@ -764,6 +796,9 @@ h5,
   }
   .blog-content__postBox__lBox--margin {
     margin: 5em 0 5em 0;
+  }
+  .blog-content__postBox__box__iTextBox__tBox__fBox {
+    height: 4.5em;
   }
   .game-analysis-content__iTextBox__tBox__h4 {
     width: 18em;
@@ -848,6 +883,9 @@ h5,
   }
   .blog-content__postBox__lBox--margin {
     margin: 5em 0 5em 0;
+  }
+  .blog-content__postBox__box__iTextBox__tBox__fBox {
+    height: 4.3em;
   }
   .game-analysis-content__iTextBox__tBox__h4 {
     width: 18em;
@@ -1138,6 +1176,9 @@ h5,
   .footer-content__DigitalSeedBrand__img {
     width: 9em;
   }
+  .supage-content {
+    padding: 13% 5% 5% 5%;
+  }
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -1200,6 +1241,9 @@ h5,
   .blog-content__postBox__lBox--margin {
     margin: 5em 0 5em 0;
   }
+  .blog-content__postBox__box__iTextBox__tBox__fBox {
+    height: 5em;
+  }
   .game-analysis-content__iTextBox__tBox__h4 {
     width: 18em;
   }
@@ -1228,6 +1272,9 @@ h5,
   }
   .footer-content__DigitalSeedBrand__img {
     width: 8em;
+  }
+  .supage-content {
+    padding: 13% 5% 5% 5%;
   }
 }
 
@@ -1372,7 +1419,8 @@ h5,
   .game-analysis-content__iTextBox,
   .game-analysis-content__NextiTextBox,
   .game-analysis-content__tBox__iTextBox,
-  .footer-content {
+  .footer-content,
+  .supage-content__fBox {
     flex-direction: column;
   }
   .slider-content__tBox__h1,
@@ -1399,7 +1447,9 @@ h5,
   .game-analysis-content__NextiTextBox__tBox,
   .game-analysis-content__NextiTextBox__iBox,
   .game-analysis-content__tBox__iTextBox,
-  .footer-content__linkBox {
+  .footer-content__linkBox,
+  .supage-content__fBox__iBox,
+  .supage-content__fBox__tBox {
     width: 100%;
   }
   .game-analysis-content__tBox__iTextBox__iBox {
@@ -1422,6 +1472,9 @@ h5,
     width: 18em;
     margin: auto;
     display: block;
+  }
+  .supage-content {
+    padding: 33% 9% 7% 9%;
   }
 }
 
@@ -1460,7 +1513,7 @@ h5,
     position: fixed;
     top: 0;
     right: -100%;
-    width: 300px;
+    width: 75%;
     height: 100%;
     transition: right 0.7s ease;
     z-index: 1000;
@@ -1567,7 +1620,8 @@ h5,
   .game-analysis-content__iTextBox,
   .game-analysis-content__NextiTextBox,
   .game-analysis-content__tBox__iTextBox,
-  .footer-content {
+  .footer-content,
+  .supage-content__fBox {
     flex-direction: column;
   }
   .slider-content__tBox__h1,
@@ -1594,7 +1648,9 @@ h5,
   .game-analysis-content__NextiTextBox__tBox,
   .game-analysis-content__NextiTextBox__iBox,
   .game-analysis-content__tBox__iTextBox,
-  .footer-content__linkBox {
+  .footer-content__linkBox,
+  .supage-content__fBox__iBox,
+  .supage-content__fBox__tBox {
     width: 100%;
   }
   .game-analysis-content__tBox__iTextBox__iBox {
@@ -1615,6 +1671,9 @@ h5,
   }
   .footer-content__ilBox__img {
     width: 13em;
+  }
+  .supage-content {
+    padding: 58% 9% 7% 9%;
   }
 }
 
