@@ -57,20 +57,40 @@
               height="100%"
             />
             <div class="blog-content__postBox__box__iTextBox__tBox bg-color-w">
-              <p class="blog-content__postBox__box__iTextBox__tBox__p">
-                Etiam vitae laoreet est, ut iaculis nisl. Vestibulum lacinia
-                eros id magna rutrum condimentum. Vivamus malesuada, ante ut
-                sollicitudin commodo, mauris erat commodo quam, in consectetur
-                mi nisl nec ex.
-              </p>
+              <div
+                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+              >
+                <NuxtImg
+                  src="/img/online-betting/like.svg"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__tBox__img"
+                  height="100%"
+                />
+                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
+                  Umfangreiches Spielangebot: über 8.500 Spiele.
+                </p>
+              </div>
+              <div
+                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+              >
+                <NuxtImg
+                  src="/img/online-betting/like.svg"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__tBox__img"
+                  height="100%"
+                />
+                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
+                  Willkommensbonus: erste Einzahlung verdoppelt bis 200 Euro.
+                </p>
+              </div>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
               >
-                <a
+                <NuxtLink
                   class="blog-content__postBox__link f-700 text-color-w"
-                  href="#"
-                  >BET NOW</a
-                >
+                  to="rabona"
+                  >BET NOW
+                </NuxtLink>
               </div>
             </div>
           </div>
@@ -83,12 +103,32 @@
               height="100%"
             />
             <div class="blog-content__postBox__box__iTextBox__tBox bg-color-w">
-              <p class="blog-content__postBox__box__iTextBox__tBox__p">
-                Etiam vitae laoreet est, ut iaculis nisl. Vestibulum lacinia
-                eros id magna rutrum condimentum. Vivamus malesuada, ante ut
-                sollicitudin commodo, mauris erat commodo quam, in consectetur
-                mi nisl nec ex.
-              </p>
+              <div
+                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+              >
+                <NuxtImg
+                  src="/img/online-betting/like.svg"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__tBox__img"
+                  height="100%"
+                />
+                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
+                  Umfangreiches Spielangebot: über 8.500 Spiele.
+                </p>
+              </div>
+              <div
+                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+              >
+                <NuxtImg
+                  src="/img/online-betting/like.svg"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__tBox__img"
+                  height="100%"
+                />
+                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
+                  Willkommensbonus: erste Einzahlung verdoppelt bis 200 Euro.
+                </p>
+              </div>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
               >
@@ -109,12 +149,32 @@
               height="100%"
             />
             <div class="blog-content__postBox__box__iTextBox__tBox bg-color-w">
-              <p class="blog-content__postBox__box__iTextBox__tBox__p">
-                Etiam vitae laoreet est, ut iaculis nisl. Vestibulum lacinia
-                eros id magna rutrum condimentum. Vivamus malesuada, ante ut
-                sollicitudin commodo, mauris erat commodo quam, in consectetur
-                mi nisl nec ex.
-              </p>
+              <div
+                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+              >
+                <NuxtImg
+                  src="/img/online-betting/like.svg"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__tBox__img"
+                  height="100%"
+                />
+                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
+                  100% Willkommensbonus: bis zu 200 €, Mindesteinzahlung 20 €.
+                </p>
+              </div>
+              <div
+                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+              >
+                <NuxtImg
+                  src="/img/online-betting/like.svg"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__tBox__img"
+                  height="100%"
+                />
+                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
+                  Umfassende Sportwetten: von Fußball bis eSports.
+                </p>
+              </div>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
               >
@@ -135,12 +195,32 @@
               height="100%"
             />
             <div class="blog-content__postBox__box__iTextBox__tBox bg-color-w">
-              <p class="blog-content__postBox__box__iTextBox__tBox__p">
-                Etiam vitae laoreet est, ut iaculis nisl. Vestibulum lacinia
-                eros id magna rutrum condimentum. Vivamus malesuada, ante ut
-                sollicitudin commodo, mauris erat commodo quam, in consectetur
-                mi nisl nec ex.
-              </p>
+              <div
+                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+              >
+                <NuxtImg
+                  src="/img/online-betting/like.svg"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__tBox__img"
+                  height="100%"
+                />
+                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
+                  Breite Auswahl: Spielautomaten, Tischspiele und Sportwetten.
+                </p>
+              </div>
+              <div
+                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+              >
+                <NuxtImg
+                  src="/img/online-betting/like.svg"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__tBox__img"
+                  height="100%"
+                />
+                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
+                  Live-Wetten: Echtzeitwetten für mehr Dynamik.
+                </p>
+              </div>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
               >
@@ -161,12 +241,33 @@
               height="100%"
             />
             <div class="blog-content__postBox__box__iTextBox__tBox bg-color-w">
-              <p class="blog-content__postBox__box__iTextBox__tBox__p">
-                Etiam vitae laoreet est, ut iaculis nisl. Vestibulum lacinia
-                eros id magna rutrum condimentum. Vivamus malesuada, ante ut
-                sollicitudin commodo, mauris erat commodo quam, in consectetur
-                mi nisl nec ex.
-              </p>
+              <div
+                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+              >
+                <NuxtImg
+                  src="/img/online-betting/like.svg"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__tBox__img"
+                  height="100%"
+                />
+                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
+                  Vielfältige Bonusangebote: Willkommensbonus 100% bis zu 200€,
+                  Mindesteinzahlung 20€.
+                </p>
+              </div>
+              <div
+                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+              >
+                <NuxtImg
+                  src="/img/online-betting/like.svg"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__tBox__img"
+                  height="100%"
+                />
+                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
+                  VIP-Programm: wöchentliche Reload-Boni und Cashbacks.
+                </p>
+              </div>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
               >
@@ -691,7 +792,9 @@
   </section>
   <section>
     <div class="bottom-content">
-      <h6 class="bottom-content__h6 text-color-w f-600 text-transform-uppercase">
+      <h6
+        class="bottom-content__h6 text-color-w f-600 text-transform-uppercase"
+      >
         So erhöhst du deine Gewinnchancen: Teilnahmebedingungen und Tipps
       </h6>
       <p class="bottom-content__p text-color-w">

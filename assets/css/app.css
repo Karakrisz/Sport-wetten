@@ -280,6 +280,9 @@ h5,
   border-radius: 6px;
 }
 
+.blog-content__postBox__box__iTextBox__tBox__fBox {
+  align-items: center;
+}
 /********************  Identical instructions end **********************/
 
 /********************  Header formating start **********************/
@@ -291,6 +294,10 @@ h5,
 
 .header-content {
   padding: 1em 7em;
+}
+
+.header-content-bg-special {
+  background: #0c0c0c;
 }
 
 .header-content,
@@ -392,6 +399,11 @@ h5,
   margin: 1.3em 0 0 0;
 }
 
+.blog-content__postBox__box__iTextBox__tBox__img {
+  width: 1.3em;
+  height: 2em;
+  margin-right: 0.7em;
+}
 /********************  Blog formating end **********************/
 
 /********************  Game analysis formating start **********************/
@@ -558,7 +570,8 @@ h5,
   .game-analysis-content__NextiTextBox__tBox__h4,
   .game-analysis-content__tBox__h4,
   .bottom-content__h6,
-  .bottom-next-content__h2 {
+  .bottom-next-content__h2,
+  .supage-content__fBox__tBox__h3 {
     font-size: 3rem;
   }
   .blog-content__h3,
@@ -573,7 +586,7 @@ h5,
     padding: 3.5em 0 2.5em 0;
   }
   .blog-content__postBox__box {
-    gap: 2em;
+    gap: 1.5em;
   }
   .blog-link,
   .blog-content__postBox__link {
@@ -641,7 +654,8 @@ h5,
   .game-analysis-content__NextiTextBox__tBox__h4,
   .game-analysis-content__tBox__h4,
   .bottom-content__h6,
-  .bottom-next-content__h2 {
+  .bottom-next-content__h2,
+  .supage-content__fBox__tBox__h3 {
     font-size: 3rem;
   }
   .blog-content__h3,
@@ -656,7 +670,7 @@ h5,
     padding: 3.5em 0 2.5em 0;
   }
   .blog-content__postBox__box {
-    gap: 2em;
+    gap: 1.5em;
   }
   .blog-link,
   .blog-content__postBox__link {
@@ -723,7 +737,8 @@ h5,
   .game-analysis-content__NextiTextBox__tBox__h4,
   .game-analysis-content__tBox__h4,
   .bottom-content__h6,
-  .bottom-next-content__h2 {
+  .bottom-next-content__h2,
+  .supage-content__fBox__tBox__h3 {
     font-size: 2.5rem;
   }
   .blog-content__h3,
@@ -738,7 +753,7 @@ h5,
     padding: 2.5em 0 2em 0;
   }
   .blog-content__postBox__box {
-    gap: 2em;
+    gap: 1.5em;
   }
   .blog-link,
   .blog-content__postBox__link {
@@ -806,7 +821,8 @@ h5,
   .game-analysis-content__NextiTextBox__tBox__h4,
   .game-analysis-content__tBox__h4,
   .bottom-content__h6,
-  .bottom-next-content__h2 {
+  .bottom-next-content__h2,
+  .supage-content__fBox__tBox__h3 {
     font-size: 2.3rem;
   }
   .blog-content__h3,
@@ -821,7 +837,7 @@ h5,
     padding: 2.5em 0 2em 0;
   }
   .blog-content__postBox__box {
-    gap: 2em;
+    gap: 1.5em;
   }
   .blog-link,
   .blog-content__postBox__link {
@@ -889,7 +905,8 @@ h5,
   .game-analysis-content__NextiTextBox__tBox__h4,
   .game-analysis-content__tBox__h4,
   .bottom-content__h6,
-  .bottom-next-content__h2 {
+  .bottom-next-content__h2,
+  .supage-content__fBox__tBox__h3 {
     font-size: 2.2rem;
   }
   .blog-content__h3,
@@ -904,7 +921,7 @@ h5,
     padding: 2.5em 0 2em 0;
   }
   .blog-content__postBox__box {
-    gap: 2em;
+    gap: 1.5em;
   }
   .blog-link,
   .blog-content__postBox__link {
@@ -975,13 +992,14 @@ h5,
   .game-analysis-content__NextiTextBox__tBox__h4,
   .game-analysis-content__tBox__h4,
   .bottom-content__h6,
-  .bottom-next-content__h2 {
+  .bottom-next-content__h2,
+  .supage-content__fBox__tBox__h3 {
     font-size: 2rem;
   }
   .blog-content__h3,
   .game-analysis-content__tBox__h5,
   .game-analysis-content__tBox__iTextBox__tBox__h5 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .blog-content__postBox__link {
     padding: 0.9em 1.5em;
@@ -990,11 +1008,11 @@ h5,
     padding: 2.5em 0 2em 0;
   }
   .blog-content__postBox__box {
-    gap: 2em;
+    gap: 1.5em;
   }
   .blog-link,
   .blog-content__postBox__link {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .blog-content__postBox__lBox {
     margin: 5.5em 0 9em 0;
@@ -1064,7 +1082,8 @@ h5,
   .game-analysis-content__NextiTextBox__tBox__h4,
   .game-analysis-content__tBox__h4,
   .bottom-content__h6,
-  .bottom-next-content__h2 {
+  .bottom-next-content__h2,
+  .supage-content__fBox__tBox__h3 {
     font-size: 1.8rem;
   }
   .blog-content__h3,
@@ -1079,7 +1098,7 @@ h5,
     padding: 2.5em 0 2em 0;
   }
   .blog-content__postBox__box {
-    gap: 2em;
+    gap: 1.5em;
   }
   .blog-link,
   .blog-content__postBox__link {
@@ -1153,13 +1172,14 @@ h5,
   .game-analysis-content__NextiTextBox__tBox__h4,
   .game-analysis-content__tBox__h4,
   .bottom-content__h6,
-  .bottom-next-content__h2 {
-    font-size: 1.7rem;
+  .bottom-next-content__h2,
+  .supage-content__fBox__tBox__h3 {
+    font-size: 1.6rem;
   }
   .blog-content__h3,
   .game-analysis-content__tBox__h5,
   .game-analysis-content__tBox__iTextBox__tBox__h5 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .blog-content__postBox__link {
     padding: 0.9em 1.5em;
@@ -1168,7 +1188,7 @@ h5,
     padding: 2em 0 1.5em 0;
   }
   .blog-content__postBox__box {
-    gap: 2em;
+    gap: 1.5em;
   }
   .blog-link,
   .blog-content__postBox__link {
@@ -1361,7 +1381,8 @@ h5,
   .game-analysis-content__NextiTextBox__tBox__h4,
   .game-analysis-content__tBox__h4,
   .bottom-content__h6,
-  .bottom-next-content__h2 {
+  .bottom-next-content__h2,
+  .supage-content__fBox__tBox__h3 {
     font-size: 1.5rem;
   }
   .blog-content__h3,
@@ -1555,7 +1576,8 @@ h5,
   .game-analysis-content__NextiTextBox__tBox__h4,
   .game-analysis-content__tBox__h4,
   .bottom-content__h6,
-  .bottom-next-content__h2 {
+  .bottom-next-content__h2,
+  .supage-content__fBox__tBox__h3 {
     font-size: 1.3rem;
   }
   .blog-content__h3,

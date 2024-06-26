@@ -1,4 +1,20 @@
 <script setup>
+import { ref, computed } from 'vue'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+
+const specialPaths = [
+  '/euro-2024',
+  '/sportwetten-tipps',
+  '/die-besten-wettanbiete',
+  '/fudball-news',
+  '/blog',
+  '/rabona',
+]
+
+const isSpecialPage = computed(() => specialPaths.includes(route.path))
+
 const links = [
   { name: 'Home', path: '/' },
   { name: 'Euro 2024', path: '/euro-2024' },
@@ -13,7 +29,12 @@ const isMenuOpen = ref(false)
 
 <template>
   <header class="header pr">
-    <div class="header-content d-flex">
+    <div
+      :class="[
+        'header-content d-flex',
+        { 'header-content-bg-special': isSpecialPage },
+      ]"
+    >
       <div class="logo-box header-content__logo-box">
         <NuxtLink to="/" class="header-content__logo-box__link">
           <NuxtImg
@@ -38,7 +59,9 @@ const isMenuOpen = ref(false)
             <li v-for="link in links" :key="link.path" class="menu__list__li">
               <NuxtLink
                 :to="link.path"
-                :class="['menu__item text-color-w text-transform-uppercase f-600']"
+                :class="[
+                  'menu__item text-color-w text-transform-uppercase f-600',
+                ]"
               >
                 <template v-if="link.imagePath">
                   <NuxtImg

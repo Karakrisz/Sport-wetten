@@ -10,4 +10,3 @@ useHead({
     <p>feltöltés alatt...</p>
   </div>
 </template>
-

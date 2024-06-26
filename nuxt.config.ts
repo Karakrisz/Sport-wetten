@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   ssr: true,
   app: {
     head: {
-      title: 'Biztos Alkuszom',
+      title: 'Sport Wetten',
       htmlAttrs: {
         lang: 'hu',
       },
