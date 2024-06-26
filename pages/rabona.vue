@@ -77,7 +77,8 @@ useHead({
     <div class="supage-content__lBox text-center">
       <a
         class="blog-content__postBox__link blog-content__postBox__link--format f-700 text-color-w"
-        href="#"
+        target="_blank"
+        href="https://rbn.servclick1move.com/?mid=97525_728861"
         >BET NOW
       </a>
     </div>

@@ -13,8 +13,18 @@ const specialPaths = [
   '/rabona',
   '/bankonbet',
   '/libranet',
-  "/spinanga",
-  '/nomini'
+  '/spinanga',
+  '/nomini',
+  '/sport-wetten',
+  '/bwin',
+  '/betathome',
+  '/interwetten',
+  '/prontobet',
+  '/20bet',
+  '/select-bet',
+  '/tipico',
+  '/bet365',
+  '/great-win',
 ]
 
 const isSpecialPage = computed(() => specialPaths.includes(route.path))
