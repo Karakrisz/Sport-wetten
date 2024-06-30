@@ -2416,10 +2416,22 @@ const sources$1 = [
         },
         "urls": [
             {
-                "loc": "/adatvedelmi-tajekoztato"
+                "loc": "/20bet"
+            },
+            {
+                "loc": "/bankonbet"
+            },
+            {
+                "loc": "/bet365"
+            },
+            {
+                "loc": "/betathome"
             },
             {
                 "loc": "/blog"
+            },
+            {
+                "loc": "/bwin"
             },
             {
                 "loc": "/die-besten-wettanbiete"
@@ -2431,28 +2443,40 @@ const sources$1 = [
                 "loc": "/fudball-news"
             },
             {
-                "loc": "/gepjarmu-biztositas"
+                "loc": "/great-win"
             },
             {
                 "loc": "/"
             },
             {
-                "loc": "/karbejentes"
+                "loc": "/interwetten"
             },
             {
-                "loc": "/rendezvenyszolgalat"
+                "loc": "/libranet"
+            },
+            {
+                "loc": "/nomini"
+            },
+            {
+                "loc": "/prontobet"
+            },
+            {
+                "loc": "/rabona"
+            },
+            {
+                "loc": "/select-bet"
+            },
+            {
+                "loc": "/spinanga"
+            },
+            {
+                "loc": "/sport-wetten"
             },
             {
                 "loc": "/sportwetten-tipps"
             },
             {
-                "loc": "/szemelyes-tanacsadas"
-            },
-            {
-                "loc": "/tanulobiztositas"
-            },
-            {
-                "loc": "/utasbiztositas"
+                "loc": "/tipico"
             }
         ],
         "sourceType": "app"

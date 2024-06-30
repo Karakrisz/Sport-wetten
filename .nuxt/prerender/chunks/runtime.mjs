@@ -1,25 +1,25 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHost, getRequestProtocol, setResponseStatus, setResponseHeader, send as send$1, getRequestHeaders, removeResponseHeader, createError, getResponseHeader, setHeader, getHeader, appendHeader, getQuery as getQuery$1, readBody, lazyEventHandler, useBase, createApp, createRouter as createRouter$1, toNodeListener } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/h3/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/ofetch/dist/node.mjs';
-import destr from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/hookable/dist/index.mjs';
-import { klona } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/klona/dist/index.mjs';
-import { snakeCase } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/scule/dist/index.mjs';
-import defu, { defuFn, defu as defu$1, createDefu } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, hasProtocol, withHttps, withoutProtocol, withTrailingSlash, withLeadingSlash, withBase, withoutTrailingSlash, decodePath } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/unstorage/drivers/fs.mjs';
-import file_58_47_47_47Applications_47XAMPP_47xamppfiles_47htdocs_47biztosAlkuszApp_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js';
-import unstorage_47drivers_47fs_45lite from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/unstorage/drivers/fs-lite.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/radix3/dist/index.mjs';
-import { toValue } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/vue/index.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHost, getRequestProtocol, setResponseStatus, setResponseHeader, send as send$1, getRequestHeaders, removeResponseHeader, createError, getResponseHeader, setHeader, getHeader, appendHeader, getQuery as getQuery$1, readBody, lazyEventHandler, useBase, createApp, createRouter as createRouter$1, toNodeListener } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/h3/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/ofetch/dist/node.mjs';
+import destr from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/hookable/dist/index.mjs';
+import { klona } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/klona/dist/index.mjs';
+import { snakeCase } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/scule/dist/index.mjs';
+import defu, { defuFn, defu as defu$1, createDefu } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, hasProtocol, withHttps, withoutProtocol, withTrailingSlash, withLeadingSlash, withBase, withoutTrailingSlash, decodePath } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/unstorage/drivers/fs.mjs';
+import file_58_47_47_47Applications_47XAMPP_47xamppfiles_47htdocs_47Sport_45wetten_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js';
+import unstorage_47drivers_47fs_45lite from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/unstorage/drivers/fs-lite.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/radix3/dist/index.mjs';
+import { toValue } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/vue/index.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve as resolve$1, isAbsolute } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/pathe/dist/index.mjs';
-import nodemailer from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/nodemailer/lib/nodemailer.js';
-import { findIndex, omit } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/@dword-design/functions/dist/index.js';
-import { ipxFSStorage, ipxHttpStorage, createIPX, createIPXH3Handler } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/ipx/dist/index.mjs';
+import { dirname, resolve as resolve$1, isAbsolute } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/pathe/dist/index.mjs';
+import nodemailer from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/nodemailer/lib/nodemailer.js';
+import { findIndex, omit } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/@dword-design/functions/dist/index.js';
+import { ipxFSStorage, ipxHttpStorage, createIPX, createIPXH3Handler } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/ipx/dist/index.mjs';
 
 function getEnv(key, opts) {
   const envKey = snakeCase(key).toUpperCase();
@@ -61,7 +61,7 @@ function _expandFromEnv(value) {
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "675d2152-d11c-42f1-8c03-036d86002afc"
+    "buildId": "b08ee959-eaaf-42ef-8c98-bf10ccd85bf2"
   }
 };
 
@@ -90,7 +90,7 @@ const _inlineRuntimeConfig = {
         "headers": {
           "Content-Type": "text/xml; charset=UTF-8",
           "Cache-Control": "public, max-age=600, must-revalidate",
-          "X-Sitemap-Prerendered": "2024-05-28T16:08:21.340Z"
+          "X-Sitemap-Prerendered": "2024-06-30T22:23:35.371Z"
         }
       },
       "/_nuxt/builds/meta/**": {
@@ -162,7 +162,7 @@ const _inlineRuntimeConfig = {
       {
         "_context": "system",
         "_priority": -15,
-        "name": "biztosAlkuszApp",
+        "name": "Sport-wetten",
         "env": "production"
       },
       {
@@ -185,7 +185,7 @@ const _inlineRuntimeConfig = {
     "alias": {},
     "fs": {
       "dir": [
-        "/Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/public"
+        "/Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/public"
       ]
     },
     "http": {
@@ -248,7 +248,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"/Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/server/assets"}];
 
 const assets$1 = createStorage();
 
@@ -260,12 +260,12 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets$1);
 
-storage.mount('internal:nuxt:prerender', file_58_47_47_47Applications_47XAMPP_47xamppfiles_47htdocs_47biztosAlkuszApp_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js({"driver":"file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js","base":"/Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/.nuxt/cache/nitro/prerender"}));
-storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"/Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/.data/kv"}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('internal:nuxt:prerender', file_58_47_47_47Applications_47XAMPP_47xamppfiles_47htdocs_47Sport_45wetten_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js({"driver":"file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js","base":"/Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/.nuxt/cache/nitro/prerender"}));
+storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"/Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/.data/kv"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Applications/XAMPP/xamppfiles/htdocs/Sport-wetten","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -1074,7 +1074,7 @@ function defineNitroPlugin(def) {
 }
 
 const PRERENDER_NO_SSR_ROUTES = /* @__PURE__ */ new Set(["/index.html", "/200.html", "/404.html"]);
-const _EGrXyAr59T = defineNitroPlugin(async (nitroApp) => {
+const _GeFedd6myU = defineNitroPlugin(async (nitroApp) => {
   nitroApp.hooks.hook("render:html", async (ctx, { event }) => {
     const routeOptions = getRouteRules(event);
     const isIsland = process.env.NUXT_COMPONENT_ISLANDS && event.path.startsWith("/__nuxt_island");
@@ -1090,7 +1090,7 @@ const _EGrXyAr59T = defineNitroPlugin(async (nitroApp) => {
 });
 
 const plugins = [
-  _EGrXyAr59T
+  _GeFedd6myU
 ];
 
 const errorHandler = (async function errorhandler(error, event) {
@@ -1153,493 +1153,661 @@ const errorHandler = (async function errorhandler(error, event) {
 const assets = {
   "/200.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"7e52-PUel7jjTO6toPjYv1HIN07SfOe0\"",
-    "mtime": "2024-05-28T16:08:29.487Z",
-    "size": 32338,
+    "etag": "\"6e4f-vi5Rbkat5xRuly4yzN4vsiR8oK4\"",
+    "mtime": "2024-06-30T22:23:44.020Z",
+    "size": 28239,
     "path": "../../.output/public/200.html"
   },
   "/404.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"7e52-PUel7jjTO6toPjYv1HIN07SfOe0\"",
-    "mtime": "2024-05-28T16:08:29.487Z",
-    "size": 32338,
+    "etag": "\"6e4f-vi5Rbkat5xRuly4yzN4vsiR8oK4\"",
+    "mtime": "2024-06-30T22:23:44.020Z",
+    "size": 28239,
     "path": "../../.output/public/404.html"
   },
   "/_payload.json": {
     "type": "application/json",
-    "etag": "\"3e-4lZSHlUfjHwAbi9+Gb/co7fT4Pc\"",
-    "mtime": "2024-05-28T16:08:29.627Z",
+    "etag": "\"3e-xn11kkPFZAJgqgHfB3A1ZTR7dUE\"",
+    "mtime": "2024-06-30T22:23:44.778Z",
     "size": 62,
     "path": "../../.output/public/_payload.json"
   },
   "/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"e819-HAnoQtO3dRBrs0LRjtvwPccLvk4\"",
-    "mtime": "2024-05-28T16:08:29.487Z",
-    "size": 59417,
+    "etag": "\"143f9-SFk9KD8dXHIaLfuoew4cYK945Ek\"",
+    "mtime": "2024-06-30T22:23:44.020Z",
+    "size": 82937,
     "path": "../../.output/public/index.html"
+  },
+  "/20bet/_payload.json": {
+    "type": "application/json",
+    "etag": "\"3e-dI+l6q6cckEyBuu9rLEIx5FojOk\"",
+    "mtime": "2024-06-30T22:23:44.777Z",
+    "size": 62,
+    "path": "../../.output/public/20bet/_payload.json"
+  },
+  "/20bet/index.html": {
+    "type": "text/html; charset=utf-8",
+    "etag": "\"8afd-FeccpgYIhKFaHtUHfNRBl5xl9b8\"",
+    "mtime": "2024-06-30T22:23:44.020Z",
+    "size": 35581,
+    "path": "../../.output/public/20bet/index.html"
   },
   "/__sitemap__/style.xsl": {
     "type": "application/xml",
     "etag": "\"174e-04KStjaK+j7dbchiMHqnnHF1ICc\"",
-    "mtime": "2024-05-28T16:08:29.312Z",
+    "mtime": "2024-06-30T22:23:43.593Z",
     "size": 5966,
     "path": "../../.output/public/__sitemap__/style.xsl"
   },
-  "/ajanlatkeres/_payload.json": {
+  "/blog/_payload.json": {
     "type": "application/json",
-    "etag": "\"3e-4lZSHlUfjHwAbi9+Gb/co7fT4Pc\"",
-    "mtime": "2024-05-28T16:08:30.492Z",
+    "etag": "\"3e-i0zXe9TyFnFu7T5UMXneuIHJjPg\"",
+    "mtime": "2024-06-30T22:23:44.099Z",
     "size": 62,
-    "path": "../../.output/public/ajanlatkeres/_payload.json"
+    "path": "../../.output/public/blog/_payload.json"
   },
-  "/ajanlatkeres/index.html": {
+  "/blog/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"96d0-aJXApiK2aMrxkqefeLqWb/ROyls\"",
-    "mtime": "2024-05-28T16:08:29.488Z",
-    "size": 38608,
-    "path": "../../.output/public/ajanlatkeres/index.html"
+    "etag": "\"83e3-/t+jiPEhC3oblKTgrNHbiQQvRfM\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 33763,
+    "path": "../../.output/public/blog/index.html"
   },
-  "/dokumentumok/_payload.json": {
+  "/betathome/_payload.json": {
     "type": "application/json",
-    "etag": "\"3e-4lZSHlUfjHwAbi9+Gb/co7fT4Pc\"",
-    "mtime": "2024-05-28T16:08:29.613Z",
+    "etag": "\"3e-i0zXe9TyFnFu7T5UMXneuIHJjPg\"",
+    "mtime": "2024-06-30T22:23:44.201Z",
     "size": 62,
-    "path": "../../.output/public/dokumentumok/_payload.json"
+    "path": "../../.output/public/betathome/_payload.json"
   },
-  "/dokumentumok/index.html": {
+  "/betathome/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"973d-rjz7hxkbNePrb64RcsBXp3Cx17E\"",
-    "mtime": "2024-05-28T16:08:29.487Z",
-    "size": 38717,
-    "path": "../../.output/public/dokumentumok/index.html"
+    "etag": "\"8c02-pOdx1MbgNDzPu8OlR8PJvme2O5I\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 35842,
+    "path": "../../.output/public/betathome/index.html"
   },
-  "/gepjarmu-biztositas/_payload.json": {
+  "/bankonbet/_payload.json": {
     "type": "application/json",
-    "etag": "\"3e-4lZSHlUfjHwAbi9+Gb/co7fT4Pc\"",
-    "mtime": "2024-05-28T16:08:29.625Z",
+    "etag": "\"3e-i0zXe9TyFnFu7T5UMXneuIHJjPg\"",
+    "mtime": "2024-06-30T22:23:45.719Z",
     "size": 62,
-    "path": "../../.output/public/gepjarmu-biztositas/_payload.json"
+    "path": "../../.output/public/bankonbet/_payload.json"
   },
-  "/gepjarmu-biztositas/index.html": {
+  "/bankonbet/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"b007-4ggFIVuW0ejh0hXGi6M/XwBKOg0\"",
-    "mtime": "2024-05-28T16:08:29.487Z",
-    "size": 45063,
-    "path": "../../.output/public/gepjarmu-biztositas/index.html"
+    "etag": "\"8cc5-//bl6d2XVHAlA07qZy0D0A6v3LU\"",
+    "mtime": "2024-06-30T22:23:44.020Z",
+    "size": 36037,
+    "path": "../../.output/public/bankonbet/index.html"
   },
-  "/adatvedelmi-tajekoztato/_payload.json": {
+  "/bet365/_payload.json": {
     "type": "application/json",
-    "etag": "\"3e-OFUahb7ePKV0tL7qBzanTnIUmMg\"",
-    "mtime": "2024-05-28T16:08:30.492Z",
+    "etag": "\"3e-i0zXe9TyFnFu7T5UMXneuIHJjPg\"",
+    "mtime": "2024-06-30T22:23:44.099Z",
     "size": 62,
-    "path": "../../.output/public/adatvedelmi-tajekoztato/_payload.json"
+    "path": "../../.output/public/bet365/_payload.json"
   },
-  "/adatvedelmi-tajekoztato/index.html": {
+  "/bet365/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"ea76-DLgVAF4ddssNNMmmdNR9/9W2oBw\"",
-    "mtime": "2024-05-28T16:08:29.487Z",
-    "size": 60022,
-    "path": "../../.output/public/adatvedelmi-tajekoztato/index.html"
+    "etag": "\"8c08-ZgLnk9ZKgV7GbnTwd54t4K/GjDo\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 35848,
+    "path": "../../.output/public/bet365/index.html"
   },
-  "/kapcsolat/_payload.json": {
+  "/bwin/_payload.json": {
     "type": "application/json",
-    "etag": "\"3e-4lZSHlUfjHwAbi9+Gb/co7fT4Pc\"",
-    "mtime": "2024-05-28T16:08:29.625Z",
+    "etag": "\"3e-i0zXe9TyFnFu7T5UMXneuIHJjPg\"",
+    "mtime": "2024-06-30T22:23:44.099Z",
     "size": 62,
-    "path": "../../.output/public/kapcsolat/_payload.json"
+    "path": "../../.output/public/bwin/_payload.json"
   },
-  "/kapcsolat/index.html": {
+  "/bwin/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"96c1-frYGmtiEawArkSNKe2tSoqhsQpg\"",
-    "mtime": "2024-05-28T16:08:29.487Z",
-    "size": 38593,
-    "path": "../../.output/public/kapcsolat/index.html"
+    "etag": "\"8b4c-JrIXAg5lSVgDA7N/yPugPH5RxGw\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 35660,
+    "path": "../../.output/public/bwin/index.html"
   },
-  "/karbejentes/_payload.json": {
+  "/die-besten-wettanbiete/_payload.json": {
     "type": "application/json",
-    "etag": "\"3e-4lZSHlUfjHwAbi9+Gb/co7fT4Pc\"",
-    "mtime": "2024-05-28T16:08:29.610Z",
+    "etag": "\"3e-i0zXe9TyFnFu7T5UMXneuIHJjPg\"",
+    "mtime": "2024-06-30T22:23:44.777Z",
     "size": 62,
-    "path": "../../.output/public/karbejentes/_payload.json"
+    "path": "../../.output/public/die-besten-wettanbiete/_payload.json"
   },
-  "/karbejentes/index.html": {
+  "/die-besten-wettanbiete/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"a5bf-TnV5NSjakUI1ArKH2+dOfhHaY1c\"",
-    "mtime": "2024-05-28T16:08:29.487Z",
-    "size": 42431,
-    "path": "../../.output/public/karbejentes/index.html"
+    "etag": "\"843d-i/VaefLCb3RjSz2vzZ0wfJ06w78\"",
+    "mtime": "2024-06-30T22:23:44.020Z",
+    "size": 33853,
+    "path": "../../.output/public/die-besten-wettanbiete/index.html"
   },
-  "/partnerek/_payload.json": {
+  "/euro-2024/_payload.json": {
     "type": "application/json",
-    "etag": "\"3e-4lZSHlUfjHwAbi9+Gb/co7fT4Pc\"",
-    "mtime": "2024-05-28T16:08:30.492Z",
+    "etag": "\"3e-i0zXe9TyFnFu7T5UMXneuIHJjPg\"",
+    "mtime": "2024-06-30T22:23:44.201Z",
     "size": 62,
-    "path": "../../.output/public/partnerek/_payload.json"
+    "path": "../../.output/public/euro-2024/_payload.json"
   },
-  "/partnerek/index.html": {
+  "/euro-2024/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"a9aa-EaV3StZjJVPBFXNAiPyTnFOMEEU\"",
-    "mtime": "2024-05-28T16:08:29.488Z",
-    "size": 43434,
-    "path": "../../.output/public/partnerek/index.html"
+    "etag": "\"83fc-wpkrhy38GPPxUKeQt+FkPGQV3AQ\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 33788,
+    "path": "../../.output/public/euro-2024/index.html"
   },
-  "/rendezvenyszolgalat/_payload.json": {
+  "/great-win/_payload.json": {
     "type": "application/json",
-    "etag": "\"3e-4lZSHlUfjHwAbi9+Gb/co7fT4Pc\"",
-    "mtime": "2024-05-28T16:08:29.610Z",
+    "etag": "\"3e-xn11kkPFZAJgqgHfB3A1ZTR7dUE\"",
+    "mtime": "2024-06-30T22:23:44.099Z",
     "size": 62,
-    "path": "../../.output/public/rendezvenyszolgalat/_payload.json"
+    "path": "../../.output/public/great-win/_payload.json"
   },
-  "/rendezvenyszolgalat/index.html": {
+  "/great-win/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"a99f-9KfT/9WfNl5Gr1DuoiN7Zy1eUPc\"",
-    "mtime": "2024-05-28T16:08:29.487Z",
-    "size": 43423,
-    "path": "../../.output/public/rendezvenyszolgalat/index.html"
+    "etag": "\"8b87-XovWjF5MKxp3qh/v9mNUsuuTYW0\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 35719,
+    "path": "../../.output/public/great-win/index.html"
   },
-  "/szemelyes-tanacsadas/_payload.json": {
+  "/interwetten/_payload.json": {
     "type": "application/json",
-    "etag": "\"3e-4lZSHlUfjHwAbi9+Gb/co7fT4Pc\"",
-    "mtime": "2024-05-28T16:08:29.625Z",
+    "etag": "\"3e-xn11kkPFZAJgqgHfB3A1ZTR7dUE\"",
+    "mtime": "2024-06-30T22:23:44.201Z",
     "size": 62,
-    "path": "../../.output/public/szemelyes-tanacsadas/_payload.json"
+    "path": "../../.output/public/interwetten/_payload.json"
   },
-  "/szemelyes-tanacsadas/index.html": {
+  "/interwetten/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"a837-M9c1feRhZQje9wbprcQka7iNQeU\"",
-    "mtime": "2024-05-28T16:08:29.487Z",
-    "size": 43063,
-    "path": "../../.output/public/szemelyes-tanacsadas/index.html"
+    "etag": "\"8a99-vJqTxf4W6UrieuaCg57pkC2h7GQ\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 35481,
+    "path": "../../.output/public/interwetten/index.html"
   },
-  "/tanulobiztositas/_payload.json": {
+  "/fudball-news/_payload.json": {
     "type": "application/json",
-    "etag": "\"3e-4lZSHlUfjHwAbi9+Gb/co7fT4Pc\"",
-    "mtime": "2024-05-28T16:08:29.627Z",
+    "etag": "\"3e-xn11kkPFZAJgqgHfB3A1ZTR7dUE\"",
+    "mtime": "2024-06-30T22:23:44.201Z",
     "size": 62,
-    "path": "../../.output/public/tanulobiztositas/_payload.json"
+    "path": "../../.output/public/fudball-news/_payload.json"
   },
-  "/tanulobiztositas/index.html": {
+  "/fudball-news/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"a9e6-KyfoN+FeV+4f4RUtHqGnv1J4kec\"",
-    "mtime": "2024-05-28T16:08:29.487Z",
-    "size": 43494,
-    "path": "../../.output/public/tanulobiztositas/index.html"
+    "etag": "\"840d-b2uBMTWetiaj07rlNLGnJOlDDDg\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 33805,
+    "path": "../../.output/public/fudball-news/index.html"
   },
-  "/utasbiztositas/_payload.json": {
+  "/libranet/_payload.json": {
     "type": "application/json",
-    "etag": "\"3e-4lZSHlUfjHwAbi9+Gb/co7fT4Pc\"",
-    "mtime": "2024-05-28T16:08:30.494Z",
+    "etag": "\"3e-xn11kkPFZAJgqgHfB3A1ZTR7dUE\"",
+    "mtime": "2024-06-30T22:23:44.099Z",
     "size": 62,
-    "path": "../../.output/public/utasbiztositas/_payload.json"
+    "path": "../../.output/public/libranet/_payload.json"
   },
-  "/utasbiztositas/index.html": {
+  "/libranet/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"aa09-mIPfwcvCaaSaqQ8e9zS4RdDObLU\"",
-    "mtime": "2024-05-28T16:08:29.487Z",
-    "size": 43529,
-    "path": "../../.output/public/utasbiztositas/index.html"
+    "etag": "\"8b39-yZZle+Ow2aVJQ2M61tMdRjrpwMc\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 35641,
+    "path": "../../.output/public/libranet/index.html"
   },
-  "/szolgaltatasok/_payload.json": {
+  "/nomini/_payload.json": {
     "type": "application/json",
-    "etag": "\"3e-4lZSHlUfjHwAbi9+Gb/co7fT4Pc\"",
-    "mtime": "2024-05-28T16:08:29.610Z",
+    "etag": "\"3e-xn11kkPFZAJgqgHfB3A1ZTR7dUE\"",
+    "mtime": "2024-06-30T22:23:44.201Z",
     "size": 62,
-    "path": "../../.output/public/szolgaltatasok/_payload.json"
+    "path": "../../.output/public/nomini/_payload.json"
   },
-  "/szolgaltatasok/index.html": {
+  "/nomini/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"b239-i+iiyLevf0yy0iyKhuVTKRzppq8\"",
-    "mtime": "2024-05-28T16:08:29.487Z",
-    "size": 45625,
-    "path": "../../.output/public/szolgaltatasok/index.html"
+    "etag": "\"8bd9-psHNpzj+WO/2TNeeZYqSg+KyDJ8\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 35801,
+    "path": "../../.output/public/nomini/index.html"
   },
-  "/_ipx/_/img/btn-arrow.svg": {
+  "/prontobet/_payload.json": {
+    "type": "application/json",
+    "etag": "\"3e-xn11kkPFZAJgqgHfB3A1ZTR7dUE\"",
+    "mtime": "2024-06-30T22:23:44.777Z",
+    "size": 62,
+    "path": "../../.output/public/prontobet/_payload.json"
+  },
+  "/prontobet/index.html": {
+    "type": "text/html; charset=utf-8",
+    "etag": "\"8ad3-S/J6nK+C2RW7b1SK5iK2iaAOKso\"",
+    "mtime": "2024-06-30T22:23:44.020Z",
+    "size": 35539,
+    "path": "../../.output/public/prontobet/index.html"
+  },
+  "/rabona/_payload.json": {
+    "type": "application/json",
+    "etag": "\"3e-xn11kkPFZAJgqgHfB3A1ZTR7dUE\"",
+    "mtime": "2024-06-30T22:23:44.100Z",
+    "size": 62,
+    "path": "../../.output/public/rabona/_payload.json"
+  },
+  "/rabona/index.html": {
+    "type": "text/html; charset=utf-8",
+    "etag": "\"90e5-+f2Q2W+/46MvFSd9er8/boY3x5M\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 37093,
+    "path": "../../.output/public/rabona/index.html"
+  },
+  "/select-bet/_payload.json": {
+    "type": "application/json",
+    "etag": "\"3e-xn11kkPFZAJgqgHfB3A1ZTR7dUE\"",
+    "mtime": "2024-06-30T22:23:44.099Z",
+    "size": 62,
+    "path": "../../.output/public/select-bet/_payload.json"
+  },
+  "/select-bet/index.html": {
+    "type": "text/html; charset=utf-8",
+    "etag": "\"8b2a-1o4ASebZ/X48gG+e2rHXlOod7oM\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 35626,
+    "path": "../../.output/public/select-bet/index.html"
+  },
+  "/spinanga/_payload.json": {
+    "type": "application/json",
+    "etag": "\"3e-xn11kkPFZAJgqgHfB3A1ZTR7dUE\"",
+    "mtime": "2024-06-30T22:23:44.201Z",
+    "size": 62,
+    "path": "../../.output/public/spinanga/_payload.json"
+  },
+  "/spinanga/index.html": {
+    "type": "text/html; charset=utf-8",
+    "etag": "\"8ad9-O8ZytYpZv15am6aoJSbJS4ujmRU\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 35545,
+    "path": "../../.output/public/spinanga/index.html"
+  },
+  "/sport-wetten/_payload.json": {
+    "type": "application/json",
+    "etag": "\"3e-xn11kkPFZAJgqgHfB3A1ZTR7dUE\"",
+    "mtime": "2024-06-30T22:23:44.777Z",
+    "size": 62,
+    "path": "../../.output/public/sport-wetten/_payload.json"
+  },
+  "/sport-wetten/index.html": {
+    "type": "text/html; charset=utf-8",
+    "etag": "\"8c42-E6ROgKUZsjuOf/zGXKl2MLfe0Ls\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 35906,
+    "path": "../../.output/public/sport-wetten/index.html"
+  },
+  "/sportwetten-tipps/_payload.json": {
+    "type": "application/json",
+    "etag": "\"3e-xn11kkPFZAJgqgHfB3A1ZTR7dUE\"",
+    "mtime": "2024-06-30T22:23:44.201Z",
+    "size": 62,
+    "path": "../../.output/public/sportwetten-tipps/_payload.json"
+  },
+  "/sportwetten-tipps/index.html": {
+    "type": "text/html; charset=utf-8",
+    "etag": "\"8424-I44afFcuDlMAswTQ3lxHzw0zaOc\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 33828,
+    "path": "../../.output/public/sportwetten-tipps/index.html"
+  },
+  "/tipico/_payload.json": {
+    "type": "application/json",
+    "etag": "\"3e-xn11kkPFZAJgqgHfB3A1ZTR7dUE\"",
+    "mtime": "2024-06-30T22:23:44.201Z",
+    "size": 62,
+    "path": "../../.output/public/tipico/_payload.json"
+  },
+  "/tipico/index.html": {
+    "type": "text/html; charset=utf-8",
+    "etag": "\"8c07-kqWzPkaTuk5h8jV9iSkbCXrwIJc\"",
+    "mtime": "2024-06-30T22:23:44.019Z",
+    "size": 35847,
+    "path": "../../.output/public/tipico/index.html"
+  },
+  "/_ipx/_/img/slider3.webp": {
+    "type": "image/webp",
+    "etag": "\"501de-SOrxY3g48mWmeEx/JqKz5Vxx8dQ\"",
+    "mtime": "2024-06-30T22:23:46.753Z",
+    "size": 328158,
+    "path": "../../.output/public/_ipx/_/img/slider3.webp"
+  },
+  "/_ipx/_/img/whatsapp.svg": {
     "type": "image/svg+xml",
-    "etag": "\"bb-m827/cCffKTBNzLWjiJTX8uHPeI\"",
-    "mtime": "2024-05-28T16:08:30.186Z",
-    "size": 187,
-    "path": "../../.output/public/_ipx/_/img/btn-arrow.svg"
+    "etag": "\"5a4-2XDz1UYtklYIISy4cCpyPqFjov0\"",
+    "mtime": "2024-06-30T22:23:45.418Z",
+    "size": 1444,
+    "path": "../../.output/public/_ipx/_/img/whatsapp.svg"
   },
-  "/_ipx/_/img/blog/blog.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"51b2-MDoIxq73hWT7k3mc8n4M6zs1VhY\"",
-    "mtime": "2024-05-28T16:08:30.534Z",
-    "size": 20914,
-    "path": "../../.output/public/_ipx/_/img/blog/blog.jpg"
+  "/_ipx/_/img/footer/digitalSeed.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"1b5d-s5NwOCcqJrzTGP9aLWgolT7HjS4\"",
+    "mtime": "2024-06-30T22:23:44.778Z",
+    "size": 7005,
+    "path": "../../.output/public/_ipx/_/img/footer/digitalSeed.svg"
   },
-  "/_ipx/_/img/blog/blog2.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"514e-ofVJmY9YPaWDACOhZP0WGE1Y7K0\"",
-    "mtime": "2024-05-28T16:08:30.533Z",
-    "size": 20814,
-    "path": "../../.output/public/_ipx/_/img/blog/blog2.jpg"
+  "/_ipx/_/img/footer/facebook.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"158-CdOgm3QFCdetjvIF6kEPcFt4cQk\"",
+    "mtime": "2024-06-30T22:23:45.402Z",
+    "size": 344,
+    "path": "../../.output/public/_ipx/_/img/footer/facebook.svg"
   },
-  "/_ipx/_/img/blog/blog3.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"2dd3-9OtSdDXMAisHkaOankzR1qtN1Tw\"",
-    "mtime": "2024-05-28T16:08:30.540Z",
-    "size": 11731,
-    "path": "../../.output/public/_ipx/_/img/blog/blog3.jpg"
+  "/_ipx/_/img/footer/instagram.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"bbd-zFIVBe9dS8rCYqtanaC4BdhEfF8\"",
+    "mtime": "2024-06-30T22:23:45.320Z",
+    "size": 3005,
+    "path": "../../.output/public/_ipx/_/img/footer/instagram.svg"
   },
   "/_ipx/_/img/footer/logo.svg": {
     "type": "image/svg+xml",
-    "etag": "\"86d76-i4qVgqixSx+sferOjfFt1G4q0h4\"",
-    "mtime": "2024-05-28T16:08:30.186Z",
-    "size": 552310,
+    "etag": "\"1ed95-YLGW7kTGy5hk4V4+tV1r3FcDxlE\"",
+    "mtime": "2024-06-30T22:23:44.903Z",
+    "size": 126357,
     "path": "../../.output/public/_ipx/_/img/footer/logo.svg"
   },
-  "/_ipx/_/img/header/facebook.svg": {
+  "/_ipx/_/img/footer/youtube.svg": {
     "type": "image/svg+xml",
-    "etag": "\"189-Xb21P+8amlvF6wlBooC4jUTqFKg\"",
-    "mtime": "2024-05-28T16:08:30.353Z",
-    "size": 393,
-    "path": "../../.output/public/_ipx/_/img/header/facebook.svg"
+    "etag": "\"307-kCp5q8fVPwW6CXvyI0rTsgIpRR8\"",
+    "mtime": "2024-06-30T22:23:45.320Z",
+    "size": 775,
+    "path": "../../.output/public/_ipx/_/img/footer/youtube.svg"
   },
   "/_ipx/_/img/header/logo.svg": {
     "type": "image/svg+xml",
-    "etag": "\"86b7f-gz8Qzsy61la82X7rjCj4XNwEYwQ\"",
-    "mtime": "2024-05-28T16:08:30.217Z",
-    "size": 551807,
+    "etag": "\"1ee04-drfzJU2b0/uSs9lMRYSgoBIuEqg\"",
+    "mtime": "2024-06-30T22:23:45.403Z",
+    "size": 126468,
     "path": "../../.output/public/_ipx/_/img/header/logo.svg"
   },
-  "/_ipx/_/img/header/mail.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"104-ZQfMo8anrWXHoFogpxNPhhfzXNg\"",
-    "mtime": "2024-05-28T16:08:30.354Z",
-    "size": 260,
-    "path": "../../.output/public/_ipx/_/img/header/mail.svg"
+  "/_ipx/_/img/game-analysis/game-analysis.png": {
+    "type": "image/png",
+    "etag": "\"e742-X8zwS380tzkd5eLUmh/tpiY3vu0\"",
+    "mtime": "2024-06-30T22:23:45.751Z",
+    "size": 59202,
+    "path": "../../.output/public/_ipx/_/img/game-analysis/game-analysis.png"
   },
-  "/_ipx/_/img/header/mobile.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"418-h4TLxiOyR5f7Eps3ulkRoWRFmxY\"",
-    "mtime": "2024-05-28T16:08:30.372Z",
-    "size": 1048,
-    "path": "../../.output/public/_ipx/_/img/header/mobile.svg"
+  "/_ipx/_/img/game-analysis/game-analysis2.png": {
+    "type": "image/png",
+    "etag": "\"3f662-r1giUasVGsFUhtrVznDTBP728+A\"",
+    "mtime": "2024-06-30T22:23:45.765Z",
+    "size": 259682,
+    "path": "../../.output/public/_ipx/_/img/game-analysis/game-analysis2.png"
   },
-  "/_ipx/_/img/slider/about-r.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"ba-3DlD28QqwkWq/aHxhypF/gXBbE4\"",
-    "mtime": "2024-05-28T16:08:30.186Z",
-    "size": 186,
-    "path": "../../.output/public/_ipx/_/img/slider/about-r.svg"
+  "/_ipx/_/img/game-analysis/game-analysis3.png": {
+    "type": "image/png",
+    "etag": "\"49a05-npzihtMRl/bbPxZfg2XrrmyN+sw\"",
+    "mtime": "2024-06-30T22:23:45.766Z",
+    "size": 301573,
+    "path": "../../.output/public/_ipx/_/img/game-analysis/game-analysis3.png"
   },
-  "/_ipx/_/img/slider/arrow-l.svg": {
+  "/_ipx/_/img/online-betting/like.svg": {
     "type": "image/svg+xml",
-    "etag": "\"e7-HH+m0uQWoYbfucixh0mE8T9N/TU\"",
-    "mtime": "2024-05-28T16:08:30.184Z",
-    "size": 231,
-    "path": "../../.output/public/_ipx/_/img/slider/arrow-l.svg"
+    "etag": "\"cc-Slx4z737vgpT2bLQYzXQuTbT2Co\"",
+    "mtime": "2024-06-30T22:23:45.409Z",
+    "size": 204,
+    "path": "../../.output/public/_ipx/_/img/online-betting/like.svg"
   },
-  "/_ipx/_/img/slider/arrow-r.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"e6-5hZ09/ed+vcPbSXlJ4x1wXleuBY\"",
-    "mtime": "2024-05-28T16:08:30.186Z",
-    "size": 230,
-    "path": "../../.output/public/_ipx/_/img/slider/arrow-r.svg"
-  },
-  "/_ipx/_/img/subpage-services/gepjarmubiztositas.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"98c-9oyL8GIIW7AyGPPRHGV66pT+hcY\"",
-    "mtime": "2024-05-28T16:08:30.342Z",
-    "size": 2444,
-    "path": "../../.output/public/_ipx/_/img/subpage-services/gepjarmubiztositas.svg"
-  },
-  "/_ipx/_/img/subpage-services/karbejelentes.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"f47-KGCk+4iTcnRjNbw2d/9RZ+37UcU\"",
-    "mtime": "2024-05-28T16:08:30.341Z",
-    "size": 3911,
-    "path": "../../.output/public/_ipx/_/img/subpage-services/karbejelentes.svg"
-  },
-  "/_ipx/_/img/subpage-services/rendezveny_biztositas.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"7eb-f3vgYS0t3YnHzuJ2mv8m/PaVUuY\"",
-    "mtime": "2024-05-28T16:08:30.347Z",
-    "size": 2027,
-    "path": "../../.output/public/_ipx/_/img/subpage-services/rendezveny_biztositas.svg"
-  },
-  "/_ipx/_/img/subpage-services/szemelyes_tanacsadas.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"916-NbxVXMBY8MurJ78giWhs3/9ZS8E\"",
-    "mtime": "2024-05-28T16:08:30.185Z",
-    "size": 2326,
-    "path": "../../.output/public/_ipx/_/img/subpage-services/szemelyes_tanacsadas.svg"
-  },
-  "/_ipx/_/img/subpage-services/tanulobiztositas.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"770-Odh/nac0Vul+aA8AtllweRiRa9I\"",
-    "mtime": "2024-05-28T16:08:30.185Z",
-    "size": 1904,
-    "path": "../../.output/public/_ipx/_/img/subpage-services/tanulobiztositas.svg"
-  },
-  "/_ipx/_/img/subpage-services/utazasbiztositas.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"bf9-JQj16Qn/a57i2EvKngpXoieaGg0\"",
-    "mtime": "2024-05-28T16:08:30.535Z",
-    "size": 3065,
-    "path": "../../.output/public/_ipx/_/img/subpage-services/utazasbiztositas.svg"
-  },
-  "/_ipx/_/img/services/gepjarmubiztositas.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"88e-7DjCixS8LPannl4PvJqdKYPcdQ0\"",
-    "mtime": "2024-05-28T16:08:30.341Z",
-    "size": 2190,
-    "path": "../../.output/public/_ipx/_/img/services/gepjarmubiztositas.svg"
-  },
-  "/_ipx/_/img/services/karbejelentes.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"e42-QOSQtP9f80Ma6U8XvFmYdQfy2Lg\"",
-    "mtime": "2024-05-28T16:08:30.341Z",
-    "size": 3650,
-    "path": "../../.output/public/_ipx/_/img/services/karbejelentes.svg"
-  },
-  "/_ipx/_/img/services/rendezveny_biztositas.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"729-nHJE0ac3HM4o09nNjdjNRckw+qw\"",
-    "mtime": "2024-05-28T16:08:30.342Z",
-    "size": 1833,
-    "path": "../../.output/public/_ipx/_/img/services/rendezveny_biztositas.svg"
-  },
-  "/_ipx/_/img/services/szemelyes_tanacsadas.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"883-mQTty8Yseis2kTTcuCzXDjkkQnU\"",
-    "mtime": "2024-05-28T16:08:30.341Z",
-    "size": 2179,
-    "path": "../../.output/public/_ipx/_/img/services/szemelyes_tanacsadas.svg"
-  },
-  "/_ipx/_/img/services/tanulobiztositas.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"6d7-arxf8rOAFaRaMsUQfTMvjSqbauo\"",
-    "mtime": "2024-05-28T16:08:30.341Z",
-    "size": 1751,
-    "path": "../../.output/public/_ipx/_/img/services/tanulobiztositas.svg"
-  },
-  "/_ipx/_/img/services/utazasbiztositas.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"b2f-wI9UvavLgYk3WqAfM33P8hCbF8k\"",
-    "mtime": "2024-05-28T16:08:30.238Z",
-    "size": 2863,
-    "path": "../../.output/public/_ipx/_/img/services/utazasbiztositas.svg"
-  },
-  "/_ipx/_/img/partners/bottom.webp": {
+  "/_ipx/_/img/online-betting/online-betting.webp": {
     "type": "image/webp",
-    "etag": "\"109f4-df5HcG5rJHKXlpB+n/AEC3KbDpA\"",
-    "mtime": "2024-05-28T16:08:30.782Z",
-    "size": 68084,
-    "path": "../../.output/public/_ipx/_/img/partners/bottom.webp"
+    "etag": "\"1818-98omYavDcEj8TjWaUufdSvOUfOs\"",
+    "mtime": "2024-06-30T22:23:45.423Z",
+    "size": 6168,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting.webp"
   },
-  "/_ipx/_/img/partners/partners.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"921a-668/iE/HtUHeV5Cijym8CdAui2A\"",
-    "mtime": "2024-05-28T16:08:30.185Z",
-    "size": 37402,
-    "path": "../../.output/public/_ipx/_/img/partners/partners.svg"
-  },
-  "/_ipx/_/img/partners/partners10.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"2845-ASvn8AuoRUHrb+WXIjRbbgVQLVY\"",
-    "mtime": "2024-05-28T16:08:30.390Z",
-    "size": 10309,
-    "path": "../../.output/public/_ipx/_/img/partners/partners10.svg"
-  },
-  "/_ipx/_/img/partners/partners11.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"eca3-6d2+9B1Lc/FiZcSFMDqGrKjMe4w\"",
-    "mtime": "2024-05-28T16:08:30.523Z",
-    "size": 60579,
-    "path": "../../.output/public/_ipx/_/img/partners/partners11.svg"
-  },
-  "/_ipx/_/img/partners/partners12.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"3fd9-bZ929ob8La9de5AIebWkrBGJVqk\"",
-    "mtime": "2024-05-28T16:08:30.528Z",
-    "size": 16345,
-    "path": "../../.output/public/_ipx/_/img/partners/partners12.svg"
-  },
-  "/_ipx/_/img/partners/partners13.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"3b44-T08Lf2neKLZ0sefskYkrE6WHFCg\"",
-    "mtime": "2024-05-28T16:08:30.528Z",
-    "size": 15172,
-    "path": "../../.output/public/_ipx/_/img/partners/partners13.svg"
-  },
-  "/_ipx/_/img/partners/partners14.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"f7f5-8YUj0Yv5RBiTQ7xl9Uceek2bLuc\"",
-    "mtime": "2024-05-28T16:08:30.528Z",
-    "size": 63477,
-    "path": "../../.output/public/_ipx/_/img/partners/partners14.svg"
-  },
-  "/_ipx/_/img/partners/partners2.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"6d2c-2NOjtvSGkmA+YVo6lx5IIllgeNU\"",
-    "mtime": "2024-05-28T16:08:30.353Z",
-    "size": 27948,
-    "path": "../../.output/public/_ipx/_/img/partners/partners2.svg"
-  },
-  "/_ipx/_/img/partners/partners3.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"36b9-+G4kPLy0g0UQw+YjcsdEXxvDOXc\"",
-    "mtime": "2024-05-28T16:08:30.353Z",
-    "size": 14009,
-    "path": "../../.output/public/_ipx/_/img/partners/partners3.svg"
-  },
-  "/_ipx/_/img/partners/partners4.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"21c70-QLdEafd4YfmPDrPCQexmWRIpIYQ\"",
-    "mtime": "2024-05-28T16:08:30.354Z",
-    "size": 138352,
-    "path": "../../.output/public/_ipx/_/img/partners/partners4.svg"
-  },
-  "/_ipx/_/img/partners/partners5.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"2528-OisRdUqPKA+H/h1xD/Ys9uOgwu0\"",
-    "mtime": "2024-05-28T16:08:30.374Z",
-    "size": 9512,
-    "path": "../../.output/public/_ipx/_/img/partners/partners5.svg"
-  },
-  "/_ipx/_/img/partners/partners6.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"2817c-A3faEO0++I971lzmBddDyVeaitM\"",
-    "mtime": "2024-05-28T16:08:30.390Z",
-    "size": 164220,
-    "path": "../../.output/public/_ipx/_/img/partners/partners6.svg"
-  },
-  "/_ipx/_/img/partners/partners7.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"2ed3-CgO69/3QAk7Bv4dMmB/1gXjlqMQ\"",
-    "mtime": "2024-05-28T16:08:30.375Z",
-    "size": 11987,
-    "path": "../../.output/public/_ipx/_/img/partners/partners7.svg"
-  },
-  "/_ipx/_/img/partners/partners8.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"2356-3PIT4qk5FjZiGhQbHU2r8uoYBEA\"",
-    "mtime": "2024-05-28T16:08:30.375Z",
-    "size": 9046,
-    "path": "../../.output/public/_ipx/_/img/partners/partners8.svg"
-  },
-  "/_ipx/_/img/partners/partners9.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"8d58-NSSn2KXGk5Z1UbJaskiqxuXvQEg\"",
-    "mtime": "2024-05-28T16:08:30.390Z",
-    "size": 36184,
-    "path": "../../.output/public/_ipx/_/img/partners/partners9.svg"
-  },
-  "/_ipx/_/img/partners/right-arrow.svg": {
-    "type": "image/svg+xml",
-    "etag": "\"b8-48CzO2Hv52HuEIb0EDDNDRcZrLQ\"",
-    "mtime": "2024-05-28T16:08:30.272Z",
-    "size": 184,
-    "path": "../../.output/public/_ipx/_/img/partners/right-arrow.svg"
-  },
-  "/_ipx/f_webp/img/slider/slider.webp": {
+  "/_ipx/_/img/online-betting/online-betting10.webp": {
     "type": "image/webp",
-    "etag": "\"151c0-9W3vbBs3GPaviX+q+I2FEiyNJsI\"",
-    "mtime": "2024-05-28T16:08:30.573Z",
-    "size": 86464,
-    "path": "../../.output/public/_ipx/f_webp/img/slider/slider.webp"
+    "etag": "\"26e0-L5OaOxSJNfNZuIM8Doj5B0sk8Wk\"",
+    "mtime": "2024-06-30T22:23:45.738Z",
+    "size": 9952,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting10.webp"
+  },
+  "/_ipx/_/img/online-betting/online-betting11.webp": {
+    "type": "image/webp",
+    "etag": "\"202c-g269h0pE4rym33FjxN5bStiEisI\"",
+    "mtime": "2024-06-30T22:23:45.752Z",
+    "size": 8236,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting11.webp"
+  },
+  "/_ipx/_/img/online-betting/online-betting12.webp": {
+    "type": "image/webp",
+    "etag": "\"162a-uC9t8uC7zSIoTepfDx+Y/cYCCrM\"",
+    "mtime": "2024-06-30T22:23:45.751Z",
+    "size": 5674,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting12.webp"
+  },
+  "/_ipx/_/img/online-betting/online-betting13.webp": {
+    "type": "image/webp",
+    "etag": "\"1e40-4cmtSfhW4vsVEKH1fjlBJueYQ7Q\"",
+    "mtime": "2024-06-30T22:23:45.753Z",
+    "size": 7744,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting13.webp"
+  },
+  "/_ipx/_/img/online-betting/online-betting14.webp": {
+    "type": "image/webp",
+    "etag": "\"1e08-IVRI/GSgxNqm81c51pCELvI6aCk\"",
+    "mtime": "2024-06-30T22:23:45.764Z",
+    "size": 7688,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting14.webp"
+  },
+  "/_ipx/_/img/online-betting/online-betting15.webp": {
+    "type": "image/webp",
+    "etag": "\"1ede-dQ61m2WVyr+u1af7nrpwSKIkE88\"",
+    "mtime": "2024-06-30T22:23:45.765Z",
+    "size": 7902,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting15.webp"
+  },
+  "/_ipx/_/img/online-betting/online-betting2.webp": {
+    "type": "image/webp",
+    "etag": "\"1e52-y1Vs19oZLcNFMJeXB3ydmoYEzLo\"",
+    "mtime": "2024-06-30T22:23:45.651Z",
+    "size": 7762,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting2.webp"
+  },
+  "/_ipx/_/img/online-betting/online-betting3.webp": {
+    "type": "image/webp",
+    "etag": "\"1174-VfpfXaflQ5jBhX5fIsEdQAf/yOY\"",
+    "mtime": "2024-06-30T22:23:45.422Z",
+    "size": 4468,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting3.webp"
+  },
+  "/_ipx/_/img/online-betting/online-betting4.webp": {
+    "type": "image/webp",
+    "etag": "\"6490-uNOLkkaQRvSgr0SOXc4TFjWyak0\"",
+    "mtime": "2024-06-30T22:23:45.723Z",
+    "size": 25744,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting4.webp"
+  },
+  "/_ipx/_/img/online-betting/online-betting5.webp": {
+    "type": "image/webp",
+    "etag": "\"d66-XFN2qWigt3L5LHH+q/wJaXnv/hE\"",
+    "mtime": "2024-06-30T22:23:45.738Z",
+    "size": 3430,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting5.webp"
+  },
+  "/_ipx/_/img/online-betting/online-betting6.webp": {
+    "type": "image/webp",
+    "etag": "\"2cba-hb3l0QI6WgmNTMgpQMW/NnCccLE\"",
+    "mtime": "2024-06-30T22:23:45.738Z",
+    "size": 11450,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting6.webp"
+  },
+  "/_ipx/_/img/online-betting/online-betting7.webp": {
+    "type": "image/webp",
+    "etag": "\"1f3e-BqB1FludkaJ2aDlS9d+gKTQaDEs\"",
+    "mtime": "2024-06-30T22:23:45.738Z",
+    "size": 7998,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting7.webp"
+  },
+  "/_ipx/_/img/online-betting/online-betting8.webp": {
+    "type": "image/webp",
+    "etag": "\"2858-aXdFCR00vynmYM+WJspHKWk5DSw\"",
+    "mtime": "2024-06-30T22:23:45.738Z",
+    "size": 10328,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting8.webp"
+  },
+  "/_ipx/_/img/online-betting/online-betting9.webp": {
+    "type": "image/webp",
+    "etag": "\"391a-HwIW/7ms9JasyVl0jgN5So8PNLw\"",
+    "mtime": "2024-06-30T22:23:45.745Z",
+    "size": 14618,
+    "path": "../../.output/public/_ipx/_/img/online-betting/online-betting9.webp"
+  },
+  "/_ipx/_/img/subpage/20bet.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"187d0-2hPxyrDgq3gTbR5uG55oiKPJAEQ\"",
+    "mtime": "2024-06-30T22:23:45.403Z",
+    "size": 100304,
+    "path": "../../.output/public/_ipx/_/img/subpage/20bet.svg"
+  },
+  "/_ipx/_/img/subpage/bankonbet.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"407a-/jRqdZ8D1/gR/2473sGr5RztCWw\"",
+    "mtime": "2024-06-30T22:23:45.766Z",
+    "size": 16506,
+    "path": "../../.output/public/_ipx/_/img/subpage/bankonbet.svg"
+  },
+  "/_ipx/_/img/subpage/bet-at-home.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"deef-C8gIzE2Z4Q9M49SMHrCiGEZkKfI\"",
+    "mtime": "2024-06-30T22:23:44.777Z",
+    "size": 57071,
+    "path": "../../.output/public/_ipx/_/img/subpage/bet-at-home.svg"
+  },
+  "/_ipx/_/img/subpage/bet365.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"cad8-8bDqg0hWUoeKAIKJoO/C8W741+c\"",
+    "mtime": "2024-06-30T22:23:45.405Z",
+    "size": 51928,
+    "path": "../../.output/public/_ipx/_/img/subpage/bet365.svg"
+  },
+  "/_ipx/_/img/subpage/bwin.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"2504f-Dfkt1uHeiNlR3fUm5uRYUMvm7sI\"",
+    "mtime": "2024-06-30T22:23:44.778Z",
+    "size": 151631,
+    "path": "../../.output/public/_ipx/_/img/subpage/bwin.svg"
+  },
+  "/_ipx/_/img/subpage/great-win.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"2553e-on5SQNMaLeM2FBpzjf8k9f0Ys7M\"",
+    "mtime": "2024-06-30T22:23:44.780Z",
+    "size": 152894,
+    "path": "../../.output/public/_ipx/_/img/subpage/great-win.svg"
+  },
+  "/_ipx/_/img/subpage/interwetten.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"11efb-IaxuWY0g9eIEGuWDeyRb+tZaQjc\"",
+    "mtime": "2024-06-30T22:23:44.777Z",
+    "size": 73467,
+    "path": "../../.output/public/_ipx/_/img/subpage/interwetten.svg"
+  },
+  "/_ipx/_/img/subpage/libranet.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"2589-lAw5zjtoKHplBQXGGo0pcehjeHM\"",
+    "mtime": "2024-06-30T22:23:44.780Z",
+    "size": 9609,
+    "path": "../../.output/public/_ipx/_/img/subpage/libranet.svg"
+  },
+  "/_ipx/_/img/subpage/nomini.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"13d0a7-GMjWAoR4nC0wJMwE8aNgnX+5VF8\"",
+    "mtime": "2024-06-30T22:23:45.403Z",
+    "size": 1298599,
+    "path": "../../.output/public/_ipx/_/img/subpage/nomini.svg"
+  },
+  "/_ipx/_/img/subpage/prontobet.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"2f2b-h100xXmgAJ+iCej0QXoWBxfrVMc\"",
+    "mtime": "2024-06-30T22:23:45.409Z",
+    "size": 12075,
+    "path": "../../.output/public/_ipx/_/img/subpage/prontobet.svg"
+  },
+  "/_ipx/_/img/subpage/rabona.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"802e-6GBuAyFsAgxr0Bxw26tOBxS57do\"",
+    "mtime": "2024-06-30T22:23:44.780Z",
+    "size": 32814,
+    "path": "../../.output/public/_ipx/_/img/subpage/rabona.svg"
+  },
+  "/_ipx/_/img/subpage/select-bet.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"1f79-TwwefSA34geIY+A4x3WtRWZGZ80\"",
+    "mtime": "2024-06-30T22:23:44.780Z",
+    "size": 8057,
+    "path": "../../.output/public/_ipx/_/img/subpage/select-bet.svg"
+  },
+  "/_ipx/_/img/subpage/spinanga.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"114fc0-5DSagm9RRnb1NFsQU2Akm97jzfY\"",
+    "mtime": "2024-06-30T22:23:45.403Z",
+    "size": 1134528,
+    "path": "../../.output/public/_ipx/_/img/subpage/spinanga.svg"
+  },
+  "/_ipx/_/img/subpage/sport-wetten.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"13849-fqvakviIEQXAOoqlYBSZOE0s8Bc\"",
+    "mtime": "2024-06-30T22:23:45.403Z",
+    "size": 79945,
+    "path": "../../.output/public/_ipx/_/img/subpage/sport-wetten.svg"
+  },
+  "/_ipx/_/img/subpage/tipico.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"81b10-lFeiSoNZiNwTpYm7/JW/GFTz5cw\"",
+    "mtime": "2024-06-30T22:23:44.903Z",
+    "size": 531216,
+    "path": "../../.output/public/_ipx/_/img/subpage/tipico.svg"
+  },
+  "/_ipx/_/img/game-analysis/svg/1.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"9fc-g6TyRlumt4eAC/YvhP1X0Om6UyM\"",
+    "mtime": "2024-06-30T22:23:45.766Z",
+    "size": 2556,
+    "path": "../../.output/public/_ipx/_/img/game-analysis/svg/1.svg"
+  },
+  "/_ipx/_/img/game-analysis/svg/2.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"6cd-TWQVzGGUAy//PsZ2EM1hkyruZA0\"",
+    "mtime": "2024-06-30T22:23:45.753Z",
+    "size": 1741,
+    "path": "../../.output/public/_ipx/_/img/game-analysis/svg/2.svg"
+  },
+  "/_ipx/_/img/game-analysis/svg/3.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"ab8-PD/A4mDVgFdE8zMA3chhuGrwBRI\"",
+    "mtime": "2024-06-30T22:23:45.765Z",
+    "size": 2744,
+    "path": "../../.output/public/_ipx/_/img/game-analysis/svg/3.svg"
+  },
+  "/_ipx/_/img/game-analysis/svg/4.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"1b2c-7hWzeBhp4FyiPBupbIYuzwVvX7g\"",
+    "mtime": "2024-06-30T22:23:45.765Z",
+    "size": 6956,
+    "path": "../../.output/public/_ipx/_/img/game-analysis/svg/4.svg"
+  },
+  "/_ipx/_/img/game-analysis/svg/5.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"605-49nOwmA9H5DJBE4LL1m2HnjlL0U\"",
+    "mtime": "2024-06-30T22:23:45.765Z",
+    "size": 1541,
+    "path": "../../.output/public/_ipx/_/img/game-analysis/svg/5.svg"
+  },
+  "/_ipx/_/img/game-analysis/svg/6.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"4b1-s4CsTVYDaylZ+DbkQI/+KCzVfMU\"",
+    "mtime": "2024-06-30T22:23:45.765Z",
+    "size": 1201,
+    "path": "../../.output/public/_ipx/_/img/game-analysis/svg/6.svg"
+  },
+  "/_ipx/_/img/game-analysis/svg/7.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"4ec-/4Z+pJEwdewZTGUmn6TBUx4edAM\"",
+    "mtime": "2024-06-30T22:23:45.766Z",
+    "size": 1260,
+    "path": "../../.output/public/_ipx/_/img/game-analysis/svg/7.svg"
   }
 };
 
@@ -1733,7 +1901,7 @@ const _f4b49z = eventHandler((event) => {
   return readAsset(id);
 });
 
-const _QYJG1p = defineEventHandler(async (e) => {
+const _H1x7zM = defineEventHandler(async (e) => {
   if (e.context.siteConfig)
     return;
   const runtimeConfig = useRuntimeConfig(e);
@@ -1854,7 +2022,7 @@ function useSimpleSitemapRuntimeConfig(e) {
   return Object.freeze(clone);
 }
 
-const _uJCM4u = defineEventHandler(async (e) => {
+const _0GNDTb = defineEventHandler(async (e) => {
   const fixPath = createSitePathResolver(e, { absolute: false, withBase: true });
   const { sitemapName: fallbackSitemapName, cacheMaxAgeSeconds, version, xslColumns, xslTips } = useSimpleSitemapRuntimeConfig();
   setHeader(e, "Content-Type", "application/xslt+xml");
@@ -2744,7 +2912,7 @@ async function createSitemap(e, definition, runtimeConfig) {
   return sitemap;
 }
 
-const _P3NzWK = defineEventHandler(async (e) => {
+const _icozHi = defineEventHandler(async (e) => {
   const runtimeConfig = useSimpleSitemapRuntimeConfig();
   const { sitemaps } = runtimeConfig;
   if ("index" in sitemaps) {
@@ -2790,7 +2958,7 @@ const send = (async (body, options, transport) => {
 });
 
 const transport = nodemailer.createTransport(options.smtp);
-const _R12dxX = defineEventHandler(async event => {
+const _fj8JTY = defineEventHandler(async event => {
   try {
     await send(await readBody(event), options, transport);
   } catch (error) {
@@ -2802,7 +2970,7 @@ const _R12dxX = defineEventHandler(async event => {
   return '';
 });
 
-const _2tKUKK = lazyEventHandler(() => {
+const _ZxKgWF = lazyEventHandler(() => {
   const opts = useRuntimeConfig().ipx || {};
   const fsDir = opts?.fs?.dir ? (Array.isArray(opts.fs.dir) ? opts.fs.dir : [opts.fs.dir]).map((dir) => isAbsolute(dir) ? dir : fileURLToPath(new URL(dir, globalThis._importMeta_.url))) : void 0;
   const fsStorage = opts.fs?.dir ? ipxFSStorage({ ...opts.fs, dir: fsDir }) : void 0;
@@ -2820,16 +2988,16 @@ const _2tKUKK = lazyEventHandler(() => {
   return useBase(opts.baseURL, ipxHandler);
 });
 
-const _lazy_aLS80g = () => import('./build/renderer.mjs');
+const _lazy_IWcnsJ = () => import('./build/renderer.mjs');
 
 const handlers = [
   { route: '', handler: _f4b49z, lazy: false, middleware: true, method: undefined },
-  { route: '', handler: _QYJG1p, lazy: false, middleware: true, method: undefined },
-  { route: '/__sitemap__/style.xsl', handler: _uJCM4u, lazy: false, middleware: false, method: undefined },
-  { route: '/sitemap.xml', handler: _P3NzWK, lazy: false, middleware: false, method: undefined },
-  { route: '/mail/send', handler: _R12dxX, lazy: false, middleware: false, method: "post" },
-  { route: '/_ipx/**', handler: _2tKUKK, lazy: false, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_aLS80g, lazy: true, middleware: false, method: undefined }
+  { route: '', handler: _H1x7zM, lazy: false, middleware: true, method: undefined },
+  { route: '/__sitemap__/style.xsl', handler: _0GNDTb, lazy: false, middleware: false, method: undefined },
+  { route: '/sitemap.xml', handler: _icozHi, lazy: false, middleware: false, method: undefined },
+  { route: '/mail/send', handler: _fj8JTY, lazy: false, middleware: false, method: "post" },
+  { route: '/_ipx/**', handler: _ZxKgWF, lazy: false, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_IWcnsJ, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {

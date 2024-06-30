@@ -1,0 +1,1 @@
+import{u as t,c as s,o,a as e}from"./qDMn1aps.js";const n={class:"supage-content position-relative"},a=e("h2",{class:"supage-content__h2"},"Sportwetten-Tipps",-1),c=e("p",null,"wird hochgeladen...",-1),p=[a,c],d={__name:"sportwetten-tipps",setup(_){return t({title:"Sportwetten-Tipps"}),(i,r)=>(o(),s("div",n,p))}};export{d as default};

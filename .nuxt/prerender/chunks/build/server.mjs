@@ -1,31 +1,31 @@
-import { version, ref, watchEffect, watch, getCurrentInstance, defineComponent, computed, h, provide, shallowReactive, inject, Suspense, nextTick, Transition, createElementBlock, unref, resolveComponent, useSSRContext, createApp, effectScope, reactive, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, hasInjectionContext, toRef, shallowRef, isReadonly, isRef, isShallow, isReactive, toRaw, defineAsyncComponent, mergeProps, withCtx, openBlock, createBlock, Fragment, createTextVNode, toDisplayString } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/vue/index.mjs';
-import { $fetch as $fetch$1 } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/ofetch/dist/node.mjs';
-import { createHooks } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/hookable/dist/index.mjs';
-import { getContext } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/unctx/dist/index.mjs';
-import { appendHeader, createError as createError$1, sanitizeStatusCode } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/h3/dist/index.mjs';
-import { getActiveHead } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/unhead/dist/index.mjs';
-import { defineHeadPlugin, composableNames } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/@unhead/shared/dist/index.mjs';
-import { RouterView, createMemoryHistory, createRouter, START_LOCATION, useRoute as useRoute$1 } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/vue-router/dist/vue-router.node.mjs';
-import { toRouteMatcher, createRouter as createRouter$1 } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/radix3/dist/index.mjs';
-import { defu } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/defu/dist/defu.mjs';
-import { encodeParam, hasProtocol, joinURL, parseURL, parseQuery, withLeadingSlash, withQuery, isScriptProtocol, withTrailingSlash, withoutTrailingSlash, encodePath } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/ufo/dist/index.mjs';
-import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode, ssrRenderAttrs, ssrRenderClass, ssrRenderList, ssrInterpolate, ssrRenderAttr } from 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/vue/server-renderer/index.mjs';
+import { version, ref, watchEffect, watch, getCurrentInstance, defineComponent, computed, h, provide, shallowReactive, inject, Suspense, nextTick, Transition, unref, resolveComponent, useSSRContext, createApp, effectScope, reactive, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, hasInjectionContext, toRef, shallowRef, isReadonly, isRef, isShallow, isReactive, toRaw, defineAsyncComponent, mergeProps, withCtx, openBlock, createBlock, Fragment, createTextVNode, toDisplayString } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/vue/index.mjs';
+import { $fetch as $fetch$1 } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/ofetch/dist/node.mjs';
+import { createHooks } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/hookable/dist/index.mjs';
+import { getContext } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/unctx/dist/index.mjs';
+import { appendHeader, createError as createError$1, sanitizeStatusCode } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/h3/dist/index.mjs';
+import { getActiveHead } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/unhead/dist/index.mjs';
+import { defineHeadPlugin, composableNames } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/@unhead/shared/dist/index.mjs';
+import { RouterView, createMemoryHistory, createRouter, START_LOCATION, useRoute as useRoute$1 } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/vue-router/dist/vue-router.node.mjs';
+import { toRouteMatcher, createRouter as createRouter$1 } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/radix3/dist/index.mjs';
+import { defu } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/defu/dist/defu.mjs';
+import { hasProtocol, joinURL, parseURL, parseQuery, encodeParam, withLeadingSlash, withQuery, isScriptProtocol, withTrailingSlash, withoutTrailingSlash, encodePath } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/ufo/dist/index.mjs';
+import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode, ssrRenderAttrs, ssrRenderClass, ssrRenderList, ssrInterpolate } from 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/vue/server-renderer/index.mjs';
 import { a as useRuntimeConfig$1 } from '../runtime.mjs';
-import 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/destr/dist/index.mjs';
-import 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/unenv/runtime/fetch/index.mjs';
-import 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/klona/dist/index.mjs';
-import 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/scule/dist/index.mjs';
-import 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/ohash/dist/index.mjs';
-import 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/unstorage/dist/index.mjs';
-import 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/unstorage/drivers/fs.mjs';
-import 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js';
-import 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/unstorage/drivers/fs-lite.mjs';
+import 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/destr/dist/index.mjs';
+import 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/unenv/runtime/fetch/index.mjs';
+import 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/klona/dist/index.mjs';
+import 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/scule/dist/index.mjs';
+import 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/ohash/dist/index.mjs';
+import 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/unstorage/dist/index.mjs';
+import 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/unstorage/drivers/fs.mjs';
+import 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js';
+import 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/unstorage/drivers/fs-lite.mjs';
 import 'node:fs';
 import 'node:url';
-import 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/pathe/dist/index.mjs';
-import 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/nodemailer/lib/nodemailer.js';
-import 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/@dword-design/functions/dist/index.js';
-import 'file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/ipx/dist/index.mjs';
+import 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/pathe/dist/index.mjs';
+import 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/nodemailer/lib/nodemailer.js';
+import 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/@dword-design/functions/dist/index.js';
+import 'file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/ipx/dist/index.mjs';
 
 const appConfig = useRuntimeConfig$1().app;
 const baseURL = () => appConfig.baseURL;
@@ -581,36 +581,84 @@ async function getRouteRules(url) {
 }
 const _routes = [
   {
-    name: "adatvedelmi-tajekoztato",
-    path: "/adatvedelmi-tajekoztato",
+    name: "20bet",
+    path: "/20bet",
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./adatvedelmi-tajekoztato-BY4n2D0_.mjs').then((m) => m.default || m)
+    component: () => import('./20bet-C72T76PU.mjs').then((m) => m.default || m)
   },
   {
-    name: "ajanlatkeres",
-    path: "/ajanlatkeres",
+    name: "bankonbet",
+    path: "/bankonbet",
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./ajanlatkeres-FzSFzq4W.mjs').then((m) => m.default || m)
+    component: () => import('./bankonbet-G2FnPhET.mjs').then((m) => m.default || m)
   },
   {
-    name: "dokumentumok",
-    path: "/dokumentumok",
+    name: "bet365",
+    path: "/bet365",
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./dokumentumok-B0A3sARh.mjs').then((m) => m.default || m)
+    component: () => import('./bet365-C1gsr7sU.mjs').then((m) => m.default || m)
   },
   {
-    name: "gepjarmu-biztositas",
-    path: "/gepjarmu-biztositas",
+    name: "betathome",
+    path: "/betathome",
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./gepjarmu-biztositas-BGdt0dnn.mjs').then((m) => m.default || m)
+    component: () => import('./betathome-BlLVtspn.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "blog",
+    path: "/blog",
+    meta: {},
+    alias: [],
+    redirect: void 0 ,
+    component: () => import('./blog-CFDEJQDG.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "bwin",
+    path: "/bwin",
+    meta: {},
+    alias: [],
+    redirect: void 0 ,
+    component: () => import('./bwin-DXzEOVgO.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "die-besten-wettanbiete",
+    path: "/die-besten-wettanbiete",
+    meta: {},
+    alias: [],
+    redirect: void 0 ,
+    component: () => import('./die-besten-wettanbiete-BoSizcC7.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "euro-2024",
+    path: "/euro-2024",
+    meta: {},
+    alias: [],
+    redirect: void 0 ,
+    component: () => import('./euro-2024-D-PfUzI1.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "fudball-news",
+    path: "/fudball-news",
+    meta: {},
+    alias: [],
+    redirect: void 0 ,
+    component: () => import('./fudball-news-pWCQe_Qo.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "great-win",
+    path: "/great-win",
+    meta: {},
+    alias: [],
+    redirect: void 0 ,
+    component: () => import('./great-win-wvit_BhN.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -618,71 +666,87 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-DWI9i9_U.mjs').then((m) => m.default || m)
+    component: () => import('./index-Bq9PAyzE.mjs').then((m) => m.default || m)
   },
   {
-    name: "kapcsolat",
-    path: "/kapcsolat",
+    name: "interwetten",
+    path: "/interwetten",
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./kapcsolat-Bn1j1YjQ.mjs').then((m) => m.default || m)
+    component: () => import('./interwetten-CXLtBa0b.mjs').then((m) => m.default || m)
   },
   {
-    name: "karbejentes",
-    path: "/karbejentes",
+    name: "libranet",
+    path: "/libranet",
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./karbejentes-BIfCvgqh.mjs').then((m) => m.default || m)
+    component: () => import('./libranet-B_L2eB6z.mjs').then((m) => m.default || m)
   },
   {
-    name: "partnerek",
-    path: "/partnerek",
+    name: "nomini",
+    path: "/nomini",
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./partnerek-DUwCiWiL.mjs').then((m) => m.default || m)
+    component: () => import('./nomini-C2qxscMJ.mjs').then((m) => m.default || m)
   },
   {
-    name: "rendezvenyszolgalat",
-    path: "/rendezvenyszolgalat",
+    name: "prontobet",
+    path: "/prontobet",
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./rendezvenyszolgalat-Ds7kF9eD.mjs').then((m) => m.default || m)
+    component: () => import('./prontobet-DWRwTNED.mjs').then((m) => m.default || m)
   },
   {
-    name: "szemelyes-tanacsadas",
-    path: "/szemelyes-tanacsadas",
+    name: "rabona",
+    path: "/rabona",
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./szemelyes-tanacsadas-BDY8TdU8.mjs').then((m) => m.default || m)
+    component: () => import('./rabona-BaOc-lZb.mjs').then((m) => m.default || m)
   },
   {
-    name: "szolgaltatasok",
-    path: "/szolgaltatasok",
+    name: "select-bet",
+    path: "/select-bet",
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./szolgaltatasok-CzDrK35Y.mjs').then((m) => m.default || m)
+    component: () => import('./select-bet-DXuYh9eM.mjs').then((m) => m.default || m)
   },
   {
-    name: "tanulobiztositas",
-    path: "/tanulobiztositas",
+    name: "spinanga",
+    path: "/spinanga",
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./tanulobiztositas-CiL2u010.mjs').then((m) => m.default || m)
+    component: () => import('./spinanga-Qzel--cx.mjs').then((m) => m.default || m)
   },
   {
-    name: "utasbiztositas",
-    path: "/utasbiztositas",
+    name: "sport-wetten",
+    path: "/sport-wetten",
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./utasbiztositas-k9ji3Xml.mjs').then((m) => m.default || m)
+    component: () => import('./sport-wetten-w0hA_m5a.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "sportwetten-tipps",
+    path: "/sportwetten-tipps",
+    meta: {},
+    alias: [],
+    redirect: void 0 ,
+    component: () => import('./sportwetten-tipps-Dy-Gl20x.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "tipico",
+    path: "/tipico",
+    meta: {},
+    alias: [],
+    redirect: void 0 ,
+    component: () => import('./tipico-BNT3ffYh.mjs').then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -1074,6 +1138,216 @@ const plugins = [
   components_plugin_KR1HBZs4kY,
   plugin_nuxt3_gGdllsjxuZ
 ];
+const firstNonUndefined = (...args) => args.find((arg) => arg !== void 0);
+// @__NO_SIDE_EFFECTS__
+function defineNuxtLink(options) {
+  const componentName = options.componentName || "NuxtLink";
+  function resolveTrailingSlashBehavior(to, resolve) {
+    if (!to || options.trailingSlash !== "append" && options.trailingSlash !== "remove") {
+      return to;
+    }
+    if (typeof to === "string") {
+      return applyTrailingSlashBehavior(to, options.trailingSlash);
+    }
+    const path = "path" in to && to.path !== void 0 ? to.path : resolve(to).path;
+    const resolvedPath = {
+      ...to,
+      name: void 0,
+      // named routes would otherwise always override trailing slash behavior
+      path: applyTrailingSlashBehavior(path, options.trailingSlash)
+    };
+    return resolvedPath;
+  }
+  return defineComponent({
+    name: componentName,
+    props: {
+      // Routing
+      to: {
+        type: [String, Object],
+        default: void 0,
+        required: false
+      },
+      href: {
+        type: [String, Object],
+        default: void 0,
+        required: false
+      },
+      // Attributes
+      target: {
+        type: String,
+        default: void 0,
+        required: false
+      },
+      rel: {
+        type: String,
+        default: void 0,
+        required: false
+      },
+      noRel: {
+        type: Boolean,
+        default: void 0,
+        required: false
+      },
+      // Prefetching
+      prefetch: {
+        type: Boolean,
+        default: void 0,
+        required: false
+      },
+      noPrefetch: {
+        type: Boolean,
+        default: void 0,
+        required: false
+      },
+      // Styling
+      activeClass: {
+        type: String,
+        default: void 0,
+        required: false
+      },
+      exactActiveClass: {
+        type: String,
+        default: void 0,
+        required: false
+      },
+      prefetchedClass: {
+        type: String,
+        default: void 0,
+        required: false
+      },
+      // Vue Router's `<RouterLink>` additional props
+      replace: {
+        type: Boolean,
+        default: void 0,
+        required: false
+      },
+      ariaCurrentValue: {
+        type: String,
+        default: void 0,
+        required: false
+      },
+      // Edge cases handling
+      external: {
+        type: Boolean,
+        default: void 0,
+        required: false
+      },
+      // Slot API
+      custom: {
+        type: Boolean,
+        default: void 0,
+        required: false
+      }
+    },
+    setup(props, { slots }) {
+      const router = useRouter();
+      const config = /* @__PURE__ */ useRuntimeConfig();
+      const to = computed(() => {
+        const path = props.to || props.href || "";
+        return resolveTrailingSlashBehavior(path, router.resolve);
+      });
+      const isAbsoluteUrl = computed(() => typeof to.value === "string" && hasProtocol(to.value, { acceptRelative: true }));
+      const hasTarget = computed(() => props.target && props.target !== "_self");
+      const isExternal = computed(() => {
+        if (props.external) {
+          return true;
+        }
+        if (hasTarget.value) {
+          return true;
+        }
+        if (typeof to.value === "object") {
+          return false;
+        }
+        return to.value === "" || isAbsoluteUrl.value;
+      });
+      const prefetched = ref(false);
+      const el = void 0;
+      const elRef = void 0;
+      return () => {
+        var _a, _b;
+        if (!isExternal.value) {
+          const routerLinkProps = {
+            ref: elRef,
+            to: to.value,
+            activeClass: props.activeClass || options.activeClass,
+            exactActiveClass: props.exactActiveClass || options.exactActiveClass,
+            replace: props.replace,
+            ariaCurrentValue: props.ariaCurrentValue,
+            custom: props.custom
+          };
+          if (!props.custom) {
+            if (prefetched.value) {
+              routerLinkProps.class = props.prefetchedClass || options.prefetchedClass;
+            }
+            routerLinkProps.rel = props.rel || void 0;
+          }
+          return h(
+            resolveComponent("RouterLink"),
+            routerLinkProps,
+            slots.default
+          );
+        }
+        const href = typeof to.value === "object" ? ((_a = router.resolve(to.value)) == null ? void 0 : _a.href) ?? null : to.value && !props.external && !isAbsoluteUrl.value ? resolveTrailingSlashBehavior(joinURL(config.app.baseURL, to.value), router.resolve) : to.value || null;
+        const target = props.target || null;
+        const rel = firstNonUndefined(
+          // converts `""` to `null` to prevent the attribute from being added as empty (`rel=""`)
+          props.noRel ? "" : props.rel,
+          options.externalRelAttribute,
+          /*
+          * A fallback rel of `noopener noreferrer` is applied for external links or links that open in a new tab.
+          * This solves a reverse tabnapping security flaw in browsers pre-2021 as well as improving privacy.
+          */
+          isAbsoluteUrl.value || hasTarget.value ? "noopener noreferrer" : ""
+        ) || null;
+        if (props.custom) {
+          if (!slots.default) {
+            return null;
+          }
+          const navigate = () => navigateTo(href, { replace: props.replace, external: props.external });
+          return slots.default({
+            href,
+            navigate,
+            get route() {
+              if (!href) {
+                return void 0;
+              }
+              const url = parseURL(href);
+              return {
+                path: url.pathname,
+                fullPath: url.pathname,
+                get query() {
+                  return parseQuery(url.search);
+                },
+                hash: url.hash,
+                params: {},
+                name: void 0,
+                matched: [],
+                redirectedFrom: void 0,
+                meta: {},
+                href
+              };
+            },
+            rel,
+            target,
+            isExternal: isExternal.value,
+            isActive: false,
+            isExactActive: false
+          });
+        }
+        return h("a", { ref: el, href, rel, target }, (_b = slots.default) == null ? void 0 : _b.call(slots));
+      };
+    }
+  });
+}
+const __nuxt_component_0$2 = /* @__PURE__ */ defineNuxtLink(nuxtLinkDefaults);
+function applyTrailingSlashBehavior(to, trailingSlash) {
+  const normalizeFn = trailingSlash === "append" ? withTrailingSlash : withoutTrailingSlash;
+  const hasProtocolDifferentFromHttp = hasProtocol(to) && !to.startsWith("http");
+  if (hasProtocolDifferentFromHttp) {
+    return to;
+  }
+  return normalizeFn(to, true);
+}
 async function imageMeta(_ctx, url) {
   const meta = await _imageMeta(url).catch((err) => {
     console.error("Failed to get image meta for " + url, err + "");
@@ -1087,7 +1361,7 @@ async function imageMeta(_ctx, url) {
 }
 async function _imageMeta(url) {
   {
-    const imageMeta2 = await import('file:///Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/image-meta/dist/index.mjs').then((r) => r.imageMeta);
+    const imageMeta2 = await import('file:///Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/image-meta/dist/index.mjs').then((r) => r.imageMeta);
     const data = await fetch(url).then((res) => res.buffer());
     const metadata = imageMeta2(data);
     if (!metadata) {
@@ -1430,7 +1704,7 @@ const getImage = (src, { modifiers = {}, baseURL: baseURL2 } = {}, ctx) => {
 };
 const validateDomains = true;
 const supportsAlias = true;
-const ipxStaticRuntime$VIx2Y50Odf = /* @__PURE__ */ Object.freeze({
+const ipxStaticRuntime$gCboewdzuc = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   getImage,
   supportsAlias,
@@ -1459,7 +1733,7 @@ const imageOptions = {
   ]
 };
 imageOptions.providers = {
-  ["ipxStatic"]: { provider: ipxStaticRuntime$VIx2Y50Odf, defaults: {} }
+  ["ipxStatic"]: { provider: ipxStaticRuntime$gCboewdzuc, defaults: {} }
 };
 const useImage = () => {
   const config = /* @__PURE__ */ useRuntimeConfig();
@@ -1557,7 +1831,7 @@ const imgProps = {
   placeholder: { type: [Boolean, String, Number, Array], default: void 0 },
   placeholderClass: { type: String, default: void 0 }
 };
-const __nuxt_component_0$2 = defineComponent({
+const __nuxt_component_0$1 = defineComponent({
   name: "NuxtImg",
   props: imgProps,
   emits: ["load", "error"],
@@ -1638,246 +1912,81 @@ const __nuxt_component_0$2 = defineComponent({
     });
   }
 });
-const firstNonUndefined = (...args) => args.find((arg) => arg !== void 0);
-// @__NO_SIDE_EFFECTS__
-function defineNuxtLink(options) {
-  const componentName = options.componentName || "NuxtLink";
-  function resolveTrailingSlashBehavior(to, resolve) {
-    if (!to || options.trailingSlash !== "append" && options.trailingSlash !== "remove") {
-      return to;
-    }
-    if (typeof to === "string") {
-      return applyTrailingSlashBehavior(to, options.trailingSlash);
-    }
-    const path = "path" in to && to.path !== void 0 ? to.path : resolve(to).path;
-    const resolvedPath = {
-      ...to,
-      name: void 0,
-      // named routes would otherwise always override trailing slash behavior
-      path: applyTrailingSlashBehavior(path, options.trailingSlash)
-    };
-    return resolvedPath;
-  }
-  return defineComponent({
-    name: componentName,
-    props: {
-      // Routing
-      to: {
-        type: [String, Object],
-        default: void 0,
-        required: false
-      },
-      href: {
-        type: [String, Object],
-        default: void 0,
-        required: false
-      },
-      // Attributes
-      target: {
-        type: String,
-        default: void 0,
-        required: false
-      },
-      rel: {
-        type: String,
-        default: void 0,
-        required: false
-      },
-      noRel: {
-        type: Boolean,
-        default: void 0,
-        required: false
-      },
-      // Prefetching
-      prefetch: {
-        type: Boolean,
-        default: void 0,
-        required: false
-      },
-      noPrefetch: {
-        type: Boolean,
-        default: void 0,
-        required: false
-      },
-      // Styling
-      activeClass: {
-        type: String,
-        default: void 0,
-        required: false
-      },
-      exactActiveClass: {
-        type: String,
-        default: void 0,
-        required: false
-      },
-      prefetchedClass: {
-        type: String,
-        default: void 0,
-        required: false
-      },
-      // Vue Router's `<RouterLink>` additional props
-      replace: {
-        type: Boolean,
-        default: void 0,
-        required: false
-      },
-      ariaCurrentValue: {
-        type: String,
-        default: void 0,
-        required: false
-      },
-      // Edge cases handling
-      external: {
-        type: Boolean,
-        default: void 0,
-        required: false
-      },
-      // Slot API
-      custom: {
-        type: Boolean,
-        default: void 0,
-        required: false
-      }
-    },
-    setup(props, { slots }) {
-      const router = useRouter();
-      const config = /* @__PURE__ */ useRuntimeConfig();
-      const to = computed(() => {
-        const path = props.to || props.href || "";
-        return resolveTrailingSlashBehavior(path, router.resolve);
-      });
-      const isAbsoluteUrl = computed(() => typeof to.value === "string" && hasProtocol(to.value, { acceptRelative: true }));
-      const hasTarget = computed(() => props.target && props.target !== "_self");
-      const isExternal = computed(() => {
-        if (props.external) {
-          return true;
-        }
-        if (hasTarget.value) {
-          return true;
-        }
-        if (typeof to.value === "object") {
-          return false;
-        }
-        return to.value === "" || isAbsoluteUrl.value;
-      });
-      const prefetched = ref(false);
-      const el = void 0;
-      const elRef = void 0;
-      return () => {
-        var _a, _b;
-        if (!isExternal.value) {
-          const routerLinkProps = {
-            ref: elRef,
-            to: to.value,
-            activeClass: props.activeClass || options.activeClass,
-            exactActiveClass: props.exactActiveClass || options.exactActiveClass,
-            replace: props.replace,
-            ariaCurrentValue: props.ariaCurrentValue,
-            custom: props.custom
-          };
-          if (!props.custom) {
-            if (prefetched.value) {
-              routerLinkProps.class = props.prefetchedClass || options.prefetchedClass;
-            }
-            routerLinkProps.rel = props.rel || void 0;
-          }
-          return h(
-            resolveComponent("RouterLink"),
-            routerLinkProps,
-            slots.default
-          );
-        }
-        const href = typeof to.value === "object" ? ((_a = router.resolve(to.value)) == null ? void 0 : _a.href) ?? null : to.value && !props.external && !isAbsoluteUrl.value ? resolveTrailingSlashBehavior(joinURL(config.app.baseURL, to.value), router.resolve) : to.value || null;
-        const target = props.target || null;
-        const rel = firstNonUndefined(
-          // converts `""` to `null` to prevent the attribute from being added as empty (`rel=""`)
-          props.noRel ? "" : props.rel,
-          options.externalRelAttribute,
-          /*
-          * A fallback rel of `noopener noreferrer` is applied for external links or links that open in a new tab.
-          * This solves a reverse tabnapping security flaw in browsers pre-2021 as well as improving privacy.
-          */
-          isAbsoluteUrl.value || hasTarget.value ? "noopener noreferrer" : ""
-        ) || null;
-        if (props.custom) {
-          if (!slots.default) {
-            return null;
-          }
-          const navigate = () => navigateTo(href, { replace: props.replace, external: props.external });
-          return slots.default({
-            href,
-            navigate,
-            get route() {
-              if (!href) {
-                return void 0;
-              }
-              const url = parseURL(href);
-              return {
-                path: url.pathname,
-                fullPath: url.pathname,
-                get query() {
-                  return parseQuery(url.search);
-                },
-                hash: url.hash,
-                params: {},
-                name: void 0,
-                matched: [],
-                redirectedFrom: void 0,
-                meta: {},
-                href
-              };
-            },
-            rel,
-            target,
-            isExternal: isExternal.value,
-            isActive: false,
-            isExactActive: false
-          });
-        }
-        return h("a", { ref: el, href, rel, target }, (_b = slots.default) == null ? void 0 : _b.call(slots));
-      };
-    }
-  });
-}
-const __nuxt_component_0$1 = /* @__PURE__ */ defineNuxtLink(nuxtLinkDefaults);
-function applyTrailingSlashBehavior(to, trailingSlash) {
-  const normalizeFn = trailingSlash === "append" ? withTrailingSlash : withoutTrailingSlash;
-  const hasProtocolDifferentFromHttp = hasProtocol(to) && !to.startsWith("http");
-  if (hasProtocolDifferentFromHttp) {
-    return to;
-  }
-  return normalizeFn(to, true);
-}
 const _sfc_main$4 = {
   __name: "AppHeader",
   __ssrInlineRender: true,
   setup(__props) {
+    const route = useRoute$1();
+    const specialPaths = [
+      "/euro-2024",
+      "/sportwetten-tipps",
+      "/die-besten-wettanbiete",
+      "/fudball-news",
+      "/blog",
+      "/rabona",
+      "/bankonbet",
+      "/libranet",
+      "/spinanga",
+      "/nomini",
+      "/sport-wetten",
+      "/bwin",
+      "/betathome",
+      "/interwetten",
+      "/prontobet",
+      "/20bet",
+      "/select-bet",
+      "/tipico",
+      "/bet365",
+      "/great-win"
+    ];
+    const isSpecialPage = computed(() => specialPaths.includes(route.path));
     const links = [
-      { name: "Főoldal", path: "/" },
-      { name: "Partnerek", path: "/partnerek" },
-      { name: "Szolgáltatások", path: "/szolgaltatasok" },
-      { name: "Dokumentumok", path: "/dokumentumok" },
-      { name: "Ajánlatkérés", path: "/ajanlatkeres" },
-      { name: "Kapcsolat", path: "/kapcsolat" },
-      { name: "Facebook", path: "/", imagePath: "/img/header/facebook.svg" }
+      { name: "Home", path: "/" },
+      { name: "Euro 2024", path: "/euro-2024" },
+      { name: "Sportwetten-Tipps", path: "/sportwetten-tipps" },
+      { name: "Die besten Wettanbieter", path: "/die-besten-wettanbiete" },
+      { name: "Fußball News", path: "/fudball-news" },
+      { name: "Blog", path: "/blog" }
     ];
     const isMenuOpen = ref(false);
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_NuxtImg = __nuxt_component_0$2;
-      const _component_NuxtLink = __nuxt_component_0$1;
-      _push(`<header${ssrRenderAttrs(mergeProps({ class: "header" }, _attrs))}><div class="header-content d-flex"><div class="logo-box header-content__logo-box"><a href="/" class="header-content__logo-box__link">`);
-      _push(ssrRenderComponent(_component_NuxtImg, {
-        src: "/img/header/logo.svg",
-        alt: "Biztos Alkuszom",
-        class: "header-content__logo-box__link__img",
-        height: "100%"
-      }, null, _parent));
-      _push(`</a></div><div class="nav-box header-content__nav-box d-flex"><button class="${ssrRenderClass([{ open: unref(isMenuOpen) }, "hamburger"])}"><div class="bar"></div><div class="bar"></div><div class="bar"></div></button><nav class="${ssrRenderClass({ "menu--open": unref(isMenuOpen), menu: true })}" id="menu"><ul id="menu__list" class="menu__list d-flex"><!--[-->`);
+      const _component_NuxtLink = __nuxt_component_0$2;
+      const _component_NuxtImg = __nuxt_component_0$1;
+      _push(`<header${ssrRenderAttrs(mergeProps({ class: "header pr" }, _attrs))}><div class="${ssrRenderClass([
+        "header-content d-flex",
+        { "header-content-bg-special": isSpecialPage.value }
+      ])}"><div class="logo-box header-content__logo-box">`);
+      _push(ssrRenderComponent(_component_NuxtLink, {
+        to: "/",
+        class: "header-content__logo-box__link"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(ssrRenderComponent(_component_NuxtImg, {
+              src: "/img/header/logo.svg",
+              alt: "Sport wetten",
+              class: "header-content__logo-box__link__img"
+            }, null, _parent2, _scopeId));
+          } else {
+            return [
+              createVNode(_component_NuxtImg, {
+                src: "/img/header/logo.svg",
+                alt: "Sport wetten",
+                class: "header-content__logo-box__link__img"
+              })
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</div><div class="nav-box header-content__nav-box d-flex"><button class="${ssrRenderClass([{ open: isMenuOpen.value }, "hamburger"])}"><div class="bar"></div><div class="bar"></div><div class="bar"></div></button><nav class="${ssrRenderClass({ "menu--open": isMenuOpen.value, menu: true })}" id="menu"><ul id="menu__list" class="menu__list d-flex"><!--[-->`);
       ssrRenderList(links, (link) => {
         _push(`<li class="menu__list__li">`);
         _push(ssrRenderComponent(_component_NuxtLink, {
           to: link.path,
-          class: ["menu__item text-color text-transform-uppercase"]
+          class: [
+            "menu__item text-color-w text-transform-uppercase f-600"
+          ]
         }, {
           default: withCtx((_, _push2, _parent2, _scopeId) => {
             if (_push2) {
@@ -1909,19 +2018,7 @@ const _sfc_main$4 = {
         }, _parent));
         _push(`</li>`);
       });
-      _push(`<!--]--></ul></nav></div></div><div class="header-bottom d-flex"><div class="header-bottom__div"><h1 class="header-bottom__div__h1 text-color-w text-transform-uppercase"> ÁGOSTON GÁBOR - <span class="header-bottom__div__span">Az Ön alkusza</span></h1></div><div class="header-bottom__div header-bottom__div-linkbox"><a href="tel:+36302345866" class="header-bottom__div-linkbox__link text-color-w">`);
-      _push(ssrRenderComponent(_component_NuxtImg, {
-        src: "/img/header/mobile.svg",
-        alt: "Biztos Alkuszom",
-        class: "header-bottom__div-linkbox__link__img position-relative"
-      }, null, _parent));
-      _push(` 06 30 234 5866 </a><a href="mailto:biztos@alkuszom.info" class="header-bottom__div-linkbox__link text-color-w">`);
-      _push(ssrRenderComponent(_component_NuxtImg, {
-        src: "/img/header/mail.svg",
-        alt: "Biztos Alkuszom",
-        class: "header-bottom__div-linkbox__link__img header-bottom__div-linkbox__link__img--margin-left position-relative"
-      }, null, _parent));
-      _push(` biztos@alkuszom.info </a></div></div></header>`);
+      _push(`<!--]--></ul></nav></div></div></header>`);
     };
   }
 };
@@ -2071,98 +2168,146 @@ function hasChildrenRoutes(fork, newRoute, Component) {
   });
   return index < newRoute.matched.length - 1;
 }
-const clientOnlySymbol = Symbol.for("nuxt:client-only");
-defineComponent({
-  name: "ClientOnly",
-  inheritAttrs: false,
-  // eslint-disable-next-line vue/require-prop-types
-  props: ["fallback", "placeholder", "placeholderTag", "fallbackTag"],
-  setup(_, { slots, attrs }) {
-    const mounted = ref(false);
-    provide(clientOnlySymbol, true);
-    return (props) => {
-      var _a;
-      if (mounted.value) {
-        return (_a = slots.default) == null ? void 0 : _a.call(slots);
-      }
-      const slot = slots.fallback || slots.placeholder;
-      if (slot) {
-        return slot();
-      }
-      const fallbackStr = props.fallback || props.placeholder || "";
-      const fallbackTag = props.fallbackTag || props.placeholderTag || "span";
-      return createElementBlock(fallbackTag, attrs, fallbackStr);
-    };
-  }
-});
 const _sfc_main$3 = {
   __name: "AppFooter",
   __ssrInlineRender: true,
   setup(__props) {
-    const specialPaths = [
-      "/gepjarmu-biztositas",
-      "/utasbiztositas",
-      "/tanulobiztositas",
-      "/rendezvenyszolgalat",
-      "/karbejentes",
-      "/szemelyes-tanacsadas"
+    const FooterLinks = [
+      { name: "Home", path: "/" },
+      { name: "Euro 2024", path: "/euro-2024" },
+      { name: "Sportwetten-Tipps", path: "/sportwetten-tipps" },
+      { name: "Die besten Wettanbieter", path: "/die-besten-wettanbiete" },
+      { name: "Fußball News", path: "/fudball-news" },
+      { name: "Blog", path: "/blog" }
     ];
-    const route = useRoute$1();
-    const isSpecialPage = computed(() => specialPaths.includes(route.path));
-    const links = [
-      { name: "Főoldal", path: "/" },
-      { name: "Partnerek", path: "/partnerek" },
-      { name: "Szolgáltatások", path: "/szolgaltatasok" },
-      { name: "ÁSZF", path: "/adatvedelmi-tajekoztato" },
-      { name: "Ajánlatkérés", path: "/ajanlatkeres" },
-      { name: "Kapcsolat", path: "/kapcsolat" }
-    ];
-    const form = ref({
-      firstname: "",
-      lastname: "",
-      email: "",
-      phonenumber: "",
-      message: ""
-    });
-    const isSent = ref(false);
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_NuxtImg = __nuxt_component_0$2;
-      const _component_NuxtLink = __nuxt_component_0$1;
-      _push(`<footer${ssrRenderAttrs(_attrs)}><div class="${ssrRenderClass([["footer-content", { "footer-bg-special": isSpecialPage.value }], "position-relative"])}"><div class="page__header page__header--right page__header page__header--right--format"><h3 class="page__header__h3 text-color-w text-transform-uppercase"> AJÁNLATKÉRÉS </h3></div><div class="footer-content__form bg-color-w"><h5 class="footer-content__form__h5 text-transform-uppercase text-center text-color"> VEGYÜK FEL A KAPCSOLATOT! </h5><div class="contact-form"><form><div class="contact-form__grid-box grid-2"><div class="form-group form-group--margin-right"><input class="form-group__input" placeholder="Vezetéknév *" type="text" id="firstname"${ssrRenderAttr("value", form.value.firstname)} required></div><div class="form-group form-group--margin-left"><input class="form-group__input" placeholder="Keresztnév *" type="text" id="lastname"${ssrRenderAttr("value", form.value.lastname)} required></div></div><div class="contact-form__grid-box grid-2"><div class="form-group form-group--margin-right"><input class="form-group__input" placeholder="E-mail cím *" type="email" id="email"${ssrRenderAttr("value", form.value.email)} required></div><div class="form-group form-group--margin-left"><input class="form-group__input" placeholder="Telefonszám" type="text" id="phonenumber"${ssrRenderAttr("value", form.value.phonenumber)} required></div></div><div class="form-group"><textarea rows="9" cols="300" class="form-group__textarea" placeholder="Milyen segítségre volna szüksége?" id="message" required>${ssrInterpolate(form.value.message)}</textarea></div>`);
-      if (!isSent.value) {
-        _push(`<div class="contact-form__flex-box d-flex"><div class="contact-form__flex-box__text-box"><p class="contact-form__flex-box__text-box text-color"> A Küldés gombra való kattintással automatikusan elfogadja az Adatvédelmi Szabályzatot. </p></div><div class="contact-form__btn-box t-end"><button class="page-btn contact-form__btn-box__btn text-color-w" type="submit"> Küldés `);
-        _push(ssrRenderComponent(_component_NuxtImg, {
-          class: "page-btn__img position-relative",
-          src: "/img/btn-arrow.svg",
-          alt: "Biztos Alkuszom"
-        }, null, _parent));
-        _push(`</button></div></div>`);
-      } else {
-        _push(`<!---->`);
-      }
-      if (isSent.value) {
-        _push(`<div class="confirmation-message"><p class="confirmation-message__p text-color-w text-center"> Köszönjük az üzenetét, hamarosan felvesszük Önnel a kapcsolatot. </p></div>`);
-      } else {
-        _push(`<!---->`);
-      }
-      _push(`</form></div></div><div class="${ssrRenderClass([[
-        "footer-content__link-box",
-        { "footer-content__link-box-bg-special": isSpecialPage.value }
-      ], "text-center"])}">`);
+      const _component_NuxtImg = __nuxt_component_0$1;
+      const _component_NuxtLink = __nuxt_component_0$2;
+      _push(`<footer${ssrRenderAttrs(_attrs)}><div class="footer-content d-flex pr"><div class="footer-content__ilBox">`);
       _push(ssrRenderComponent(_component_NuxtImg, {
         src: "/img/footer/logo.svg",
-        alt: "Biztos Alkuszom",
-        class: "footer-content__link-box__img"
+        alt: "Sport wetten",
+        class: "footer-content__ilBox__img",
+        height: "100%"
       }, null, _parent));
-      _push(`<div class="footer-content__link-box__links d-flex"><!--[-->`);
-      ssrRenderList(links, (link) => {
+      _push(`<div class="footer-content__ilBox__social-links text-center"><a href="#">`);
+      _push(ssrRenderComponent(_component_NuxtImg, {
+        src: "/img/footer/instagram.svg",
+        alt: "Sport wetten",
+        class: "footer-content__ilBox__social-links__img",
+        height: "100%"
+      }, null, _parent));
+      _push(`</a><a href="#">`);
+      _push(ssrRenderComponent(_component_NuxtImg, {
+        src: "/img/footer/facebook.svg",
+        alt: "Sport wetten",
+        class: "footer-content__ilBox__social-links__img",
+        height: "100%"
+      }, null, _parent));
+      _push(`</a><a href="#">`);
+      _push(ssrRenderComponent(_component_NuxtImg, {
+        src: "/img/footer/youtube.svg",
+        alt: "Sport wetten",
+        class: "footer-content__ilBox__social-links__img",
+        height: "100%"
+      }, null, _parent));
+      _push(`</a></div></div><div class="footer-content__linkBox"><h5 class="footer-content__linkBox__h5 f-600 text-transform-uppercase text-color-w"> INFORMATIONAL </h5><p class="footer-content__linkBox__p">`);
+      _push(ssrRenderComponent(_component_NuxtLink, { class: "footer-content__linkBox__p__link text-color-w f-400" }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(` About Us `);
+          } else {
+            return [
+              createTextVNode(" About Us ")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</p><p class="footer-content__linkBox__p">`);
+      _push(ssrRenderComponent(_component_NuxtLink, { class: "footer-content__linkBox__p__link text-color-w f-400" }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(` Contact `);
+          } else {
+            return [
+              createTextVNode(" Contact ")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</p><p class="footer-content__linkBox__p">`);
+      _push(ssrRenderComponent(_component_NuxtLink, { class: "footer-content__linkBox__p__link text-color-w f-400" }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(` Privacy Policy `);
+          } else {
+            return [
+              createTextVNode(" Privacy Policy ")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</p><p class="footer-content__linkBox__p">`);
+      _push(ssrRenderComponent(_component_NuxtLink, { class: "footer-content__linkBox__p__link text-color-w f-400" }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(` FAQ `);
+          } else {
+            return [
+              createTextVNode(" FAQ ")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</p></div><div class="footer-content__linkBox"><h5 class="footer-content__linkBox__h5 f-600 text-transform-uppercase text-color-w"> LEGAL </h5><p class="footer-content__linkBox__p">`);
+      _push(ssrRenderComponent(_component_NuxtLink, { class: "footer-content__linkBox__p__link text-color-w f-400" }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(` Cookie Policy `);
+          } else {
+            return [
+              createTextVNode(" Cookie Policy ")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</p><p class="footer-content__linkBox__p">`);
+      _push(ssrRenderComponent(_component_NuxtLink, { class: "footer-content__linkBox__p__link text-color-w f-400" }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(` Data Protection `);
+          } else {
+            return [
+              createTextVNode(" Data Protection ")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</p><p class="footer-content__linkBox__p">`);
+      _push(ssrRenderComponent(_component_NuxtLink, { class: "footer-content__linkBox__p__link text-color-w f-400" }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(` Terms and Conditions `);
+          } else {
+            return [
+              createTextVNode(" Terms and Conditions ")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</p></div><div class="footer-content__linkBox"><h5 class="footer-content__linkBox__h5 f-600 text-transform-uppercase text-color-w"> NAVIGATION </h5><div class="footer-content__linkBox__box d-flex"><!--[-->`);
+      ssrRenderList(FooterLinks, (link) => {
         _push(ssrRenderComponent(_component_NuxtLink, {
           key: link.path,
           to: link.path,
-          class: [
-            "footer-link",
-            { "footer-link-color-special": isSpecialPage.value }
-          ]
+          class: ["footer-content__linkBox__box__link text-color-w f-300"]
         }, {
           default: withCtx((_, _push2, _parent2, _scopeId) => {
             if (_push2) {
@@ -2176,23 +2321,14 @@ const _sfc_main$3 = {
           _: 2
         }, _parent));
       });
-      _push(`<!--]--></div><div class="footer-content__link-box__DigitalSeed bg-color-w">`);
-      _push(ssrRenderComponent(_component_NuxtLink, {
-        class: "footer-content__link-box__DigitalSeed__Nuxtlink text-transform-uppercase",
-        to: "/"
-      }, {
-        default: withCtx((_, _push2, _parent2, _scopeId) => {
-          if (_push2) {
-            _push2(` DIGITAL SEED STUDIO - 2024`);
-          } else {
-            return [
-              createTextVNode(" DIGITAL SEED STUDIO - 2024")
-            ];
-          }
-        }),
-        _: 1
-      }, _parent));
-      _push(`</div></div></div></footer>`);
+      _push(`<!--]--></div></div><div class="footer-content__DigitalSeedBrand pa">`);
+      _push(ssrRenderComponent(_component_NuxtImg, {
+        src: "/img/footer/digitalSeed.svg",
+        alt: "Sport wetten",
+        class: "footer-content__DigitalSeedBrand__img",
+        height: "100%"
+      }, null, _parent));
+      _push(`</div></div></footer>`);
     };
   }
 };
@@ -2249,8 +2385,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import('./error-404-BogR6Sms.mjs').then((r) => r.default || r));
-    const _Error = defineAsyncComponent(() => import('./error-500-1NIXTVVc.mjs').then((r) => r.default || r));
+    const _Error404 = defineAsyncComponent(() => import('./error-404-BEvbT0SN.mjs').then((r) => r.default || r));
+    const _Error = defineAsyncComponent(() => import('./error-500-BHZqTK2m.mjs').then((r) => r.default || r));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));
@@ -2330,5 +2466,5 @@ let entry;
 }
 const entry$1 = (ssrContext) => entry(ssrContext);
 
-export { _export_sfc as _, __nuxt_component_0$1 as a, __nuxt_component_0$2 as b, entry$1 as default, useHead as u };
+export { _export_sfc as _, __nuxt_component_0$2 as a, __nuxt_component_0$1 as b, entry$1 as default, useHead as u };
 //# sourceMappingURL=server.mjs.map

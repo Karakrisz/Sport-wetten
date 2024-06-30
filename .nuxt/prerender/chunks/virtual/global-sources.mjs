@@ -17,43 +17,67 @@ const sources = [
         },
         "urls": [
             {
-                "loc": "/adatvedelmi-tajekoztato"
+                "loc": "/20bet"
             },
             {
-                "loc": "/ajanlatkeres"
+                "loc": "/bankonbet"
             },
             {
-                "loc": "/dokumentumok"
+                "loc": "/bet365"
             },
             {
-                "loc": "/gepjarmu-biztositas"
+                "loc": "/betathome"
+            },
+            {
+                "loc": "/blog"
+            },
+            {
+                "loc": "/bwin"
+            },
+            {
+                "loc": "/die-besten-wettanbiete"
+            },
+            {
+                "loc": "/euro-2024"
+            },
+            {
+                "loc": "/fudball-news"
+            },
+            {
+                "loc": "/great-win"
             },
             {
                 "loc": "/"
             },
             {
-                "loc": "/kapcsolat"
+                "loc": "/interwetten"
             },
             {
-                "loc": "/karbejentes"
+                "loc": "/libranet"
             },
             {
-                "loc": "/partnerek"
+                "loc": "/nomini"
             },
             {
-                "loc": "/rendezvenyszolgalat"
+                "loc": "/prontobet"
             },
             {
-                "loc": "/szemelyes-tanacsadas"
+                "loc": "/rabona"
             },
             {
-                "loc": "/szolgaltatasok"
+                "loc": "/select-bet"
             },
             {
-                "loc": "/tanulobiztositas"
+                "loc": "/spinanga"
             },
             {
-                "loc": "/utasbiztositas"
+                "loc": "/sport-wetten"
+            },
+            {
+                "loc": "/sportwetten-tipps"
+            },
+            {
+                "loc": "/tipico"
             }
         ],
         "sourceType": "app"
@@ -68,43 +92,67 @@ const sources = [
         },
         "urls": [
             {
-                "loc": "/dokumentumok"
+                "loc": "/bet365"
             },
             {
-                "loc": "/gepjarmu-biztositas"
+                "loc": "/bwin"
             },
             {
-                "loc": "/karbejentes"
+                "loc": "/great-win"
             },
             {
-                "loc": "/rendezvenyszolgalat"
+                "loc": "/blog"
             },
             {
-                "loc": "/szolgaltatasok"
+                "loc": "/libranet"
             },
             {
-                "loc": "/kapcsolat"
+                "loc": "/rabona"
             },
             {
-                "loc": "/szemelyes-tanacsadas"
+                "loc": "/select-bet"
             },
             {
-                "loc": "/tanulobiztositas"
+                "loc": "/betathome"
+            },
+            {
+                "loc": "/interwetten"
+            },
+            {
+                "loc": "/spinanga"
+            },
+            {
+                "loc": "/sportwetten-tipps"
+            },
+            {
+                "loc": "/nomini"
+            },
+            {
+                "loc": "/fudball-news"
+            },
+            {
+                "loc": "/tipico"
+            },
+            {
+                "loc": "/euro-2024"
+            },
+            {
+                "loc": "/sport-wetten"
+            },
+            {
+                "loc": "/die-besten-wettanbiete"
+            },
+            {
+                "loc": "/20bet"
+            },
+            {
+                "loc": "/prontobet"
             },
             {
                 "loc": "/"
             },
             {
-                "loc": "/adatvedelmi-tajekoztato"
-            },
-            {
-                "loc": "/ajanlatkeres"
-            },
-            {
-                "loc": "/partnerek"
-            },
-            {
-                "loc": "/utasbiztositas"
+                "loc": "/bankonbet"
             }
         ],
         "sourceType": "app"

@@ -37,6 +37,12 @@ button {
   box-sizing: border-box;
 }
 
+.linear-bg {
+  background: linear-gradient(100deg, #5ad165, #22ae38, #5ad165);
+  background-size: 180% 180%;
+  animation: gradient-animation 3s ease infinite;
+}
+
 a {
   text-decoration: none;
 }
@@ -113,6 +119,10 @@ ul {
   text-align: center;
 }
 
+.d-none {
+  display: none;
+}
+
 .map {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -128,6 +138,10 @@ ul {
 
 .bg-color-w {
   background-color: #fff;
+}
+
+.text-color-b {
+  color: #000;
 }
 
 .text-color {
@@ -282,8 +296,19 @@ h5,
 }
 
 .blog-content__postBox__box__iTextBox__tBox__fBox {
-  align-items: center;
   height: 3.5em;
+}
+
+.whatsappBox {
+  margin-top: 1.7em;
+  padding: 0.7em 1.5em;
+  border-radius: 0.3em;
+  width: max-content;
+}
+
+.whatsappBox__img {
+  width: 1.5em;
+  margin-left: 0.7em;
 }
 /********************  Identical instructions end **********************/
 
@@ -304,7 +329,9 @@ h5,
 
 .header-content,
 .header-content__nav-box,
-.menu__list {
+.menu__list,
+.blog-content__postBox__box__iTextBox__tBox__fBox,
+.whatsappBox {
   align-items: center;
 }
 
@@ -371,7 +398,7 @@ h5,
 }
 
 .blog-content__postBox__box {
-  margin-bottom: 10%;
+  margin-bottom: 1.7em;
 }
 
 .blog-content__h3 {
@@ -426,6 +453,22 @@ h5,
 
 .blog-content__postBox__box__iTextBox__img {
   border-radius: 9px 9px 0px 0px;
+}
+
+.blog-content__postBox__box__iTextBox:hover,
+.blog-content__postBox__link:hover {
+  transition: all 0.5s;
+}
+
+.blog-content__postBox__box__iTextBox:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+}
+
+.blog-content__postBox__link:hover {
+  box-shadow: 0 0 10px rgba(40, 167, 69, 0.5);
+  background-color: #218838;
 }
 /********************  Blog formating end **********************/
 
@@ -604,7 +647,8 @@ h5,
   .slider-content__tBox {
     width: 43em;
   }
-  .slider-content__tBox__h5 {
+  .slider-content__tBox__h5,
+  .whatsappBox__link {
     font-size: 1.5rem;
   }
   .slider-content__tBox__h1,
@@ -677,7 +721,7 @@ h5,
 @media (min-width: 2000px) and (max-width: 2200px) {
   p,
   .footer-content__linkBox__box__link {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .menu {
     margin-left: 3em;
@@ -686,13 +730,14 @@ h5,
     width: 90%;
   }
   .menu__item {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .slider-content__tBox {
     width: 43em;
   }
-  .slider-content__tBox__h5 {
-    font-size: 1.5rem;
+  .slider-content__tBox__h5,
+  .whatsappBox__link {
+    font-size: 1.4rem;
   }
   .slider-content__tBox__h1,
   .blog-content__h2,
@@ -702,12 +747,12 @@ h5,
   .bottom-content__h6,
   .bottom-next-content__h2,
   .supage-content__fBox__tBox__h3 {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
   .blog-content__h3,
   .game-analysis-content__tBox__h5,
   .game-analysis-content__tBox__iTextBox__tBox__h5 {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
   .blog-content__postBox__link {
     padding: 0.9em 1.5em;
@@ -720,7 +765,7 @@ h5,
   }
   .blog-link,
   .blog-content__postBox__link {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   .blog-content__postBox__lBox {
     margin: 5% 0 13% 0;
@@ -757,13 +802,13 @@ h5,
     font-size: 1.5rem;
   }
   .footer-content__DigitalSeedBrand__img {
-    width: 15em;
+    width: 13em;
   }
 }
 @media (min-width: 1800px) and (max-width: 2000px) {
   p,
   .footer-content__linkBox__box__link {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .menu {
     margin-left: 3em;
@@ -772,13 +817,14 @@ h5,
     width: 90%;
   }
   .menu__item {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .slider-content__tBox {
     width: 37em;
   }
-  .slider-content__tBox__h5 {
-    font-size: 1.3rem;
+  .slider-content__tBox__h5,
+  .whatsappBox__link {
+    font-size: 1.2rem;
   }
   .slider-content__tBox__h1,
   .blog-content__h2,
@@ -788,12 +834,12 @@ h5,
   .bottom-content__h6,
   .bottom-next-content__h2,
   .supage-content__fBox__tBox__h3 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   .blog-content__h3,
   .game-analysis-content__tBox__h5,
   .game-analysis-content__tBox__iTextBox__tBox__h5 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .blog-content__postBox__link {
     padding: 0.9em 1.5em;
@@ -806,7 +852,7 @@ h5,
   }
   .blog-link,
   .blog-content__postBox__link {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .blog-content__postBox__lBox {
     margin: 5% 0 13% 0;
@@ -843,14 +889,14 @@ h5,
     font-size: 1.4rem;
   }
   .footer-content__DigitalSeedBrand__img {
-    width: 13em;
+    width: 12em;
   }
 }
 
 @media (min-width: 1600px) and (max-width: 1800px) {
   p,
   .footer-content__linkBox__box__link {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .menu {
     margin-left: 3em;
@@ -859,13 +905,14 @@ h5,
     width: 90%;
   }
   .menu__item {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .slider-content__tBox {
     width: 35em;
   }
-  .slider-content__tBox__h5 {
-    font-size: 1.2rem;
+  .slider-content__tBox__h5,
+  .whatsappBox__link {
+    font-size: 1.1rem;
   }
   .slider-content__tBox__h1,
   .blog-content__h2,
@@ -875,12 +922,12 @@ h5,
   .bottom-content__h6,
   .bottom-next-content__h2,
   .supage-content__fBox__tBox__h3 {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
   .blog-content__h3,
   .game-analysis-content__tBox__h5,
   .game-analysis-content__tBox__iTextBox__tBox__h5 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .blog-content__postBox__link {
     padding: 0.9em 1.5em;
@@ -893,7 +940,7 @@ h5,
   }
   .blog-link,
   .blog-content__postBox__link {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .blog-content__postBox__lBox {
     margin: 5% 0 13% 0;
@@ -930,14 +977,14 @@ h5,
     font-size: 1.3rem;
   }
   .footer-content__DigitalSeedBrand__img {
-    width: 11em;
+    width: 10em;
   }
 }
 
 @media (min-width: 1500px) and (max-width: 1600px) {
   p,
   .footer-content__linkBox__box__link {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .menu {
     margin-left: 3em;
@@ -951,8 +998,9 @@ h5,
   .slider-content__tBox {
     width: 30em;
   }
-  .slider-content__tBox__h5 {
-    font-size: 1.1rem;
+  .slider-content__tBox__h5,
+  .whatsappBox__link {
+    font-size: 1rem;
   }
   .slider-content__tBox__h1,
   .blog-content__h2,
@@ -962,12 +1010,12 @@ h5,
   .bottom-content__h6,
   .bottom-next-content__h2,
   .supage-content__fBox__tBox__h3 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   .blog-content__h3,
   .game-analysis-content__tBox__h5,
   .game-analysis-content__tBox__iTextBox__tBox__h5 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .blog-content__postBox__link {
     padding: 0.9em 1.5em;
@@ -1014,7 +1062,7 @@ h5,
     font-size: 1.2rem;
   }
   .footer-content__DigitalSeedBrand__img {
-    width: 10em;
+    width: 9em;
   }
 }
 
@@ -1038,8 +1086,9 @@ h5,
   .slider-content__tBox {
     width: 30em;
   }
-  .slider-content__tBox__h5 {
-    font-size: 1rem;
+  .slider-content__tBox__h5,
+  .whatsappBox__link {
+    font-size: 0.9rem;
   }
   .slider-content__tBox__h1,
   .blog-content__h2,
@@ -1049,12 +1098,12 @@ h5,
   .bottom-content__h6,
   .bottom-next-content__h2,
   .supage-content__fBox__tBox__h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .blog-content__h3,
   .game-analysis-content__tBox__h5,
   .game-analysis-content__tBox__iTextBox__tBox__h5 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .blog-content__postBox__link {
     padding: 0.9em 1.5em;
@@ -1067,7 +1116,7 @@ h5,
   }
   .blog-link,
   .blog-content__postBox__link {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .blog-content__postBox__lBox {
     margin: 5% 0 13% 0;
@@ -1098,10 +1147,10 @@ h5,
     margin-bottom: 0.5em;
   }
   .footer-content__linkBox__h5 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .footer-content__DigitalSeedBrand__img {
-    width: 10em;
+    width: 9em;
   }
 }
 
@@ -1128,7 +1177,8 @@ h5,
   .slider-content__tBox {
     width: 25em;
   }
-  .slider-content__tBox__h5 {
+  .slider-content__tBox__h5,
+  .whatsappBox__link {
     font-size: 0.9rem;
   }
   .slider-content__tBox__h1,
@@ -1144,7 +1194,7 @@ h5,
   .blog-content__h3,
   .game-analysis-content__tBox__h5,
   .game-analysis-content__tBox__iTextBox__tBox__h5 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .blog-content__postBox__link {
     padding: 0.9em 1.5em;
@@ -1221,7 +1271,8 @@ h5,
   .slider-content__tBox {
     width: 25em;
   }
-  .slider-content__tBox__h5 {
+  .slider-content__tBox__h5,
+  .whatsappBox__link {
     font-size: 0.8rem;
   }
   .slider-content__tBox__h1,
@@ -1428,7 +1479,8 @@ h5,
   .blog-content {
     padding: 2em 7%;
   }
-  .slider-content__tBox__h5 {
+  .slider-content__tBox__h5,
+  .whatsappBox__link {
     font-size: 0.9rem;
   }
   .hamburger,
@@ -1632,7 +1684,8 @@ h5,
   .blog-content {
     padding: 2em 9%;
   }
-  .slider-content__tBox__h5 {
+  .slider-content__tBox__h5,
+  .whatsappBox__link {
     font-size: 0.9rem;
   }
   .hamburger,
@@ -1673,8 +1726,12 @@ h5,
   .game-analysis-content__tBox__iTextBox,
   .footer-content__linkBox,
   .supage-content__fBox__iBox,
-  .supage-content__fBox__tBox {
+  .supage-content__fBox__tBox,
+  .whatsappBox.linear-bg.d-flex {
     width: 100%;
+  }
+  .whatsappBox__img {
+    width: 2em;
   }
   .game-analysis-content__tBox__iTextBox__iBox {
     margin-bottom: 4em;

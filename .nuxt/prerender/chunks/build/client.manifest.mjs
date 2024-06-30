@@ -7,13 +7,13 @@ const client_manifest = {
     "module": true,
     "resourceType": "script"
   },
-  "/Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/nuxt/dist/app/entry.js": {
+  "/Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "/Applications/XAMPP/xamppfiles/htdocs/biztosAlkuszApp/node_modules/nuxt/dist/app/entry.js"
+    "file": "/Applications/XAMPP/xamppfiles/htdocs/Sport-wetten/node_modules/nuxt/dist/app/entry.js"
   }
 };
 

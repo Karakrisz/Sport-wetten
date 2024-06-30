@@ -49,6 +49,20 @@ const showHiddenElement = () => {
           Bonusangeboten – wir bieten dir alles, um deine Wettstrategien zu
           optimieren und deine Gewinnchancen zu maximieren.
         </p>
+
+        <div class="whatsappBox linear-bg d-flex">
+          <a
+            class="whatsappBox__link text-color-w f-700"
+            href="https://www.whatsapp.com/channel/0029VahvOQs9MF8xXm9cdl2P"
+            >Erhalten Sie Blog-Updates auf WhatsApp
+          </a>
+          <NuxtImg
+            src="/img/whatsapp.svg"
+            alt="Sport wetten"
+            class="whatsappBox__img"
+            height="100%"
+          />
+        </div>
       </div>
     </div>
   </section>
@@ -64,296 +78,343 @@ const showHiddenElement = () => {
       <div class="blog-content__postBox">
         <div class="blog-content__postBox__box grid-3">
           <div class="blog-content__postBox__box__iTextBox">
-            <NuxtImg
-              src="/img/online-betting/online-betting.webp"
-              alt="Sport wetten"
-              class="blog-content__postBox__box__iTextBox__img"
-              height="100%"
-            />
+            <NuxtLink to="rabona">
+              <NuxtImg
+                src="/img/online-betting/online-betting.webp"
+                alt="Sport wetten"
+                class="blog-content__postBox__box__iTextBox__img"
+                height="100%"
+              />
+            </NuxtLink>
             <div class="blog-content__postBox__box__iTextBox__tBox bg-color-w">
-              <div
-                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-              >
-                <NuxtImg
-                  src="/img/online-betting/like.svg"
-                  alt="Sport wetten"
-                  class="blog-content__postBox__box__iTextBox__tBox__img"
-                  height="100%"
-                />
-                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
-                  Umfangreiches Spielangebot: über 8.500 Spiele.
-                </p>
-              </div>
-              <div
-                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-              >
-                <NuxtImg
-                  src="/img/online-betting/like.svg"
-                  alt="Sport wetten"
-                  class="blog-content__postBox__box__iTextBox__tBox__img"
-                  height="100%"
-                />
-                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
-                  Willkommensbonus: erste Einzahlung verdoppelt bis 200 Euro.
-                </p>
-              </div>
+              <NuxtLink to="rabona">
+                <div
+                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+                >
+                  <NuxtImg
+                    src="/img/online-betting/like.svg"
+                    alt="Sport wetten"
+                    class="blog-content__postBox__box__iTextBox__tBox__img"
+                    height="100%"
+                  />
+                  <p
+                    class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                  >
+                    Umfangreiches Spielangebot: über 8.500 Spiele.
+                  </p>
+                </div>
+                <div
+                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+                >
+                  <NuxtImg
+                    src="/img/online-betting/like.svg"
+                    alt="Sport wetten"
+                    class="blog-content__postBox__box__iTextBox__tBox__img"
+                    height="100%"
+                  />
+                  <p
+                    class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                  >
+                    Willkommensbonus: erste Einzahlung verdoppelt bis 200 Euro.
+                  </p>
+                </div>
+              </NuxtLink>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
               >
-                <NuxtLink
+                <a
                   class="blog-content__postBox__link f-700 text-color-w"
-                  to="rabona"
+                  target="_blank"
+                  href="https://rbn.servclick1move.com/?mid=97525_728861"
                   >BET NOW
-                </NuxtLink>
+                </a>
               </div>
             </div>
           </div>
 
           <div class="blog-content__postBox__box__iTextBox">
-            <NuxtImg
-              src="/img/online-betting/online-betting2.webp"
-              alt="Sport wetten"
-              class="blog-content__postBox__box__iTextBox__img"
-              height="100%"
-            />
+            <NuxtLink to="bankonbet">
+              <NuxtImg
+                src="/img/online-betting/online-betting2.webp"
+                alt="Sport wetten"
+                class="blog-content__postBox__box__iTextBox__img"
+                height="100%"
+              />
+            </NuxtLink>
             <div class="blog-content__postBox__box__iTextBox__tBox bg-color-w">
-              <div
-                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-              >
-                <NuxtImg
-                  src="/img/online-betting/like.svg"
-                  alt="Sport wetten"
-                  class="blog-content__postBox__box__iTextBox__tBox__img"
-                  height="100%"
-                />
-                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
-                  Umfangreiches Spielangebot: über 8.500 Spiele.
-                </p>
-              </div>
-              <div
-                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-              >
-                <NuxtImg
-                  src="/img/online-betting/like.svg"
-                  alt="Sport wetten"
-                  class="blog-content__postBox__box__iTextBox__tBox__img"
-                  height="100%"
-                />
-                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
-                  Willkommensbonus: erste Einzahlung verdoppelt bis 200 Euro.
-                </p>
-              </div>
+              <NuxtLink to="bankonbet">
+                <div
+                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+                >
+                  <NuxtImg
+                    src="/img/online-betting/like.svg"
+                    alt="Sport wetten"
+                    class="blog-content__postBox__box__iTextBox__tBox__img"
+                    height="100%"
+                  />
+                  <p
+                    class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                  >
+                    Umfangreicher Willkommensbonus: 100% bis 120 Euro,
+                    Mindesteinzahlung 50 Euro.
+                  </p>
+                </div>
+                <div
+                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+                >
+                  <NuxtImg
+                    src="/img/online-betting/like.svg"
+                    alt="Sport wetten"
+                    class="blog-content__postBox__box__iTextBox__tBox__img"
+                    height="100%"
+                  />
+                  <p
+                    class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                  >
+                    VIP-Programm: Vorteile wie höhere Cashback-Raten und
+                    persönliche Betreuung.
+                  </p>
+                </div>
+              </NuxtLink>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
               >
-                <NuxtLink
+                <a
                   class="blog-content__postBox__link f-700 text-color-w"
-                  to="bankonbet"
+                  target="_blank"
+                  href="https://bnk.servclick1move.com/?mid=97525_728865"
                   >BET NOW
-                </NuxtLink>
+                </a>
               </div>
             </div>
           </div>
 
           <div class="blog-content__postBox__box__iTextBox">
-            <NuxtImg
-              src="/img/online-betting/online-betting3.webp"
-              alt="Sport wetten"
-              class="blog-content__postBox__box__iTextBox__img"
-              height="100%"
-            />
+            <NuxtLink to="libranet">
+              <NuxtImg
+                src="/img/online-betting/online-betting3.webp"
+                alt="Sport wetten"
+                class="blog-content__postBox__box__iTextBox__img"
+                height="100%"
+              />
+            </NuxtLink>
             <div class="blog-content__postBox__box__iTextBox__tBox bg-color-w">
-              <div
-                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-              >
-                <NuxtImg
-                  src="/img/online-betting/like.svg"
-                  alt="Sport wetten"
-                  class="blog-content__postBox__box__iTextBox__tBox__img"
-                  height="100%"
-                />
-                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
-                  100% Willkommensbonus: bis zu 200 €, Mindesteinzahlung 20 €.
-                </p>
-              </div>
-              <div
-                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-              >
-                <NuxtImg
-                  src="/img/online-betting/like.svg"
-                  alt="Sport wetten"
-                  class="blog-content__postBox__box__iTextBox__tBox__img"
-                  height="100%"
-                />
-                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
-                  Umfassende Sportwetten: von Fußball bis eSports.
-                </p>
-              </div>
+              <NuxtLink to="libranet">
+                <div
+                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+                >
+                  <NuxtImg
+                    src="/img/online-betting/like.svg"
+                    alt="Sport wetten"
+                    class="blog-content__postBox__box__iTextBox__tBox__img"
+                    height="100%"
+                  />
+                  <p
+                    class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                  >
+                    100% Willkommensbonus: bis zu 200 €, Mindesteinzahlung 20 €.
+                  </p>
+                </div>
+                <div
+                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+                >
+                  <NuxtImg
+                    src="/img/online-betting/like.svg"
+                    alt="Sport wetten"
+                    class="blog-content__postBox__box__iTextBox__tBox__img"
+                    height="100%"
+                  />
+                  <p
+                    class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                  >
+                    Umfassende Sportwetten: von Fußball bis eSports.
+                  </p>
+                </div>
+              </NuxtLink>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
               >
-                <NuxtLink
+                <a
                   class="blog-content__postBox__link f-700 text-color-w"
-                  to="libranet"
+                  target="_blank"
+                  href="https://lrb.servclick1move.com/?mid=97525_728869"
                   >BET NOW
-                </NuxtLink>
+                </a>
               </div>
             </div>
           </div>
 
           <div class="blog-content__postBox__box__iTextBox">
-            <NuxtImg
-              src="/img/online-betting/online-betting4.webp"
-              alt="Sport wetten"
-              class="blog-content__postBox__box__iTextBox__img"
-              height="100%"
-            />
+            <NuxtLink to="spinanga">
+              <NuxtImg
+                src="/img/online-betting/online-betting4.webp"
+                alt="Sport wetten"
+                class="blog-content__postBox__box__iTextBox__img"
+                height="100%"
+              />
+            </NuxtLink>
             <div class="blog-content__postBox__box__iTextBox__tBox bg-color-w">
-              <div
-                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-              >
-                <NuxtImg
-                  src="/img/online-betting/like.svg"
-                  alt="Sport wetten"
-                  class="blog-content__postBox__box__iTextBox__tBox__img"
-                  height="100%"
-                />
-                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
-                  Breite Auswahl: Spielautomaten, Tischspiele und Sportwetten.
-                </p>
-              </div>
-              <div
-                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-              >
-                <NuxtImg
-                  src="/img/online-betting/like.svg"
-                  alt="Sport wetten"
-                  class="blog-content__postBox__box__iTextBox__tBox__img"
-                  height="100%"
-                />
-                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
-                  Live-Wetten: Echtzeitwetten für mehr Dynamik.
-                </p>
-              </div>
+              <NuxtLink to="spinanga">
+                <div
+                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+                >
+                  <NuxtImg
+                    src="/img/online-betting/like.svg"
+                    alt="Sport wetten"
+                    class="blog-content__postBox__box__iTextBox__tBox__img"
+                    height="100%"
+                  />
+                  <p
+                    class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                  >
+                    Breite Auswahl: Spielautomaten, Tischspiele und Sportwetten.
+                  </p>
+                </div>
+                <div
+                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+                >
+                  <NuxtImg
+                    src="/img/online-betting/like.svg"
+                    alt="Sport wetten"
+                    class="blog-content__postBox__box__iTextBox__tBox__img"
+                    height="100%"
+                  />
+                  <p
+                    class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                  >
+                    Live-Wetten: Echtzeitwetten für mehr Dynamik.
+                  </p>
+                </div>
+              </NuxtLink>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
               >
-                <NuxtLink
+                <a
                   class="blog-content__postBox__link f-700 text-color-w"
-                  to="spinanga"
+                  target="_blank"
+                  href="https://spng.servclick1move.com/?mid=97525_728873"
                   >BET NOW
-                </NuxtLink>
+                </a>
               </div>
             </div>
           </div>
 
           <div class="blog-content__postBox__box__iTextBox">
-            <NuxtImg
-              src="/img/online-betting/online-betting5.webp"
-              alt="Sport wetten"
-              class="blog-content__postBox__box__iTextBox__img"
-              height="100%"
-            />
+            <NuxtLink to="nomini">
+              <NuxtImg
+                src="/img/online-betting/online-betting5.webp"
+                alt="Sport wetten"
+                class="blog-content__postBox__box__iTextBox__img"
+                height="100%"
+              />
+            </NuxtLink>
             <div class="blog-content__postBox__box__iTextBox__tBox bg-color-w">
-              <div
-                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-              >
-                <NuxtImg
-                  src="/img/online-betting/like.svg"
-                  alt="Sport wetten"
-                  class="blog-content__postBox__box__iTextBox__tBox__img"
-                  height="100%"
-                />
-                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
-                  Vielfältige Bonusangebote: Willkommensbonus 100% bis zu 200€,
-                  Mindesteinzahlung 20€.
-                </p>
-              </div>
-              <div
-                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-              >
-                <NuxtImg
-                  src="/img/online-betting/like.svg"
-                  alt="Sport wetten"
-                  class="blog-content__postBox__box__iTextBox__tBox__img"
-                  height="100%"
-                />
-                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
-                  VIP-Programm: wöchentliche Reload-Boni und Cashbacks.
-                </p>
-              </div>
+              <NuxtLink to="nomini">
+                <div
+                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+                >
+                  <NuxtImg
+                    src="/img/online-betting/like.svg"
+                    alt="Sport wetten"
+                    class="blog-content__postBox__box__iTextBox__tBox__img"
+                    height="100%"
+                  />
+                  <p
+                    class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                  >
+                    Vielfältige Bonusangebote: Willkommensbonus 100% bis zu
+                    200€, Mindesteinzahlung 20€.
+                  </p>
+                </div>
+                <div
+                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+                >
+                  <NuxtImg
+                    src="/img/online-betting/like.svg"
+                    alt="Sport wetten"
+                    class="blog-content__postBox__box__iTextBox__tBox__img"
+                    height="100%"
+                  />
+                  <p
+                    class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                  >
+                    VIP-Programm: wöchentliche Reload-Boni und Cashbacks.
+                  </p>
+                </div>
+              </NuxtLink>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
               >
-                <NuxtLink
+                <a
                   class="blog-content__postBox__link f-700 text-color-w"
-                  to="nomini"
+                  target="_blank"
+                  href="https://nmn.servclick1move.com/?mid=97525_728877"
                   >BET NOW
-                </NuxtLink>
+                </a>
               </div>
             </div>
           </div>
 
           <div class="blog-content__postBox__box__iTextBox">
-            <NuxtImg
-              src="/img/online-betting/online-betting6.webp"
-              alt="Sport wetten"
-              class="blog-content__postBox__box__iTextBox__img"
-              height="100%"
-            />
+            <NuxtLink to="sport-wetten">
+              <NuxtImg
+                src="/img/online-betting/online-betting6.webp"
+                alt="Sport wetten"
+                class="blog-content__postBox__box__iTextBox__img"
+                height="100%"
+              />
+            </NuxtLink>
             <div class="blog-content__postBox__box__iTextBox__tBox bg-color-w">
-              <div
-                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-              >
-                <NuxtImg
-                  src="/img/online-betting/like.svg"
-                  alt="Sport wetten"
-                  class="blog-content__postBox__box__iTextBox__tBox__img"
-                  height="100%"
-                />
-                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
-                  Neukundenbonus: 100% bis zu 100€, 6x Umsetzung.
-                </p>
-              </div>
-              <div
-                class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-              >
-                <NuxtImg
-                  src="/img/online-betting/like.svg"
-                  alt="Sport wetten"
-                  class="blog-content__postBox__box__iTextBox__tBox__img"
-                  height="100%"
-                />
-                <p class="blog-content__postBox__box__iTextBox__tBox__p f-600">
-                  Europäische Spitzenligen: umfangreiche Wettoptionen.
-                </p>
-              </div>
+              <NuxtLink to="sport-wetten">
+                <div
+                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+                >
+                  <NuxtImg
+                    src="/img/online-betting/like.svg"
+                    alt="Sport wetten"
+                    class="blog-content__postBox__box__iTextBox__tBox__img"
+                    height="100%"
+                  />
+                  <p
+                    class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                  >
+                    Neukundenbonus: 100% bis zu 100€, 6x Umsetzung.
+                  </p>
+                </div>
+                <div
+                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
+                >
+                  <NuxtImg
+                    src="/img/online-betting/like.svg"
+                    alt="Sport wetten"
+                    class="blog-content__postBox__box__iTextBox__tBox__img"
+                    height="100%"
+                  />
+                  <p
+                    class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                  >
+                    Europäische Spitzenligen: umfangreiche Wettoptionen.
+                  </p>
+                </div>
+              </NuxtLink>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
               >
-                <NuxtLink
+                <a
                   class="blog-content__postBox__link f-700 text-color-w"
-                  to="sport-wetten"
+                  href="/"
                   >BET NOW
-                </NuxtLink>
+                </a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="blog-content__postBox__lBox text-center">
-          <NuxtLink
-            class="blog-link cursor text-transform-uppercase f-700"
-            @click="showHiddenElement"
-          >
-            LOAD MORE BETTING SITES
-          </NuxtLink>
-        </div>
         <div class="sliding-element pr">
           <div
             class="blog-content__postBox__box blog-content__postBox__box--format grid-3"
           >
-            <div class="blog-content__postBox__box__iTextBox">
+            <div class="blog-content__postBox__box__iTextBox d-none">
               <NuxtImg
                 src="/img/online-betting/online-betting7.webp"
                 alt="Sport wetten"
@@ -407,217 +468,237 @@ const showHiddenElement = () => {
             </div>
 
             <div class="blog-content__postBox__box__iTextBox">
-              <NuxtImg
-                src="/img/online-betting/online-betting8.webp"
-                alt="Sport wetten"
-                class="blog-content__postBox__box__iTextBox__img"
-                height="100%"
-              />
+              <NuxtLink to="betathome">
+                <NuxtImg
+                  src="/img/online-betting/online-betting8.webp"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__img"
+                  height="100%"
+                />
+              </NuxtLink>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox bg-color-w"
               >
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                <NuxtLink to="betathome">
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Welcome bonus: 50% or 100% up to 100 €, code "WILLKOMMEN".
-                  </p>
-                </div>
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Welcome bonus: 50% or 100% up to 100 €, code "WILLKOMMEN".
+                    </p>
+                  </div>
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Live-Wetten: Vielfalt und Übersichtlichkeit.
-                  </p>
-                </div>
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Live-Wetten: Vielfalt und Übersichtlichkeit.
+                    </p>
+                  </div>
+                </NuxtLink>
                 <div
                   class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
                 >
-                  <NuxtLink
+                  <a
                     class="blog-content__postBox__link f-700 text-color-w"
-                    to="betathome"
+                    target="_blank"
+                    href="https://affiliates.bet-at-home.com/login.asp?"
                     >BET NOW
-                  </NuxtLink>
+                  </a>
                 </div>
               </div>
             </div>
 
             <div class="blog-content__postBox__box__iTextBox">
-              <NuxtImg
-                src="/img/online-betting/online-betting9.webp"
-                alt="Sport wetten"
-                class="blog-content__postBox__box__iTextBox__img"
-                height="100%"
-              />
+              <NuxtLink to="interwetten">
+                <NuxtImg
+                  src="/img/online-betting/online-betting9.webp"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__img"
+                  height="100%"
+                />
+              </NuxtLink>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox bg-color-w"
               >
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                <NuxtLink to="interwetten">
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Willkommensbonus: 100% bis zu 100€, in 5 Schritten
-                    freizuspielen.
-                  </p>
-                </div>
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Willkommensbonus: 100% bis zu 100€, in 5 Schritten
+                      freizuspielen.
+                    </p>
+                  </div>
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Live-Wetten: umfangreich, besonders an Wochenenden.
-                  </p>
-                </div>
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Live-Wetten: umfangreich, besonders an Wochenenden.
+                    </p>
+                  </div>
+                </NuxtLink>
                 <div
                   class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
                 >
-                  <NuxtLink
+                  <a
                     class="blog-content__postBox__link f-700 text-color-w"
-                    to="interwetten"
+                    target="_blank"
+                    href="https://affiliates.interwetten.com/affiliates/Account/Login#"
                     >BET NOW
-                  </NuxtLink>
+                  </a>
                 </div>
               </div>
             </div>
 
             <div class="blog-content__postBox__box__iTextBox">
-              <NuxtImg
-                src="/img/online-betting/online-betting10.webp"
-                alt="Sport wetten"
-                class="blog-content__postBox__box__iTextBox__img"
-                height="100%"
-              />
+              <NuxtLink to="prontobet">
+                <NuxtImg
+                  src="/img/online-betting/online-betting10.webp"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__img"
+                  height="100%"
+                />
+              </NuxtLink>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox bg-color-w"
               >
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                <NuxtLink to="prontobet">
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Willkommensbonus: 200% bis zu €1,000.
-                  </p>
-                </div>
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Willkommensbonus: 200% bis zu €1,000.
+                    </p>
+                  </div>
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Kundenloyalität: tägliche Cashbacks und regelmäßige
-                    Belohnungen.
-                  </p>
-                </div>
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Kundenloyalität: tägliche Cashbacks und regelmäßige
+                      Belohnungen.
+                    </p>
+                  </div>
+                </NuxtLink>
                 <div
                   class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
                 >
-                  <NuxtLink
+                  <a
                     class="blog-content__postBox__link f-700 text-color-w"
-                    to="prontobet"
+                    target="_blank"
+                    href="https://login.grandeaffiliates.com/signin.php"
                     >BET NOW
-                  </NuxtLink>
+                  </a>
                 </div>
               </div>
             </div>
 
             <div class="blog-content__postBox__box__iTextBox">
-              <NuxtImg
-                src="/img/online-betting/online-betting11.webp"
-                alt="Sport wetten"
-                class="blog-content__postBox__box__iTextBox__img"
-                height="100%"
-              />
+              <NuxtLink to="20bet">
+                <NuxtImg
+                  src="/img/online-betting/online-betting11.webp"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__img"
+                  height="100%"
+                />
+              </NuxtLink>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox bg-color-w"
               >
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                <NuxtLink to="20bet">
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Cashout-Option: ermöglicht vorzeitigen Verkauf von
-                    Wettscheinen.
-                  </p>
-                </div>
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Cashout-Option: ermöglicht vorzeitigen Verkauf von
+                      Wettscheinen.
+                    </p>
+                  </div>
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Keine Livestream-Option: alternative Plattformen nötig.
-                  </p>
-                </div>
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Keine Livestream-Option: alternative Plattformen nötig.
+                    </p>
+                  </div>
+                </NuxtLink>
                 <div
                   class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
                 >
-                  <NuxtLink
+                  <a
                     class="blog-content__postBox__link f-700 text-color-w"
-                    to="20bet"
+                    target="_blank"
+                    href="https://20bet-win.com/hu?btag=670845_ea1c577a31a54554a84a12ef19408965"
                     >BET NOW
-                  </NuxtLink>
+                  </a>
                 </div>
               </div>
             </div>
 
-            <div class="blog-content__postBox__box__iTextBox">
+            <div class="blog-content__postBox__box__iTextBox d-none">
               <NuxtImg
                 src="/img/online-betting/online-betting12.webp"
                 alt="Sport wetten"
@@ -671,163 +752,187 @@ const showHiddenElement = () => {
             </div>
 
             <div class="blog-content__postBox__box__iTextBox">
-              <NuxtImg
-                src="/img/online-betting/online-betting13.webp"
-                alt="Sport wetten"
-                class="blog-content__postBox__box__iTextBox__img"
-                height="100%"
-              />
+              <NuxtLink to="tipico">
+                <NuxtImg
+                  src="/img/online-betting/online-betting13.webp"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__img"
+                  height="100%"
+                />
+              </NuxtLink>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox bg-color-w"
               >
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                <NuxtLink to="tipico">
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Willkommensbonus: bis zu 100 Euro für Neukunden.
-                  </p>
-                </div>
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Willkommensbonus: bis zu 100 Euro für Neukunden.
+                    </p>
+                  </div>
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Cashout option: allows early withdrawals.
-                  </p>
-                </div>
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Cashout option: allows early withdrawals.
+                    </p>
+                  </div>
+                </NuxtLink>
                 <div
                   class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
                 >
-                  <NuxtLink
+                  <a
                     class="blog-content__postBox__link f-700 text-color-w"
-                    to="tipico"
+                    target="_blank"
+                    href="https://www.tipico-affiliates.com/"
                     >BET NOW
-                  </NuxtLink>
+                  </a>
                 </div>
               </div>
             </div>
 
             <div class="blog-content__postBox__box__iTextBox">
-              <NuxtImg
-                src="/img/online-betting/online-betting14.webp"
-                alt="Sport wetten"
-                class="blog-content__postBox__box__iTextBox__img"
-                height="100%"
-              />
+              <NuxtLink to="bet365">
+                <NuxtImg
+                  src="/img/online-betting/online-betting14.webp"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__img"
+                  height="100%"
+                />
+              </NuxtLink>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox bg-color-w"
               >
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                <NuxtLink to="bet365">
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Neukundenbonus: bis zu €100 in Wett-Credits.
-                  </p>
-                </div>
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Neukundenbonus: bis zu €100 in Wett-Credits.
+                    </p>
+                  </div>
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Übersichtlicher Live-Wetten-Kalender: unterstützt
-                    Live-Wetten.
-                  </p>
-                </div>
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Übersichtlicher Live-Wetten-Kalender: unterstützt
+                      Live-Wetten.
+                    </p>
+                  </div>
+                </NuxtLink>
                 <div
                   class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
                 >
-                  <NuxtLink
+                  <a
                     class="blog-content__postBox__link f-700 text-color-w"
-                    to="bet365"
+                    target="_blank"
+                    href="https://www.bet365.de/#/HO/"
                     >BET NOW
-                  </NuxtLink>
+                  </a>
                 </div>
               </div>
             </div>
 
             <div class="blog-content__postBox__box__iTextBox">
-              <NuxtImg
-                src="/img/online-betting/online-betting15.webp"
-                alt="Sport wetten"
-                class="blog-content__postBox__box__iTextBox__img"
-                height="100%"
-              />
+              <NuxtLink to="great-win">
+                <NuxtImg
+                  src="/img/online-betting/online-betting15.webp"
+                  alt="Sport wetten"
+                  class="blog-content__postBox__box__iTextBox__img"
+                  height="100%"
+                />
+              </NuxtLink>
               <div
                 class="blog-content__postBox__box__iTextBox__tBox bg-color-w"
               >
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                <NuxtLink to="great-win">
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Willkommensbonus: 100 % Einzahlungsbonus bis zu 200 €.
-                  </p>
-                </div>
-                <div
-                  class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
-                >
-                  <NuxtImg
-                    src="/img/online-betting/like.svg"
-                    alt="Sport wetten"
-                    class="blog-content__postBox__box__iTextBox__tBox__img"
-                    height="100%"
-                  />
-                  <p
-                    class="blog-content__postBox__box__iTextBox__tBox__p f-600"
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Willkommensbonus: 100 % Einzahlungsbonus bis zu 200 €.
+                    </p>
+                  </div>
+                  <div
+                    class="blog-content__postBox__box__iTextBox__tBox__fBox d-flex"
                   >
-                    Weitere Boni und Promotionen: wöchentliche Boni, Cashback
-                    Boni und spezielle Angebote für Bestandskunden.
-                  </p>
-                </div>
+                    <NuxtImg
+                      src="/img/online-betting/like.svg"
+                      alt="Sport wetten"
+                      class="blog-content__postBox__box__iTextBox__tBox__img"
+                      height="100%"
+                    />
+                    <p
+                      class="blog-content__postBox__box__iTextBox__tBox__p text-color-b f-600"
+                    >
+                      Weitere Boni und Promotionen: wöchentliche Boni, Cashback
+                      Boni und spezielle Angebote für Bestandskunden.
+                    </p>
+                  </div>
+                </NuxtLink>
                 <div
                   class="blog-content__postBox__box__iTextBox__tBox__linkBox t-end"
                 >
-                  <NuxtLink
+                  <a
                     class="blog-content__postBox__link f-700 text-color-w"
-                    to="great-win"
+                    target="_blank"
+                    href="https://awbba.zetcasino.com/redirect.aspx?pid=1374186&bid=7577"
                     >BET NOW
-                  </NuxtLink>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="blog-content__postBox__lBox text-center">
+          <NuxtLink
+            class="blog-link cursor text-transform-uppercase f-700"
+            @click="showHiddenElement"
+          >
+            LOAD MORE BETTING SITES
+          </NuxtLink>
         </div>
       </div>
 
@@ -860,11 +965,25 @@ const showHiddenElement = () => {
         </p>
       </div>
 
+      <div class="whatsappBox linear-bg d-flex">
+        <a
+          class="whatsappBox__link text-color-w f-700"
+          href="https://www.whatsapp.com/channel/0029VahvOQs9MF8xXm9cdl2P"
+          >Erhalten Sie Blog-Updates auf WhatsApp
+        </a>
+        <NuxtImg
+          src="/img/whatsapp.svg"
+          alt="Sport wetten"
+          class="whatsappBox__img"
+          height="100%"
+        />
+      </div>
+
       <div class="blog-content__postBox">
         <div
           class="blog-content__postBox__lBox blog-content__postBox__lBox--margin text-center"
         >
-          <NuxtLink class="blog-link text-transform-uppercase f-700">
+          <NuxtLink class="blog-link text-transform-uppercase f-700 d-none">
             READ ALL NEWS
           </NuxtLink>
         </div>

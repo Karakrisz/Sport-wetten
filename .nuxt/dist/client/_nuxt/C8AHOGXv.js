@@ -1,0 +1,1 @@
+import{u as t,c as s,o as n,a as e}from"./qDMn1aps.js";const a={class:"supage-content position-relative"},o=e("h2",{class:"supage-content__h2"},"Die besten Wettanbiete",-1),c=e("p",null,"wird hochgeladen...",-1),i=[o,c],p={__name:"die-besten-wettanbiete",setup(_){return t({title:"Die besten Wettanbiete"}),(r,d)=>(n(),s("div",a,i))}};export{p as default};
