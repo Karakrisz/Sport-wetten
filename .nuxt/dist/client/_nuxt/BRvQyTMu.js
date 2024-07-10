@@ -1,1 +1,0 @@
-import{u as t,c as o,o as s,a as e}from"./qDMn1aps.js";const a={class:"supage-content position-relative"},c=e("h2",{class:"supage-content__h2"},"Euro 2024",-1),n=e("p",null,"wird hochgeladen...",-1),_=[c,n],d={__name:"euro-2024",setup(r){return t({title:"Euro 2024"}),(i,u)=>(s(),o("div",a,_))}};export{d as default};
