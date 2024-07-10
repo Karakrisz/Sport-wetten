@@ -1,1 +1,0 @@
-import{u as t,c as o,o as s,a as e}from"./qDMn1aps.js";const a={class:"supage-content position-relative"},c=e("h2",{class:"supage-content__h2"},"Blog",-1),n=e("p",null,"wird hochgeladen...",-1),_=[c,n],p={__name:"blog",setup(l){return t({title:"Blog"}),(i,r)=>(s(),o("div",a,_))}};export{p as default};

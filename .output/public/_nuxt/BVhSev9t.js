@@ -1,1 +1,0 @@
-import{u as s,c as t,o as a,a as e}from"./qDMn1aps.js";const o={class:"supage-content position-relative"},c=e("h2",{class:"supage-content__h2"},"Fußball News",-1),n=e("p",null,"wird hochgeladen...",-1),_=[c,n],d={__name:"fudball-news",setup(l){return s({title:"Fußball News"}),(i,r)=>(a(),t("div",o,_))}};export{d as default};
