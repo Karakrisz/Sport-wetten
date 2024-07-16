@@ -1,5 +1,5 @@
 ---
-name: Croatia
+name: Kroatien
 code: HR
 ---
 

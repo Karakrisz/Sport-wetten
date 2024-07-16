@@ -1,5 +1,5 @@
 ---
-name: Romania
+name: Rumänien
 code: RO
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Poland
+name: Polen
 code: PL
 ---
 

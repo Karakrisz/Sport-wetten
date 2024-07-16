@@ -1,5 +1,5 @@
 ---
-name: Slovenia
+name: Slowenien
 code: SI
 ---
 

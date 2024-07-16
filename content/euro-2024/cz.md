@@ -1,5 +1,5 @@
 ---
-name: Czech Republic
+name: Tschechien
 code: CZ
 ---
 

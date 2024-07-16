@@ -1,5 +1,5 @@
 ---
-name: Slovakia
+name: Slowakei
 code: SK
 ---
 

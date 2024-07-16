@@ -48,12 +48,6 @@ const { data: countries } = await useAsyncData('countries', () =>
     }
 }
 
-@media (min-width: 1200px) {
-    .grid-container {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
 .grid-item {
     display: flex;
     align-items: center;
@@ -62,7 +56,7 @@ const { data: countries } = await useAsyncData('countries', () =>
     border-radius: 65px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
     transition: box-shadow 0.3s;
-    font-weight: 700;
+    font-weight: 600;
     color: black;
     font-size: 24px;
     gap: 25px;

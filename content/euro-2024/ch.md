@@ -1,5 +1,5 @@
 ---
-name: Switzerland
+name: Schweiz
 code: CH
 ---
 

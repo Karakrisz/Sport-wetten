@@ -1,5 +1,5 @@
 ---
-name: France
+name: Frankreich
 code: FR
 ---
 

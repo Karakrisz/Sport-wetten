@@ -1,5 +1,5 @@
 ---
-name: Georgia
+name: Georgien
 code: GE
 ---
 

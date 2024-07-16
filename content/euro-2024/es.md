@@ -1,5 +1,5 @@
 ---
-name: Spain
+name: Spanien
 code: ES
 ---
 

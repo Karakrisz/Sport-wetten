@@ -1,5 +1,5 @@
 ---
-name: Turkey
+name: Türkei
 code: TR
 ---
 

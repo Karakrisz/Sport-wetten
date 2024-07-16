@@ -1,5 +1,5 @@
 ---
-name: Serbia
+name: Serbien
 code: RS
 ---
 

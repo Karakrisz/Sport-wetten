@@ -1,5 +1,5 @@
 ---
-name: Austria
+name: Österreich
 code: AT
 ---
 

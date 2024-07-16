@@ -1,5 +1,5 @@
 ---
-name: Albania
+name: Albanien
 code: AL
 ---
 

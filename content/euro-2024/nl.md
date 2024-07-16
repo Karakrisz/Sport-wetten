@@ -1,5 +1,5 @@
 ---
-name: Netherlands
+name: Niederlande
 code: NL
 ---
 

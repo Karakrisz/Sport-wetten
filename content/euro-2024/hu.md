@@ -1,5 +1,5 @@
 ---
-name: Hungary
+name: Ungarn
 code: HU
 ---
 

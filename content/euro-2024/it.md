@@ -1,5 +1,5 @@
 ---
-name: Italy
+name: Italien
 code: IT
 ---
 

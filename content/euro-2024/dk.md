@@ -1,5 +1,5 @@
 ---
-name: Denmark
+name: Dänemark
 code: DK
 ---
 

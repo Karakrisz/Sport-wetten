@@ -1,5 +1,5 @@
 ---
-name: Germany
+name: Deutschland
 code: DE
 ---
 

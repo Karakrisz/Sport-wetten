@@ -1,5 +1,5 @@
 ---
-name: Scotland
+name: Schottland
 code: SC
 ---
 
