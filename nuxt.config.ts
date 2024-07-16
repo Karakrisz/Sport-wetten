@@ -47,6 +47,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/image',
     '@nuxtjs/sitemap',
+    '@nuxt/content',
     [
       'nuxt-mail',
       {

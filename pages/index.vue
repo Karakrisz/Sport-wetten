@@ -3,6 +3,10 @@ import { ref, nextTick } from 'vue'
 
 const showElement = ref(false)
 
+definePageMeta({
+  layout: 'main'
+})
+
 const showHiddenElement = () => {
   showElement.value = true
   nextTick(() => {

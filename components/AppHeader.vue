@@ -1,54 +1,40 @@
+<!-- components/AppHeader.vue -->
 <script setup>
 import { ref, computed } from 'vue'
-import { useRoute } from 'vue-router'
 
-const route = useRoute()
+const props = defineProps({
+  isMainPage: {
+    type: Boolean,
+    default: false
+  }
+})
 
-const specialPaths = [
-  '/euro-2024',
-  '/sportwetten-tipps',
-  '/die-besten-wettanbiete',
-  '/fudball-news',
-  '/blog',
-  '/rabona',
-  '/bankonbet',
-  '/libranet',
-  '/spinanga',
-  '/nomini',
-  '/sport-wetten',
-  '/bwin',
-  '/betathome',
-  '/interwetten',
-  '/prontobet',
-  '/20bet',
-  '/select-bet',
-  '/tipico',
-  '/bet365',
-  '/great-win',
-]
-
-const isSpecialPage = computed(() => specialPaths.includes(route.path))
-
-const links = [
+const links = computed(() => [
   { name: 'Home', path: '/' },
   { name: 'Euro 2024', path: '/euro-2024' },
   { name: 'Sportwetten-Tipps', path: '/sportwetten-tipps' },
   { name: 'Die besten Wettanbieter', path: '/die-besten-wettanbiete' },
   { name: 'Fußball News', path: '/fudball-news' },
   { name: 'Blog', path: '/blog' },
-]
+  // You can add or modify links based on the isSpecial prop if needed
+])
 
 const isMenuOpen = ref(false)
+
+const mainHeaderClass = computed(() => ({
+  'main-header-content': props.isMainPage
+}))
+
+const mainHeaderContainerClass = computed(() => ({
+  'main-header': props.isMainPage
+}))
+
+
 </script>
 
 <template>
-  <header class="header pr">
-    <div
-      :class="[
-        'header-content d-flex',
-        { 'header-content-bg-special': isSpecialPage },
-      ]"
-    >
+  <header :class="['header pr', mainHeaderContainerClass]">
+    <div :class="['header-content d-flex', mainHeaderClass]">
       <div class="logo-box header-content__logo-box">
         <NuxtLink to="/" class="header-content__logo-box__link">
           <NuxtImg
@@ -75,7 +61,7 @@ const isMenuOpen = ref(false)
                 :to="link.path"
                 :class="[
                   'menu__item text-color-w text-transform-uppercase f-600',
-                ]"
+                  ]"
               >
                 <template v-if="link.imagePath">
                   <NuxtImg

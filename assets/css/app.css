@@ -315,16 +315,20 @@ h5,
 /********************  Header formating start **********************/
 
 .header {
-  height: 0;
   z-index: 10;
 }
 
 .header-content {
   padding: 1em 7em;
+  background: #0c0c0c;
 }
 
-.header-content-bg-special {
-  background: #0c0c0c;
+.main-header-content {
+  background: none !important;
+}
+
+.main-header {
+  height: 0 !important;
 }
 
 .header-content,
